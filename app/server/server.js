@@ -1,12 +1,15 @@
 /**
  * Created by Dylan Goodman on 04-Dec-16.
  */
+var app = require('express')();
+var server = require('http').Server(app);
+var io = require('socket.io')(server);
 
-var app = require('http').createServer(handler);
-var io = require('socket.io')(app);
-var fs = require('fs');
+server.listen(80);
 
-app.listen(80);
+app.get('/', function (req, res) {
+    res.body('Application Live!');
+});
 
 io.on('connection', function (socket) {
     socket.emit('news', { hello: 'world' });
