@@ -152,9 +152,11 @@ require ('app/init.php');
 				<!--notification menu end -->
 				<div class="profile_details">
 					<ul>
+                        <?php if(!isset($_SESSION['steamid'])){ ?>
                         <li class="dropdown head-dpdn">
 							<?php echo $site->login(); ?>
 						</li>
+                        <?php } else {?>
 						<li class="hide dropdown profile_details_drop">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								<div class="profile_img">
@@ -175,9 +177,7 @@ require ('app/init.php');
 								<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
 							</ul>
 						</li>
-						<li class="dropdown head-dpdn hide">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-steam"></i> Sign in with Steam</a>
-						</li>
+                        <?php } ?>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>

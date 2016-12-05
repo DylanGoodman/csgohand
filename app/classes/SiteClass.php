@@ -11,7 +11,7 @@ require('config/userInfo.php');
 
 class SiteClass extends Database {
     public function logout(){
-        echo "<a href=\"classes/config/logout\" class=\"item hvr-bounce-to-right\"><i class=\"fa fa-caret-square-o-left left\"></i>SIGN OUT</a>";
+        echo "<a href=\"app/classes/config/logout\" class=\"item hvr-bounce-to-right\"><i class=\"fa fa-caret-square-o-left left\"></i>SIGN OUT</a>";
     }
     public function login(){
         try {
