@@ -72,9 +72,9 @@ class Database
     public function __construct()
     {
         $host = "localhost";
-        $username = "csgo_site";
-        $password = "Mmx2*G224+5|R6K.|^+3n79%*_!!65!Q";
-        $db = "csgo";
+        $username = "root";
+        $password = "ZkyO117PpU";
+        $db = "csgohand";
         // Get the default port number if not given.
         if ($port == null)
             $port = ini_get('mysqli.default_port');

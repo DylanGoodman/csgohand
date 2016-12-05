@@ -17,3 +17,12 @@ require($init.'/app/classes/SiteClass.php');
 //require($init.'/app/classes/ManagerClass.php');
 
 $site = new SiteClass();
+
+if(isset($_SESSION['steamid'])){
+    if($_SESSION['addUser'] === false){
+        $site->updateUserOnLogin($_SESSION['steamid'], array('username' => $steamprofile['personaname']));
+        $_SESSION['addUser'] = true;
+    }
+}
+
+include($init.'/nav.php');

@@ -11,7 +11,7 @@ require('config/userInfo.php');
 
 class SiteClass extends Database {
     public function logout(){
-        echo "<a href=\"app/classes/config/logout\" class=\"item hvr-bounce-to-right\"><i class=\"fa fa-caret-square-o-left left\"></i>SIGN OUT</a>";
+        echo "<li> <a href=\"app/classes/config/logout.php\"><i class=\"fa fa-sign-out\"></i> Logout</a> </li>";
     }
     public function login(){
         try {
@@ -32,7 +32,7 @@ class SiteClass extends Database {
                 }
 
                 //return "<form action=\"?login\" method=\"post\"> <input type=\"image\" src=\"http://cdn.steamcommunity.com/public/images/signinthroughsteam/sits_".$button.".png\"></form>";
-                return "<a href=\"?login\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\"><i class=\"fa fa-steam-square\"></i> <b>Sign in with Steam</b></a>";
+                return "<a href=\"?login\" class=\"dropdown-toggle\" aria-expanded=\"false\"><i class=\"fa fa-steam-square\"></i> <b>Sign in with Steam</b></a>";
             }
 
             elseif($openid->mode == 'cancel') {
@@ -44,17 +44,7 @@ class SiteClass extends Database {
                     preg_match($ptn, $id, $matches);
 
                     $_SESSION['steamid'] = $matches[1];
-
-                    $url = file_get_contents("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=23542278D8ACE28CBB14F6B0437FD03C&steamids=".$_SESSION['steamid']);
-                    $content = json_decode($url, true);
-
-
-                    $aUserData = array(
-                        'sName' => $content['response']['players'][0]['personaname'],
-                        'sAvatar' => $content['response']['players'][0]['avatarfull']
-                    );
-
-                    $this->updateUserOnLogin($_SESSION['steamid'], $aUserData);
+                    $_SESSION['addUser'] = false;
 
                     // First determine of the $steamauth - Not being used['loginpage'] has been set, if yes then redirect there. If not redirect to where they came from
                     if($steamauth['loginpage'] !== "") {
@@ -74,6 +64,26 @@ class SiteClass extends Database {
             }
         } catch(ErrorException $e) {
             echo $e->getMessage();
+        }
+    }
+
+    public function getUserData($steamId){
+        $db = new Database();
+        $where = array('steamid' => $steamId);
+        $result = $db->select()->from('users')->where($where)->fetch_first();
+        return $result;
+    }
+
+    public function updateUserOnLogin($steamId = 'Steam64Bit ID', $data = 'Data Array!'){
+        $db = new Database();
+        if(count($this->getUserData($steamId)) != 0){
+            $db->where(array('steamid' => $steamId))->update('users', $data);
+        } else{
+            $aUserAdd = array(
+                'steamid'   => $steamId,
+                'username'     => $data['username']
+            );
+            $db->insert('users', $aUserAdd);
         }
     }
 }
