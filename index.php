@@ -152,7 +152,7 @@ require ('app/init.php');
 				<!--notification menu end -->
 				<div class="profile_details">
 					<ul>
-                        <?php if(!isset($_SESSION['steamid'])){ ?>
+                        <?php if(isset($_SESSION['steamid'])){ ?>
                         <li class="dropdown head-dpdn">
 							<?php echo $site->login(); ?>
 						</li>
