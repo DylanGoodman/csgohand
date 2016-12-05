@@ -152,12 +152,12 @@ require ('app/init.php');
 				<!--notification menu end -->
 				<div class="profile_details">
 					<ul>
-                        <?php if(isset($_SESSION['steamid'])){ ?>
+                        <?php if(!isset($_SESSION['steamid'])){ ?>
                         <li class="dropdown head-dpdn">
 							<?php echo $site->login(); ?>
 						</li>
                         <?php } else {?>
-						<li class="hide dropdown profile_details_drop">
+						<li class="dropdown profile_details_drop">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 								<div class="profile_img">
 									<span class="prfil-img"><img style="width:48px" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> </span>
