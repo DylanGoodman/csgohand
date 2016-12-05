@@ -1,3 +1,8 @@
+<?php
+
+require ('app/init.php');
+
+?>
 
 <!DOCTYPE HTML>
 <html>
