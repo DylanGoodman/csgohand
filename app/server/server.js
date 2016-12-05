@@ -5,10 +5,12 @@ var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
+console.log('Server started!');
 server.listen(8080);
+console.log('Listening on port 8080!');
 
 app.get('/', function (req, res) {
-    res.body('Application Live!');
+    res.send('Application Live!');
 });
 
 io.on('connection', function (socket) {
