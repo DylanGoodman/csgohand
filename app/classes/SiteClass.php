@@ -32,7 +32,7 @@ class SiteClass extends Database {
                 }
 
                 //return "<form action=\"?login\" method=\"post\"> <input type=\"image\" src=\"http://cdn.steamcommunity.com/public/images/signinthroughsteam/sits_".$button.".png\"></form>";
-                return "<a href=\"?login\" class=\"item hvr-bounce-to-right\"><i class=\"fa fa-steam-square left\"></i>SIGN IN</a>";
+                return "<a href=\"?login\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\"><i class=\"fa fa-steam-square\"></i> <b>Sign in with Steam</b></a>";
             }
 
             elseif($openid->mode == 'cancel') {

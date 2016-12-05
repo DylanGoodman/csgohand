@@ -153,7 +153,7 @@ require ('app/init.php');
 				<div class="profile_details">
 					<ul>
                         <li class="dropdown head-dpdn">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-steam-square"></i> <b>Sign in with Steam</b></a>
+							<?php echo $site->login(); ?>
 						</li>
 						<li class="hide dropdown profile_details_drop">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
