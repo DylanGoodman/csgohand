@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/classes/DatabaseClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/classes/SiteClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/classes/config/logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/classes/config/openid.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/classes/config/steamConfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/classes/config/userInfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/init.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/account.html" afterPath="$PROJECT_DIR$/account.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/history.html" afterPath="$PROJECT_DIR$/history.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/leaderboards.html" afterPath="$PROJECT_DIR$/leaderboards.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roulette.html" afterPath="$PROJECT_DIR$/roulette.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skin-shop.html" afterPath="$PROJECT_DIR$/skin-shop.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="csgohand.iws" />
@@ -467,7 +466,7 @@
       <option name="presentableId" value="Default" />
       <updated>1480901448564</updated>
       <workItem from="1480901449843" duration="16000" />
-      <workItem from="1480902859978" duration="5030000" />
+      <workItem from="1480902859978" duration="5113000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1480902936149</created>
@@ -525,18 +524,25 @@
       <option name="project" value="LOCAL" />
       <updated>1480909217448</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Starting Login System">
+      <created>1480910410216</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1480910410216</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5046000" />
+    <option name="totallyTimeSpent" value="5129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22547974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22547974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -562,7 +568,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Setting up node." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up node." />
+    <MESSAGE value="Starting Login System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting Login System" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
