@@ -126,8 +126,8 @@ require ('app/init.php');
 
 					<div style="margin-top:10px;padding:0" class="calender widget-shadow">
 						<h4 class="title3 text-center">Chat box</h4>
-						<div class="scrollbar scrollbar1" tabindex="5000" style="overflow: hidden; outline: none;height:300px;">
-							<div class="activity-row activity-row1 activity-right">
+						<div id="chatbox" class="scrollbar scrollbar1" tabindex="5000" style="overflow: hidden; outline: none;height:300px;">
+							<!--<div class="activity-row activity-row1 activity-right">
 								<div class="chatMsg">
 									<div class="chatHead admin">
 										<h5><img style="width:18px" class="img-circle" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""><b>Haste CSGOHand.com</b> <div class="chatRole"><i class="fa fa-star"></i> Admin</div></h5>
@@ -138,17 +138,7 @@ require ('app/init.php');
 								</div>
 								<div class="clearfix"> </div>
 							</div>
-							<div class="activity-row activity-row1 activity-right">
-								<div class="chatMsg">
-									<div class="chatHead">
-										<h5><img style="width:18px" class="img-circle" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""><b>Test CSGOHand.com</b> <div class="chatRole"><i class="fa fa-university"></i> 22</div></h5>
-									</div>
-									<div class="activity-desc-sub">
-										<p>testing dank new chat</p>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
+							
 							<div class="activity-row activity-row1 activity-right">
 								<div class="chatMsg">
 									<div class="chatHead mod">
@@ -196,12 +186,10 @@ require ('app/init.php');
 									</div>
 								</div>
 								<div class="clearfix"> </div>
-							</div>
+							</div>-->
 						</div>
 						<div class="chat-bottom">
-							<form>
-								<input type="text" placeholder="Say something... don't be shy!" required=""></input>
-							</form>
+								<input id="chattext" type="text" placeholder="Say something... don't be shy!" required=""></input>
 						</div>
 					</div>
 
@@ -259,5 +247,7 @@ require ('app/init.php');
 	<!--//scrolling js-->
 	<!-- Bootstrap Core JavaScript -->
    <script src="js/bootstrap.js"> </script>
+    <script src="js/core.js"></script>
+<script src="js/roulette.js"></script>
 </body>
 </html>

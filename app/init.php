@@ -23,6 +23,7 @@ if(isset($_SESSION['steamid'])){
         $site->updateUserOnLogin($_SESSION['steamid'], array('username' => $steamprofile['personaname']));
         $_SESSION['addUser'] = true;
     }
+    $userData = $site->getUserData($_SESSION['steamid']);
 }
 
 include($init.'/nav.php');

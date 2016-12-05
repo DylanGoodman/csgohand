@@ -33,6 +33,9 @@
     <script src="js/custom.js"></script>
     <link href="css/custom.css" rel="stylesheet">
     <!--//Metis Menu -->
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <link rel="stylesheet" href="css/roulette.css">
+
 
 </head>
 <body class="cbp-spmenu-push">
@@ -43,13 +46,13 @@
             <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="index.html"><i class="fa fa-home nav_icon"></i>Hub</a>
+                        <a href="/"><i class="fa fa-home nav_icon"></i>Hub</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-gamepad nav_icon"></i>Games <span class="nav-badge-btm pull-right">NEW</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li>
-                                <a href="roulette.html"><i class="fa fa-circle"></i> Roulette</a>
+                                <a href="roulette"><i class="fa fa-circle"></i> Roulette</a>
                             </li>
                             <li>
                                 <a id="coming" href="#coming">Coming Soon...</a>
@@ -64,7 +67,7 @@
                         <a href="#"><i class="fa fa-exchange nav_icon"></i>Deposit</a>
                     </li>
                     <li>
-                        <a href="skin-shop.html"><i class="fa fa-shopping-cart nav_icon"></i>Shop</a>
+                        <a href="skin-shop"><i class="fa fa-shopping-cart nav_icon"></i>Shop</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-trophy nav_icon"></i>Leaderboards</a>
@@ -87,7 +90,7 @@
             <!--toggle button end-->
             <!--logo -->
             <div class="logo">
-                <a class="hvr-shrink" href="index.html">
+                <a class="hvr-shrink" href="/">
                     <h1>CSGOHand</h1>
                     <span>#1 SKIN PLATFORM</span>
                 </a>
@@ -95,7 +98,7 @@
             <!--//logo-->
             <ul class="nofitications-dropdown">
                 <li class="dropdown head-dpdn">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-users"></i> <b>1324 Online</b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-users"></i> <b><span id="usersOnline"></span> Online</b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <div class="notification_header">
@@ -118,7 +121,7 @@
             <div class="profile_details_left"><!--notifications of menu start -->
                 <ul class="nofitications-dropdown">
                     <li class="dropdown head-dpdn">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-star"></i> <b>15000</b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-star"></i> <b><?php echo $userData['balance']; ?></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="notification_header">
@@ -135,7 +138,7 @@
                             <li class="odd"><a href="#">
                                     <div class="notification_desc">
                                         <p>Skin Shop</p>
-                                        <p><span>Buy skins for Stars!</span></p>
+                                        <p><span>Buy skins with Stars!</span></p>
                                     </div>
                                     <div class="clearfix"></div>
                                 </a></li>
