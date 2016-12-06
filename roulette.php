@@ -101,7 +101,7 @@ require ('app/init.php');
 				</div>
 				<div class="col-md-4 grid_box1">
 					<div style="padding:0" class="calender widget-shadow">
-						<h4 class="title3 text-center">Bet box</h4>
+						<h4 class="title3 text-center">Place Bet</h4>
 
 						<div style="margin-top:0" class="row">
 							<button style="border-radius:0;" type="clear" class="btn col-md-4 btn-default">Black</button>
@@ -125,7 +125,7 @@ require ('app/init.php');
 					</div>
 
 					<div style="margin-top:10px;padding:0" class="calender widget-shadow">
-						<h4 class="title3 text-center">Chat box</h4>
+						<h4 class="title3 text-center">Chat</h4>
 						<div id="chatbox" class="scrollbar scrollbar1" tabindex="5000" style="overflow: hidden; outline: none;height:300px;">
 							<!--<div class="activity-row activity-row1 activity-right">
 								<div class="chatMsg">
