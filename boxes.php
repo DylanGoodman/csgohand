@@ -38,11 +38,11 @@ require ('app/init.php');
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
 							</h2>
-						</div>
 
-                        <p style="font-size:.8em;margin-top:10px;" class="muted text-center">
-                            <a href="faq">Click here to learn how to play</a>
-                        </p>
+                            <p style="font-size:.8em;margin-top:10px;" class="muted text-center">
+                                <a href="faq">Click here to learn how to play</a>
+                            </p>
+						</div>
 					</div>
 
 				</div>
