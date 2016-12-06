@@ -158,7 +158,7 @@
                         <li class="dropdown profile_details_drop">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                                 <div class="profile_img">
-                                    <span class="prfil-img"><img style="width:48px" src="<?php echo $steamprofile['avatarfull']; ?>" alt=""> </span>
+                                    <span class="prfil-img"><img class="img-circle" style="width:48px" src="<?php echo $steamprofile['avatarfull']; ?>" alt=""> </span>
                                     <div class="user-name">
                                         <p><?php echo $steamprofile['personaname']; ?></p>
                                         <span><i class="fa fa-university"></i> Level 30</span>
