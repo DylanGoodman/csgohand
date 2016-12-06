@@ -96,7 +96,7 @@
                 </a>
             </div>
             <!--//logo-->
-            <ul class="nofitications-dropdown bounceInLeft">
+            <ul class="nofitications-dropdown bounceInLeft animated">
                 <li class="dropdown head-dpdn">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-users"></i> <b><span id="usersOnline"></span> Online</b></a>
                     <ul class="dropdown-menu">
@@ -117,7 +117,7 @@
                 </li>
             </ul>
         </div>
-        <div class="header-right bounceInRight">
+        <div class="header-right bounceInRight animated">
             <div class="profile_details_left"><!--notifications of menu start -->
                 <ul class="nofitications-dropdown">
                     <li class="dropdown head-dpdn">
