@@ -171,7 +171,7 @@
                             <ul class="dropdown-menu drp-mnu">
                                 <li> <a href="account"><i class="fa fa-cog"></i> Account</a> </li>
                                 <li> <a href="account"><i class="fa fa-star"></i> Referrals</a> </li>
-                                <li> <a href="history"><i class="fa fa-clock-o"></i> sHistory</a> </li>
+                                <li> <a href="history"><i class="fa fa-clock-o"></i> History</a> </li>
                                 <?php echo $site->logout(); ?>
                             </ul>
                         </li>
