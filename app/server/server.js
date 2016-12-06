@@ -1,18 +1,20 @@
 /**
  * Created by Dylan Goodman on 04-Dec-16.
  */
-var app = require('express')();
-var server = require('http').Server(app);
-var io = require('socket.io')(server);
 var antiSpam = require('socket-anti-spam');
 var mysql = require('mysql');
-
-console.log('Server started!');
-server.listen(8080);
-console.log('Listening on port 8080!');
+var express = require('express');
+var app = express();
+var server = require('http').createServer(app);
+var io = require('socket.io').listen(server);
+var port = process.env.PORT || 3001;
 
 app.get('/', function (req, res) {
-    res.send('Application Live!');
+    res.send('Application is live');
+});
+
+server.listen(port, function () {
+    console.log('Server listening at port %d', port);
 });
 
 antiSpam.init({

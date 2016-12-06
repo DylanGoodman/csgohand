@@ -1,7 +1,7 @@
 /**
  * Created by Dylan Goodman on 05-Dec-16.
  */
-var server = io.connect('http://104.236.27.2:8080');
+var server = io.connect('http://104.236.27.2:3001');
 
 server.on('totalUsers', function(data){
     $('#usersOnline').html(data);

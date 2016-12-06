@@ -392,6 +392,7 @@ var ball = {
 	},
 	reset: function() {
 		this.sa = Math.random()*360.0;
+		console.log(this.sa);
 		this.r = 2.0;
 		this.stopped = false;
 		this.render = false;
