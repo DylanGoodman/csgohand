@@ -64,18 +64,18 @@
                         <!-- //nav-second-level -->
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-exchange nav_icon"></i>Deposit</a>
+                        <a href="deposit"><i class="fa fa-exchange nav_icon"></i>Deposit</a>
                     </li>
                     <li>
                         <a href="skin-shop"><i class="fa fa-shopping-cart nav_icon"></i>Shop</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-trophy nav_icon"></i>Leaderboards</a>
+                        <a href="leaderboards"><i class="fa fa-trophy nav_icon"></i>Leaderboards</a>
                     </li>
                 </ul>
                 <!-- //sidebar-collapse -->
                 <div class="sideNavBottom">
-                    <p><a href="#">Terms</a> <a href="#">FAQ</a> <a href="#">Contact</a>
+                    <p><a href="terms">Terms</a> <a href="faq">FAQ</a> <a href="#">Contact</a>
                         <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-steam"></i></a></p>
                 </div>
             </nav>
@@ -107,7 +107,7 @@
                         </li>
                         <li><a href="#">
                                 <div class="notification_desc">
-                                    <p><i class="fa fa-shield"></i> Online Staff</p>
+                                    <p><i class="fa fa-star"></i> Online Staff</p>
                                     <p><span>Haste CSGOHand.com</span></p>
                                     <p><span>Argyl CSGOHand.com</span></p>
                                 </div>
@@ -128,14 +128,14 @@
                                     <h3>1000 Star(s) = $1.00</h3>
                                 </div>
                             </li>
-                            <li><a href="#">
+                            <li><a href="deposit">
                                     <div class="notification_desc">
                                         <p>Deposit</p>
                                         <p><span>Trade skins for Stars!</span></p>
                                     </div>
                                     <div class="clearfix"></div>
                                 </a></li>
-                            <li class="odd"><a href="#">
+                            <li class="odd"><a href="skin-shop">
                                     <div class="notification_desc">
                                         <p>Skin Shop</p>
                                         <p><span>Buy skins with Stars!</span></p>
@@ -169,9 +169,9 @@
                                 </div>
                             </a>
                             <ul class="dropdown-menu drp-mnu">
-                                <li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li>
-                                <li> <a href="#"><i class="fa fa-star"></i> Referrals</a> </li>
-                                <li> <a href="#"><i class="fa fa-clock-o"></i> History</a> </li>
+                                <li> <a href="account"><i class="fa fa-cog"></i> Account</a> </li>
+                                <li> <a href="account"><i class="fa fa-star"></i> Referrals</a> </li>
+                                <li> <a href="history"><i class="fa fa-clock-o"></i> History</a> </li>
                                 <?php echo $site->logout(); ?>
                             </ul>
                         </li>
