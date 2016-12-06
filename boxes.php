@@ -41,10 +41,6 @@ require ('app/init.php');
 						</div>
 					</div>
 
-                    <p style="font-size:.8em;margin-top:10px;" class="muted text-center">
-                        <a href="faq">How to play</a>
-                    </p>
-
 				</div>
 				<div class="col-md-4 grid_box1">
 					<div style="padding:0" class="calender widget-shadow">
