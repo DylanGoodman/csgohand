@@ -99,7 +99,7 @@ var roulette = {
 		var y0 = d0 / 2;
 		var r0 = d0 / 2 - 2 * m0;
 		var outerWheel0 = paper.circle(x0, y0, r0);
-		outerWheel0.attr("fill", "#232323");
+		outerWheel0.attr("fill", "#080505");
 		outerWheel0.attr("stroke", "#000");
 		outerWheel0.attr("stroke-width", "1");
 
@@ -177,7 +177,7 @@ var roulette = {
 		var m4 = d0 * 0.2;
 		var r4 = d4 / 2 - m4;
 		var pocketWheel4 = paper.circle(x, y, r4);
-		pocketWheel4.attr("fill", "#232323");
+		pocketWheel4.attr("fill", "#080505");
 		pocketWheel4.attr("stroke", "#ffffff");
 		pocketWheel4.attr("stroke-width", "1");
 
@@ -207,7 +207,7 @@ var roulette = {
 		var m7 = d0 * 0.475;
 		var r7 = d7 / 2 - m7;
 		var handleWheel2 = paper.circle(x, y, r7);
-		handleWheel2.attr("fill", "#232323");
+		handleWheel2.attr("fill", "#080505");
 		handleWheel2.attr("stroke", "#ffffff");
 		handleWheel2.attr("stroke-width", "2");
 
@@ -259,7 +259,7 @@ var roulette = {
 		var y0 = -150;
 		var r0 = d0 / 2 - 2 * m0;
 		var outerWheel0 = paper.circle(x0, y0, r0);
-		outerWheel0.attr("fill", "#232323");
+		outerWheel0.attr("fill", "#080505");
 		outerWheel0.attr("stroke", "#666666");
 		outerWheel0.attr("stroke-width", "1");
 
@@ -335,7 +335,7 @@ var roulette = {
 		var m4 = d0 * 0.2;
 		var r4 = d4 / 2 - m4;
 		var pocketWheel4 = paper.circle(x, y, r4);
-		pocketWheel4.attr("fill", "#232323");
+		pocketWheel4.attr("fill", "#080505");
 		pocketWheel4.attr("stroke", "#ffffff");
 		pocketWheel4.attr("stroke-width", "1");
 
