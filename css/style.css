@@ -878,11 +878,11 @@ ul.dropdown-menu.drp-mnu li {
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 }
 .shop-item {
-	background:#337ab7;
+	background:#008aff;
 	margin:3px;
 }
 .shop-item:hover {
-	background:#008aff;
+	background:#014074;
     cursor: pointer;
 }
 .modal-item {
