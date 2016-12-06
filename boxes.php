@@ -8,7 +8,8 @@ require ('app/init.php');
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-8 grid_box1">
 					<div style="padding:0;background-color: #F1F1F1;" class="calender text-center">
-						<h4 class="title3 text-center">Your Bet: <i class="fa fa-star"></i> 0</h4>
+						<h4 class="title3 text-center">Your Bet</h4>
+                        <h4 style="background: #008aff" class="title3 text-center"><i class="fa fa-star"></i> 0</h4>
 
 						<div class="col-md-12 text-center">
 							<h2>
