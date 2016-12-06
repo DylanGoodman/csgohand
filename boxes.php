@@ -40,7 +40,7 @@ require ('app/init.php');
 							</h2>
 						</div>
 
-                        <p class="text-muted text-center">
+                        <p style="font-size:.8em;margin-top:10px;" class="muted text-center">
                             <a href="faq">Click here to learn how to play</a>
                         </p>
 					</div>
