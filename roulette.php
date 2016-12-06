@@ -93,8 +93,8 @@ require ('app/init.php');
 
 					<div class="row">
 						<div style="margin-top:55px;" id="rouletteTable">
-							<div class="col-xs-7" id="rouletteWheel"></div>
-							<div class="col-xs-5" id="ballWheel"></div>
+							<div class="col-xs-7 fadeIn animated" id="rouletteWheel"></div>
+							<div class="col-xs-5 fadeIn animated" id="ballWheel"></div>
 							<div class="clearfix"></div>
 						</div>
 					</div>

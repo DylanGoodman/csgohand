@@ -8,16 +8,17 @@ require ('app/init.php');
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-8 grid_box1">
 					<div style="padding:0;background-color: #F1F1F1;" class="calender text-center">
-						<h4 class="title3 text-center">Your Bet: <i class="fa fa-star"></i> 0</h4>
+						<h4 class="title3 text-center">Amount Wagered</h4>
+                        <h4 style="background: #008aff" class="title3 text-center"><i class="fa fa-star"></i> 0</h4>
 
-						<div class="col-md-12 text-center">
+						<div style="margin-top: 10px;" class="col-md-12 text-center">
 							<h2>
 								<span class="fa-stack col-md-2">
 									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
 								<span class="fa-stack col-md-2">
-									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
 								<span class="fa-stack col-md-2">
@@ -25,7 +26,7 @@ require ('app/init.php');
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
 								</span>
 								<span class="fa-stack col-md-2">
-									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">1x</strong>
 								</span>
 								<span class="fa-stack col-md-2">
@@ -33,7 +34,7 @@ require ('app/init.php');
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
 								</span>
 								<span class="fa-stack col-md-2">
-									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
 							</h2>
