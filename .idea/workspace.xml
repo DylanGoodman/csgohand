@@ -120,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/app/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -541,7 +541,7 @@
       <updated>1480901448564</updated>
       <workItem from="1480901449843" duration="16000" />
       <workItem from="1480902859978" duration="15272000" />
-      <workItem from="1480991231437" duration="6766000" />
+      <workItem from="1480991231437" duration="6986000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1480902936149</created>
@@ -697,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480997904184</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Adding Roulette Timer">
+      <created>1480998004276</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1480998004276</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22054000" />
+    <option name="totallyTimeSpent" value="22274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1086,7 +1093,7 @@
     <entry file="file://$PROJECT_DIR$/app/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
