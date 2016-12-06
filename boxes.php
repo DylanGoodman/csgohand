@@ -8,105 +8,45 @@ require ('app/init.php');
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-8 grid_box1">
 					<div style="padding:0;background-color: #F1F1F1;" class="calender text-center">
-						<h4 class="title3 text-center">Next roll in 45 seconds...</h4>
-						<div style="margin-top:0" class="widget_1 row elements">
-							<div class="col-sm-4 widget_1_box">
-								<div class="tile-progress vimeo">
-									<div class="content">
-										<h4><i class="fa fa-star"></i> 3578900</h4>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4 widget_1_box">
-								<div class="tile-progress bg-green">
-									<div class="content">
-										<h4><i class="fa fa-star"></i> 3500</h4>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4 widget_1_box">
-							   <div class="tile-progress bg-red">
-									<div class="content">
-										<h4><i class="fa fa-star"></i> 3500</h4>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="progress progress-striped active">
-							 <div id="timer" class="bar black" style="width: 50%;"></div>
-						</div>
+						<h4 class="title3 text-center">Your Bet: <i class="fa fa-star"></i> 0</h4>
 
 						<div class="col-md-12 text-center">
 							<h2>
-								<span class="fa-stack col-md-1">
-									<i style="color:#A43741"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#A43741"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
 								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#A43741"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">1x</strong>
 								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
 								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
-								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
-								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
-								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#A43741"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
-								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#A43741"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
-								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#A43741"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
-								</span>
-								<span class="fa-stack col-md-1">
-									<i style="color:#A43741"  class="fa fa-circle fa-stack-2x"></i>
-									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
 							</h2>
 						</div>
 					</div>
 
-					<div class="row">
-						<div style="margin-top:55px;" id="rouletteTable">
-							<div class="col-xs-7" id="rouletteWheel"></div>
-							<div class="col-xs-5" id="ballWheel"></div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
 				</div>
 				<div class="col-md-4 grid_box1">
 					<div style="padding:0" class="calender widget-shadow">
 						<h4 class="title3 text-center">Place Bet</h4>
 
 						<div style="margin-top:0" class="row">
-							<button style="border-radius:0;" type="clear" class="btn col-md-4 btn-default">Black</button>
-							<button style="border-radius:0;color:#55AA55" type="clear" class="btn col-md-4  btn-default">Green</button>
-							<button style="border-radius:0;color:#A43741" type="clear" class="btn col-md-4  btn-default">Red</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-12 btn-default">Bet Now</button>
 						</div>
 
 						<input  type="text" class="form-control1" placeholder="Choose bet below or type custom # here">
