@@ -37,6 +37,78 @@ require ('app/init.php');
 									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
 								</span>
+                                <span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">1x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+                                <span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">1x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+                                <span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">1x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#080505"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">2x</strong>
+								</span>
+								<span class="fa-stack col-md-2">
+									<i style="color:#008aff"  class="fa fa-square fa-stack-2x"></i>
+									<strong class="fa-stack-1x fa-stack-text fa-inverse">0</strong>
+								</span>
 							</h2>
 						</div>
 					</div>
