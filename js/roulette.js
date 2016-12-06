@@ -14,7 +14,7 @@ var palette = {
 	red: new Rgb(164, 55, 65),
 	green: new Rgb(85, 170, 85),
 	blue: new Rgb(0, 0, 255),
-	black: new Rgb(35, 35, 35),
+	black: new Rgb(8, 5, 5),
 
 	getRgbForC: function(c) {
 		switch (c) {
