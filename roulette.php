@@ -34,7 +34,7 @@ require ('app/init.php');
 							<div class="clearfix"> </div>
 						</div>
 						<div class="progress progress-striped active">
-							 <div id="timer" class="bar black" style="width: 50%;"></div>
+							 <div id="timer" class="bar black" style="width: 5%;"></div>
 						</div>
 
 						<div class="col-md-12 text-center">
