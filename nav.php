@@ -35,7 +35,7 @@
     <!--//Metis Menu -->
     <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
     <link rel="stylesheet" href="css/roulette.css">
-
+    <script src="js/raphael.js"></script>
 
 </head>
 <body class="cbp-spmenu-push">

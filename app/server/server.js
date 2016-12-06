@@ -20,7 +20,7 @@ antiSpam.init({
     kickThreshold: 2,
     kickTimesBeforeBan: 1,
     banning: true,
-    heartBeatScale: 40,
+    heartBeatScale: 80,
     heartBeatCheck: 4,
     io: io
 });
@@ -52,9 +52,13 @@ function count(arr){
 }
 var userCount = 43;
 
+var config = {
+    maxPostPerTimeFrame: 3,
+    timeFrame: (1000 * 12)
+};
 
 io.on('connection', function (socket) {
-    userCount += 1;
+    userCount = io.engine.clientsCount;
     console.log('Connected! Count:', userCount);
     io.emit('totalUsers', userCount);
     socket.emit('initChat');
@@ -107,9 +111,9 @@ io.on('connection', function (socket) {
             details: detailed
         });
     }
-    /*socket.on('disconnect', function(){
-        userCount = userCount - 1;
+    socket.on('disconnect', function(){
+        userCount = io.engine.clientsCount;
         console.log('Disconnected!', userCount);
         io.emit('totalUsers', userCount);
-    });*/
+    });
 });

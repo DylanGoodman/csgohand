@@ -12,12 +12,20 @@ server.on('displayMsg', function(data) {
     $('#chatbox').animate({scrollTop: $('#chatbox').prop("scrollHeight")}, 500);
 });
 
+server.on('userError', function(data){
+    var ds = data.details.timeoutEnds;
+    var newDate = new Date(ds).getTime(); //convert string date to Date object
+    var currentDate = new Date().getTime();
+    var millesecs = newDate-currentDate;
+    var seconds = millesecs / 1000;
+    $('#chattext').attr('placeholder', 'SPAM ALERT: You may send a message in '+Math.round(seconds)+' Seconds!');
+});
 
 $('#chattext').keyup(function(event){
     if(event.keyCode == 13){
         var usrMsg = $(this).val();
         if(usrMsg !== '') {
-            $('#usrMsg').val('');
+            $('#chattext').val('');
             var data = {
                 'msg' : usrMsg
             };
@@ -29,7 +37,7 @@ $('#chattext').keyup(function(event){
                 success: function(data){
                     if(data.success === false){
                         console.log(data);
-                        $('#usrMsg').attr('placeholder', data.error);
+                        $('#chattext').attr('placeholder', data.error);
                     } else {
                         server.emit('newMessage', data);
                     }

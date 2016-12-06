@@ -496,8 +496,8 @@ var ball = {
 			seg.a1 = roulette.limitAngle(a1);
             seg.a2 = roulette.limitAngle(a2);
 
-			//console.log("seg.number[" + seg.number + "], seg.a1[" + seg.a1 + "], seg.a2["
-			//           + seg.a2 + "], ball.sa[" + ball.sa + "]");
+			console.log("seg.number[" + seg.number + "], seg.a1[" + seg.a1 + "], seg.a2["
+			           + seg.a2 + "], ball.sa[" + ball.sa + "]");
 			if (seg.a1 <= ball.sa && seg.a2 >= ball.sa) {
 				return seg.number;
 			}
