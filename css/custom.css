@@ -88,14 +88,15 @@
 	margin-bottom: 0;
 }
 
-.nav-second-level li i {
-    margin-right: 1em;
-}
-
 .sidebar .nav-second-level li a {
     padding-left: 53px;
     font-size: .9em;
 }
+
+.sidebar .nav-second-level li a i {
+    margin-right: 1em;
+}
+
 .sidebar .nav-third-level li a {
     padding-left: 52px;
 }
