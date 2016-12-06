@@ -55,7 +55,7 @@
                                 <a href="roulette"><i class="fa fa-circle"></i> Roulette</a>
                             </li>
                             <li>
-                                <a id="coming" href="#coming">Coming Soon...</a>
+                                <a href="boxes"><i class="fa fa-square"></i> Boxes</a>
                             </li>
                             <li>
                                 <a id="coming" href="#coming">Coming Soon...</a>
