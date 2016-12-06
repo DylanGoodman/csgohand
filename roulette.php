@@ -8,7 +8,7 @@ require ('app/init.php');
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-8 grid_box1">
 					<div style="padding:0;background-color: #F1F1F1;" class="calender text-center">
-						<h4 class="title3 text-center">Next roll in 45 seconds...</h4>
+						<h4 class="title3 text-center">Next roll in <span id="numTimer"></span> seconds...</h4>
 						<div style="margin-top:0" class="widget_1 row elements">
 							<div class="col-sm-4 widget_1_box">
 								<div class="tile-progress vimeo">

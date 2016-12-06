@@ -22,7 +22,8 @@ server.on('userError', function(data){
 });
 
 server.on('rouletteTimer', function(data){
-    $('#timer').css('width', data+'%');
+    $('#numTimer').html(data.i);
+    $('#timer').css('width', data.x+'%');
 });
 
 $('#chattext').keyup(function(event){

@@ -57,12 +57,16 @@ var config = {
     timeFrame: (1000 * 12)
 };
 
-var i = 0;
-
+var i = 45;
+var x = 100;
 var counterBack = setInterval(function () {
-    i++;
-    if (i < 100) {
-        io.emit('rouletteTimer', i);
+    i--;
+    if (i > 0) {
+        var data = {x: x, i: i};
+        io.emit('rouletteTimer', data);
+        console.log(x+'%');
+        x = x - 2.22;
+
     } else {
         clearInterval(counterBack);
     }
