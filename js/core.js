@@ -21,6 +21,10 @@ server.on('userError', function(data){
     $('#chattext').attr('placeholder', 'SPAM ALERT: You may send a message in '+Math.round(seconds)+' Seconds!');
 });
 
+server.on('rouletteTimer', function(data){
+    $('#timer').css('width', data+'%');
+});
+
 $('#chattext').keyup(function(event){
     if(event.keyCode == 13){
         var usrMsg = $(this).val();
