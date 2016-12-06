@@ -38,13 +38,6 @@ var ERROR_MESSAGE_TIMEOUT = 10;
 
 var messages = [];
 
-var users = [],
-    usersConnected = 0,
-    config = {
-        maxPostPerTimeFrame: 5,
-        timeFrame: (1000 * 12)
-    };
-
 function count(arr){
     var count = 0;
     for(var i = 0; i < arr.length; i++){
