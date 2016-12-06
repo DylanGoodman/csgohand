@@ -57,6 +57,18 @@ var config = {
     timeFrame: (1000 * 12)
 };
 
+var i = 0;
+
+var counterBack = setInterval(function () {
+    i++;
+    if (i < 100) {
+        io.emit('rouletteTimer', i);
+    } else {
+        clearInterval(counterBack);
+    }
+
+}, 1000);
+
 io.on('connection', function (socket) {
     userCount = io.engine.clientsCount;
     console.log('Connected! Count:', userCount);
