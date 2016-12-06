@@ -82,7 +82,7 @@ require ('app/init.php');
                             <h5>Refer 25 people  = 5,000 exp</h5>
                             <h5>Refer 75 people  = 20,000 exp and <i class="fa fa-star"></i> 5,000</h5>
                         </div>
-                        <div style="background-color: #232323;" class="profile-top">
+                        <div style="background-color: #080505;" class="profile-top">
 							<h4>Did you know? You gain <b>double exp.</b> while you have 'CSGOHand.com' in your Steam username!</h4>
 						</div>
                     </div>
