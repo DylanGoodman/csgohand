@@ -44,7 +44,7 @@ require ('app/init.php');
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
 								</span>
 								<span class="fa-stack col-md-1">
-									<i style="color:#232323"  class="fa fa-circle fa-stack-2x"></i>
+									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
 								</span>
 								<span class="fa-stack col-md-1">
@@ -56,19 +56,19 @@ require ('app/init.php');
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
 								</span>
 								<span class="fa-stack col-md-1">
-									<i style="color:#232323"  class="fa fa-circle fa-stack-2x"></i>
+									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
 								</span>
 								<span class="fa-stack col-md-1">
-									<i style="color:#232323"  class="fa fa-circle fa-stack-2x"></i>
+									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
 								</span>
 								<span class="fa-stack col-md-1">
-									<i style="color:#232323"  class="fa fa-circle fa-stack-2x"></i>
+									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">32</strong>
 								</span>
 								<span class="fa-stack col-md-1">
-									<i style="color:#232323"  class="fa fa-circle fa-stack-2x"></i>
+									<i style="color:#080505"  class="fa fa-circle fa-stack-2x"></i>
 									<strong class="fa-stack-1x fa-stack-text fa-inverse">5</strong>
 								</span>
 								<span class="fa-stack col-md-1">
@@ -138,7 +138,7 @@ require ('app/init.php');
 								</div>
 								<div class="clearfix"> </div>
 							</div>
-							
+
 							<div class="activity-row activity-row1 activity-right">
 								<div class="chatMsg">
 									<div class="chatHead mod">
