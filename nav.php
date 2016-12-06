@@ -96,7 +96,7 @@
                 </a>
             </div>
             <!--//logo-->
-            <ul class="nofitications-dropdown bounceInLeft animated">
+            <ul class="nofitications-dropdown bounceInDown animated">
                 <li class="dropdown head-dpdn">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-users"></i> <b><span id="usersOnline"></span> Online</b></a>
                     <ul class="dropdown-menu">
