@@ -52,10 +52,10 @@
                         <a href="#"><i class="fa fa-gamepad nav_icon"></i>Games <span class="nav-badge-btm pull-right">NEW</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li>
-                                <a href="roulette"><i class="fa fa-circle"></i> Roulette</a>
+                                <a href="roulette"><i class="fa fa-circle"></i>Roulette</a>
                             </li>
                             <li>
-                                <a id="coming" href="#coming">Coming Soon...</a>
+                                <a href="boxes"><i class="fa fa-square"></i>Boxes</a>
                             </li>
                             <li>
                                 <a id="coming" href="#coming">Coming Soon...</a>
