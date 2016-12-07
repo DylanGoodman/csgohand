@@ -1438,6 +1438,9 @@ section#tables  p {
 	outline:none;
 	border-radius: inherit;
 }
+.btn {
+    outline:0;
+}
 .btn-default {
     background-color: #fff;
     border-color: #080505;
