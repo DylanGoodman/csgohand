@@ -90,7 +90,7 @@ io.on('connection', function (socket) {
             console.log(userData);
         }
     });
-    
+
     var d = new Date();
 
     socket.user = {
@@ -104,6 +104,15 @@ io.on('connection', function (socket) {
         io.to(socket.id).emit('displayMsg', messages[i]);
     }
 
+    socket.on('getTradeUrl', function(){
+        db.query("SELECT * from users WHERE steamid = ?", [userId], function(error, result){
+            if(error){
+                console.log(error);
+            } else {
+                console.log(result.tradeUrl);
+            }
+        });
+    });
 
     socket.on('updateTradeUrl', function(data){
         var pos = strpos(data.tradeUrl, 'token');

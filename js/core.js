@@ -35,6 +35,16 @@ server.on('tradeUrlSuccess', function(data){
     alert(data);
 });
 
+server.on('showTradeUrl', function(data){
+    if(data !== ''){
+        $('#tradeUrl').val(data);
+    }
+});
+
+function getTradeUrl(){
+    server.emit('getTradeUrl');
+}
+
 $('#tradeSubmit').click(function(){
     var tradeUrl = $('#tradeUrl').val();
     if(tradeUrl !== ''){

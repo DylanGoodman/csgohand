@@ -22,7 +22,7 @@ if (!isset($_SESSION['steamid'])) {
 							<img width="92px" src="<?php echo $steamprofile['avatarfull']; ?>" alt="">
 							<h4><?php echo $steamprofile['personaname']; ?></h4>
 						</div>
-                        <a href="#" data-toggle="modal" data-target="#tUrl">
+                        <a href="#" data-toggle="modal" data-target="#tUrl" onclick="getTradeUrl()">
     						<div class="profile-text">
                                     <div class="profile-row">
         								<div class="profile-left">
