@@ -12,7 +12,7 @@ if (!isset($_SESSION['steamid'])) {
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-12 grid_box1">
 					<?php if(!$user->hasSetTradeUrl($_SESSION['steamid'])) {?>
-                    <div class="alert alert-danger">
+                    <div id="tradeUrlWarning" class="alert alert-danger">
                         <i class="fa fa-warning"></i> <b>Your Steam Trade URL is not set, please set it below before attempting to deposit or play.</b>
                     </div>
 					<?php } ?>

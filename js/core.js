@@ -31,15 +31,15 @@ server.on('tradeUrlError', function(data){
     alert(data);
 });
 
-server.on('tradeUrlSuccess', function(){
+server.on('tradeUrlSuccess', function(data){
+    $('#tradeUrlWarning').fadeOut();
+    $('#userTradeUrl').html(data);
     $('#tUrl').modal('toggle');
-    getTradeUrl();
 });
 
 server.on('showTradeUrl', function(data){
     if(data !== ''){
         $('#tradeUrl').val(data);
-        $('#userTradeUrl').html(data);
     }
 });
 
