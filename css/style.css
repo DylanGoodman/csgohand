@@ -1510,8 +1510,11 @@ section#tables  p {
   -webkit-appearance: none;
   resize: none;
 }
-input[placeholder], [placeholder], *[placeholder] {
+.form-control1[placeholder], [placeholder], *[placeholder] {
     color: #fff !important;
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 .general .tab-content {
     padding: 1.5em 0.5em 0;
