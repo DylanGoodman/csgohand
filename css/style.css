@@ -1551,22 +1551,22 @@ section#tables  p {
   resize: none;
 }
 .form-control1[placeholder], [placeholder], *[placeholder] {
-    color: #fff !important;
+    color: #080505 !important;
 }
 ::-webkit-input-placeholder {
-    color: #fff !important;
+    color: #080505 !important;
 }
 
 ::-moz-placeholder {
-    color: #fff !important;
+    color: #080505 !important;
 }
 
 ::-ms-placeholder {
-    color: #fff !important;
+    color: #080505 !important;
 }
 
 ::placeholder {
-    color: #fff !important;
+    color: #080505 !important;
 }
 textarea:focus, input:focus{
     outline: none;
