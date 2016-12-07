@@ -1438,6 +1438,16 @@ section#tables  p {
 	outline:none;
 	border-radius: inherit;
 }
+.btn-default {
+    background-color: #fff;
+    border-color: #080505;
+    color: #080505;
+}
+.btn-default:hover, .btn-default:focus {
+    background-color: #080505;
+    border-color: #fff;
+    color: #fff;
+}
 .btn-green {
     background-color: #55AA55;
     color: #080505;
@@ -1486,10 +1496,10 @@ section#tables  p {
 }
 /* --  general forms  -- */
 .form-control1, .form-control_2.input-sm{
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   padding: 5px 8px;
-  color: #616161;
-  background: #fff;
+  color: #fff;
+  background: #080505;
   box-shadow: none !important;
   width: 100%;
   font-size: 1em;
@@ -1499,6 +1509,12 @@ section#tables  p {
   border-radius: 0;
   -webkit-appearance: none;
   resize: none;
+}
+.form-control1[placeholder], [placeholder], *[placeholder] {
+    color: #fff !important;
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 .general .tab-content {
     padding: 1.5em 0.5em 0;
