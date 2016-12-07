@@ -31,8 +31,8 @@ server.on('tradeUrlError', function(data){
     alert(data);
 });
 
-server.on('tradeUrlSuccess', function(data){
-    $('#tUrl').fadeOut();
+server.on('tradeUrlSuccess', function(){
+    $('#tUrl').modal('toggle');
     getTradeUrl();
 });
 

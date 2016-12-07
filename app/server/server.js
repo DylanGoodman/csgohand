@@ -121,7 +121,7 @@ io.on('connection', function (socket) {
         } else  {
             var token = data.tradeUrl.substr(pos+6);
             db.query("UPDATE users SET tradeUrl = ?, tradeToken = ? WHERE steamid = ?", [data.tradeUrl, token, data.steamId]);
-            socket.emit('tradeUrlSuccess', 'Your URL has been updated!');
+            socket.emit('tradeUrlSuccess');
         }
     });
 
