@@ -61,7 +61,7 @@ if (!isset($_SESSION['steamid'])) {
 						</div>
                         <div class="profile-text"> <!-- 12,000 exp per level -->
                             <div class="profile-level">
-                                <i class="fa fa-university"></i> 30
+                                <i class="fa fa-university"></i> <?php echo $levelData['level']; ?>
                             </div>
                             <div class="progress progress-striped active">
                                 <div class="bar blue" style="width: 100%;"></div>
