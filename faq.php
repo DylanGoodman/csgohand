@@ -27,14 +27,14 @@ require ('app/init.php');
                                 </div>
                             </div>
                             <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingOne">
+                                <div class="panel-heading" role="tab" id="headingTwo">
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
                                             How much is <i class="fa fa-star"></i> 1 worth?
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
                                     <div class="panel-body">
                                         <i class="fa fa-star"></i> 1000 is equal to $1.00, so <i class="fa fa-star"></i> 1 would be worth .001 cent(s).
                                     </div>
