@@ -11,6 +11,7 @@ require ('app/init.php');
 					<h2>Terms of Service</h2>
                     <br />
                     <h3>Introduction</h3>
+                    <br />
                     <p>
                         These terms of service govern your use of our website; by using our website, you acknowledge
                         and agree with our terms of service in with and without reservation. If any disagreements
@@ -31,6 +32,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>License of Usage</h3>
+                    <br />
                     <p>
                         CSGOHand and anything associated on the website owns the intellectual property and material rights
                         published on this website unless otherwise stated. Distribution in any form without consent is prohibited.
@@ -40,6 +42,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Website Activity</h3>
+                    <br />
                     <p>
                         By using our service, you agree to the website status being “AS-IS” or “AS-AVAILABLE”. There are no guarantees
                         for any activity that is promised on this site. CSGOHand holds no responsibility upon losses due to
@@ -47,6 +50,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Acceptable Usage</h3>
+                    <br />
                     <p>
                         You must not use any parts of this website that may or can cause damage or impairment of the availability or
                         accessibility of CSGOHand or in any way that is illegal, unlawful, fraudulent, harmful or in any
@@ -57,6 +61,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Privacy</h3>
+                    <br />
                     <p>
                         User privacy is kept under confidentiality if provided, including all aspects of any ata logs and will not be
                         distributed in any way or form externally. All public information provided by the user will be used throughout
@@ -67,6 +72,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Limitations of Liability</h3>
+                    <br />
                     <p>
                         CSGOHand and it's affiliates will not be liable to the user (whether under the law of contract, law of torts (or otherwise))
                         in relation to the contents of, usage of, or any connection with this website. We are not responsible for
@@ -76,6 +82,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Star System</h3>
+                    <br />
                     <p>
                         Our website uses a virtual credit called 'Stars' or 'Star' which are used at the sole discretion of the user.
                         <br /><br />
@@ -86,6 +93,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Missing Items/Stars</h3>
+                    <br />
                     <p>
                         Users are responsible to find out which game/time users lose their stars in, only if there was a
                         system back-end issue. Users are also responsible to note the time and date of their deposit or
@@ -99,6 +107,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Abuse</h3>
+                    <br />
                     <p>
                         CSGOHand reserves the right to remove any user at any given time without warning if abuse is determined
                         by our staff at the sole discretion of our staff. Users of CSGOHand are expected to maintain a good code of conduct. Abuse includes and is not
@@ -112,6 +121,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Bans and Chat Mutes</h3>
+                    <br />
                     <p>
                         CSGOHand reserves the right to ban any user at any time without warning from any game/system/application on our
                         website, or to outright ban any user from our website entirely. Chat Mutes are usually 24 hours in length but
@@ -119,6 +129,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Item Value</h3>
+                    <br />
                     <p>
                         Skins deposited through CSGOHan are currently evaluated by our custom pricing database and
                         backed up with the Steam Market. Prices are subjected to change/update at any time without warning
@@ -128,6 +139,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Losses</h3>
+                    <br />
                     <p>
                         CSGOHand is not liable for any CS:GO skin/item losses. By using this website, you acknowledge the risks and take responsibility
                         for all losses subjected. You agree that your virtual assets are no longer in your belonging as they are
@@ -140,6 +152,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Withdrawal</h3>
+                    <br />
                     <p>
                         To be able to withdraw skins from CSGOHand via our Shap, you have to bet for at least half the
                         amount you want to withdraw. This is a security precaution. Users are not allowed to
@@ -148,18 +161,21 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Rounds</h3>
+                    <br />
                     <p>
                         Upon placing a bet, you have no guarantee that the bet is entered in the current round. We will not
                         issue any refunds if your bet is entered successfully.
                     </p>
                     <br />
                     <h3>Commission</h3>
+                    <br />
                     <p>
                         CSGOHand takes a 8% commission from any player-versus-player games on our website, commission is used
                         to maintain our website.
                     </p>
                     <br />
                     <h3>Indemnification</h3>
+                    <br />
                     <p>
                         By using this website, you agree to defend CSGOHand and any members associated against all
                         and any claims, losses, obligations, costs and expenses (including legal expenses and any amounts
@@ -169,6 +185,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Variations</h3>
+                    <br />
                     <p>
                         CSGOHand may transfer, sub-contract or change CSGOHand’s rights and/or obligations under
                         the terms of service on this page without consent or notice. By using this website, you
@@ -176,6 +193,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Breach of Terms of Service</h3>
+                    <br />
                     <p>
                         Any breach of our terms of service will have your account terminated/frozen
                         with any virtual skins/assets/credits/stars currently associated with our website without notice.
@@ -185,11 +203,13 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Affiliation</h3>
+                    <br />
                     <p>
                         We are not affiliated in any way or form with the Valve corporation, Steam, or Counter-Strike in any variation or form.
                     </p>
                     <br />
                     <h3>Severability</h3>
+                    <br />
                     <p>
                         If any provisions of these current/past terms of service associated with our website is determined
                         by any court or any competent authority to be unlawful or/and unenforceable, the other provisions
@@ -199,6 +219,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Entire Agreement</h3>
+                    <br />
                     <p>
                         The terms of service stated on this page constitute
                         the entire agreement between you (the user) and CSGOHand in relation to your usage of this website
@@ -206,6 +227,7 @@ require ('app/init.php');
                     </p>
                     <br />
                     <h3>Law an Jurisdictions</h3>
+                    <br />
                     <p>
                         These terms of service will be governed by and construed in accordance with the laws of Canada,
                         and any disputes relating to these terms of service will be subject to the exclusive jurisdiction of
