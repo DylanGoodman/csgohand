@@ -1454,9 +1454,9 @@ section#tables  p {
     color: #fff;
 }
 .btn-r-green:hover, .btn-r-green:focus {
-    background-color: #226A22;
+    background-color: #fff;
     border: none;
-    color: #fff;
+    color: #55AA55;
 }
 .btn-r-blk {
     background-color: #080505;
@@ -1467,6 +1467,16 @@ section#tables  p {
     background-color: #fff;
     border: none;
     color: #080505;
+}
+.btn-r-red {
+    background-color: #A43741;
+    border: none;
+    color: #fff;
+}
+.btn-r-red:hover, .btn-r-green:focus {
+    background-color: #fff;
+    border: none;
+    color: #A43741;
 }
 .btn-green {
     background-color: #55AA55;
