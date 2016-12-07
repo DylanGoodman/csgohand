@@ -1448,6 +1448,16 @@ section#tables  p {
     border-color: #fff;
     color: #fff;
 }
+.btn-r-green {
+    background-color: #55AA55;
+    border-color: #044E04;
+    color: #044E04;
+}
+.btn-r-green:hover, .btn-r-green:focus {
+    background-color: #226A22;
+    border-color: #044E04;
+    color: #044E04;
+}
 .btn-green {
     background-color: #55AA55;
     color: #080505;
@@ -1511,6 +1521,21 @@ section#tables  p {
   resize: none;
 }
 .form-control1[placeholder], [placeholder], *[placeholder] {
+    color: #fff !important;
+}
+::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+::-moz-placeholder {
+    color: #fff !important;
+}
+
+::-ms-placeholder {
+    color: #fff !important;
+}
+
+::placeholder {
     color: #fff !important;
 }
 textarea:focus, input:focus{

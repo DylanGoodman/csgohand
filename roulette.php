@@ -105,7 +105,7 @@ require ('app/init.php');
 
 						<div style="margin-top:0" class="row">
 							<button style="border-radius:0;" type="clear" class="btn col-md-4 btn-default">Black</button>
-							<button style="border-radius:0;color:#55AA55" type="clear" class="btn col-md-4  btn-default">Green</button>
+							<button style="border-radius:0;color:#55AA55" type="clear" class="btn col-md-4  btn-r-green">Green</button>
 							<button style="border-radius:0;color:#A43741" type="clear" class="btn col-md-4  btn-default">Red</button>
 						</div>
 
