@@ -75,7 +75,7 @@ io.on('connection', function (socket) {
     socket.emit('initChat');
 
     var d = new Date();
-    antiSpam.ban(socket, 1);
+
     socket.user = {
         id: socket.id,
         connectedOn: +d,
