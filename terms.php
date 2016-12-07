@@ -18,14 +18,14 @@ require ('app/init.php');
                         interaction and any association/affiliation with any direct or indirect systems of our website immediately.
                         Content with connections to Valve corporation or Steam, or any connected platforms must be automatically
                         discontinued with this website in any form and/or their owners.
-                        <br />
+                        <br /><br />
                         This document throughout refers the website as: www.csgohand.com, CSGOHand, https://csgohand.com.
                         Any other forms may be used throughout the website and the user acknowledges that in case of any
                         confusions conflicting with our terms.
-                        <br />
+                        <br /><br />
                         We reserve the rights to change this document without notice. By using this website, you agree that
                         any limitations set upon our terms and conditions are reasonable, otherwise must leave the site.
-                        <br />
+                        <br /><br />
                         You must be over 18 years old AND not a resident of the United States to play on CSGOHand. By using this
                         website and by agreeing to these terms of service, you warrant and represent that you are 18 years of age
                         or older depending on your location. CSGOHand reserves the right to request documentation and/or identification
@@ -64,7 +64,7 @@ require ('app/init.php');
                         User privacy is kept under confidentiality if provided, including all aspects of any ata logs and will not be
                         distributed in any way or form externally. All public information provided by the user will be used throughout
                         the site. Including but not limited to: Steam Persona, Steam Avatar, Steam Data, etc.
-                        <br />
+                        <br /><br />
                         In special circumstances and in compliance with local laws we may cooperate with provided goverment and or legal
                          jurisdictions.
                     </p>
@@ -81,10 +81,10 @@ require ('app/init.php');
                     <h4>Star System</h4>
                     <p>
                         Our website uses a virtual credit called 'Stars' or 'Star' which are used at the sole discretion of the user.
-                        <br />
+                        <br /><br />
                         These Stars have absolutely no monetary value, and may not be considered legal tender. Stars are a made-up
                         online currency by use of and on this website only.
-                        <br />
+                        <br /><br />
                         Stars may be exchanged for Steam's virtual items (Skins) in the Counter-Strike: Global Offensive game.
                     </p>
                     <br />
@@ -94,7 +94,7 @@ require ('app/init.php');
                         system back-end issue. Users are also responsible to note the time and date of their deposit or
                         withdrawal, if the action was subject to a system back-end issue. Our support team may take up to 7
                         business days to investigate the case of the missing stars and/or items.
-                        <br />
+                        <br /><br />
                         By playing on our website, you understand that all bets, deposits, transfers, and withdrawals
                         are final. Users who abuse the support system are not ensured their credits returned. Accounts of Abusers of
                         this website in any form will be frozen and/or banned without any warning. We refuse the rights to fill your
@@ -137,7 +137,7 @@ require ('app/init.php');
                         transferred over, and yours again once withdrawn. Bet responsibly and know the limits of betting. All
                         skins deposited on this website are final. Any tampering with trade offers sent by our bots is considered
                         as an abuse.
-                        <br />
+                        <br /><br />
                         If your account is banned/frozen for any reason, we are not responsible for credits/stars start are lost in this
                         process.
                     </p>
