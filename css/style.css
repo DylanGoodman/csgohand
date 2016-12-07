@@ -1526,7 +1526,7 @@ section#tables  p {
 }
 /* --  general forms  -- */
 .form-control1, .form-control_2.input-sm{
-  border: 1px solid #fff;
+  border: none;
   padding: 5px 8px;
   color: #fff;
   background: #080505;
