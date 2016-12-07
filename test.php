@@ -7,10 +7,11 @@
  */
 require ('app/init.php');
 
-$url = file_get_contents("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=23542278D8ACE28CBB14F6B0437FD03C&steamids=".$_SESSION['steamid']);
-$content = json_decode($url, true);
-
-
-echo '<br>';
-
-echo $content['response']['players'][0]['personaname'];
+$db = new Database();
+$value = 400;
+$increase = 0.30;
+for ($i = 0; $i <= 10; $i++){
+    echo $value . '<br>';
+    $db->insert('levels', array('levelXp' => $value));
+    $value = $value * $increase;
+}
