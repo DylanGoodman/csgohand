@@ -761,7 +761,8 @@ ul.dropdown-menu.drp-mnu i.fa {
 ul.dropdown-menu {
     padding: 0;
     min-width: 215px;
-    top:101%;
+    top: 105%;
+    left: 5%;
 
 }
 .dropdown-menu > li > a {
@@ -808,7 +809,7 @@ ul.dropdown-menu {
     padding: 1em;
     min-width: 190px;
     top: 130%;
-    left:0%;
+    left: 10%;
 }
 ul.dropdown-menu.drp-mnu li {
     list-style-type: none;
