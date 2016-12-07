@@ -18,7 +18,8 @@ server.listen(port, function () {
 });
 
 
-var db = mysql.createConnection({
+var db = mysql.createPool({
+    connectionLimit: 10,
     host: 'localhost',
     user: 'root',
     password: 'ZkyO117PpU',
@@ -75,7 +76,7 @@ io.on('connection', function (socket) {
 
     console.log('SteamID Connected:', userId);
 
-    var userData = [];
+    var userData;
 
     userCount = io.engine.clientsCount;
     console.log('Connected! Count:', userCount);
@@ -85,10 +86,11 @@ io.on('connection', function (socket) {
         if(error){
             console.log(error);
         } else {
-            userData.push(results);
+            userData = results;
+            console.log(userData);
         }
     });
-
+    
     var d = new Date();
 
     socket.user = {
@@ -105,14 +107,12 @@ io.on('connection', function (socket) {
 
     socket.on('updateTradeUrl', function(data){
         var pos = strpos(data.tradeUrl, 'token');
-        if(pos === false || data.tradeUrl.length > 256 || !startsWith(data.tradeUrl, 'https://steamcommunity.com/')){
+        if(pos === false || data.tradeUrl.length > 256 || !startsWith(data.tradeUrl, 'https://steamcommunity.com/') || data.steamId !== userId){
             var token = '';
             socket.emit('tradeUrlError', 'Not a valid Trade Link!');
         } else  {
             var token = data.tradeUrl.substr(pos+6);
-            db.connect();
             db.query("UPDATE users SET tradeUrl = ?, tradeToken = ? WHERE steamid = ?", [data.tradeUrl, token, data.steamId]);
-            db.end();
             socket.emit('tradeUrlSuccess', 'Your URL has been updated!');
         }
     });

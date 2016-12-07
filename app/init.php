@@ -10,13 +10,14 @@ session_start();
 $init = $_SERVER['DOCUMENT_ROOT'];
 include($init.'/app/classes/config/userInfo.php');
 require($init.'/app/classes/DatabaseClass.php');
-//require($init.'/app/classes/ItemsClass.php');
+require($init.'/app/classes/UserClass.php');
 require($init.'/app/classes/SiteClass.php');
 //require($init.'/app/classes/GameClass.php');
 //require($init.'/app/classes/TradeClass.php');
 //require($init.'/app/classes/ManagerClass.php');
 
 $site = new SiteClass();
+$user = new UserClass();
 
 if(isset($_SESSION['steamid'])){
     if($_SESSION['addUser'] === false){
