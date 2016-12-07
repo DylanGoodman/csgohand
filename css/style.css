@@ -1538,8 +1538,8 @@ section#tables  p {
 .form-control1, .form-control_2.input-sm{
   border: none;
   padding: 5px 8px;
-  color: #fff;
-  background: #080505;
+  color: #080505;
+  background: #fff;
   box-shadow: none !important;
   width: 100%;
   font-size: 1em;
