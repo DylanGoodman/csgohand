@@ -89,14 +89,16 @@ io.on('connection', function (socket) {
 
 
     socket.on('updateTradeUrl', function(data){
-        var pos = strpos(data, 'token');
-        if(pos === false || data.length > 256 || !startsWith(data, 'https://steamcommunity.com/')){
+        var pos = strpos(data.tradeUrl, 'token');
+        if(pos === false || data.tradeUrl.length > 256 || !startsWith(data.tradeUrl, 'https://steamcommunity.com/')){
             var token = '';
             socket.emit('tradeUrlError', 'Not a valid Trade Link!');
         } else  {
-            var token = data.substr(pos, 6);
+            var token = data.tradeUrl.substr(pos, 6);
             db.connect();
-            db.query("UPDATE users WHERE")
+            db.query("UPDATE users SET tradeUrl = ?, tradeToken = ? WHERE steamid = ?", [data.tradeUrl, token, data.steamId]);
+            db.end();
+            socket.emit('tradeUrlSuccess', 'Your URL has been updated!');
         }
     });
 

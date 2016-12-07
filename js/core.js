@@ -2,7 +2,7 @@
  * Created by Dylan Goodman on 05-Dec-16.
  */
 var server = io.connect('http://104.236.27.2:3001');
-
+var steamId = $('#steamId').val();
 server.on('totalUsers', function(data){
     $('#usersOnline').html(data);
 });
@@ -26,12 +26,20 @@ server.on('rouletteTimer', function(data){
     $('#timer').css('width', data.x+'%');
 });
 
+server.on('tradeUrlError', function(data){
+    alert(data);
+});
+
+server.on('tradeUrlSuccess', function(data){
+    alert(data);
+});
+
 $('#tradeSubmit').click(function(){
     var tradeUrl = $('#tradeUrl').val();
     if(tradeUrl !== ''){
         var data = {
             tradeUrl: tradeUrl,
-            steamId: 
+            steamId: steamId
         }
         server.emit('updateTradeUrl', data);
     } else {
