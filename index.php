@@ -13,7 +13,7 @@ require ('app/init.php');
 						<?php if(!isset($_SESSION['steamid'])){ ?>
 							<h4 style="color:#fff;text-align:center;padding:0px 150px 0px 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
                         	in order to provide the greatest CS:GO gambling experience. With a <span style="color:#008aff">never before seen life-like Roulette experience</span>, Live Chat,
-						<?php { ?>
+						<?php } ?>
 						<span style="color:#008aff">Leveling 0-30 with rewards</span>, Refferals, and a hell of a lot more on the way!  </h4>
                         <br>
 						<div style="margin-top:0;" class="widget_1 row elements">
