@@ -1496,10 +1496,10 @@ section#tables  p {
 }
 /* --  general forms  -- */
 .form-control1, .form-control_2.input-sm{
-  border: 1px solid #080505;
+  border: 1px solid #fff;
   padding: 5px 8px;
-  color: #080505;
-  background: #fff;
+  color: #fff;
+  background: #080505;
   box-shadow: none !important;
   width: 100%;
   font-size: 1em;
@@ -1509,6 +1509,9 @@ section#tables  p {
   border-radius: 0;
   -webkit-appearance: none;
   resize: none;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: #fff !important;
 }
 .general .tab-content {
     padding: 1.5em 0.5em 0;
