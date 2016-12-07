@@ -1439,14 +1439,14 @@ section#tables  p {
 	border-radius: inherit;
 }
 .btn-default {
-    background-color: #fff;
-    border: none;
-    color: #080505;
-}
-.btn-default:hover {
     background-color: #080505;
     border: none;
     color: #fff;
+}
+.btn-default:hover {
+    background-color: #fff;
+    border: none;
+    color: #080505;
 }
 .btn-green {
     background-color: #55AA55;
