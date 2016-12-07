@@ -156,7 +156,7 @@ require ('app/init.php');
                             <h3>Withdrawal</h3>
                             <br />
                             <p>
-                                To be able to withdraw skins from CSGOHand via our Shap, you have to bet for at least half the
+                                To be able to withdraw skins from CSGOHand via our Shop, you have to bet for at least half the
                                 amount you want to withdraw. This is a security precaution. Users are not allowed to
                                 deposit skins with the intention to withdraw other skins without playing. CSGOHand
                                 is not a trading platform.
