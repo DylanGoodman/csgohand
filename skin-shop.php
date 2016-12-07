@@ -309,7 +309,7 @@ require ('app/init.php');
                </div>
                <div class="modal-footer">
                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancel</button>
-				   <button disabled type="button" class="btn btn-default">Inspect Item</button>
+				   <button type="button" class="btn btn-default">Inspect Item</button>
                    <button type="button" class="btn btn-primary">Purchase for <i class="fa fa-star"></i> 328990</button>
                </div>
            </div>
