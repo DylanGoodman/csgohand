@@ -12,7 +12,7 @@ require ('app/init.php');
 						<?php if(!isset($_SESSION['steamid'])){ ?>
 							<h2 style="color:#008aff" class="title3 text-center">Welcome to CSGOHand V2.0</h2>
 						<?php } else { ?>
-							<h2 style="color:#008aff" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?></h2>
+							<h2 style="color:#008aff" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
 						<?php } ?>
 						<?php if(!isset($_SESSION['steamid'])){ ?>
 							<h4 style="color:#fff;text-align:center;padding:0px 150px 0px 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
