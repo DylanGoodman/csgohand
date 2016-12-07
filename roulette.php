@@ -112,15 +112,15 @@ require ('app/init.php');
 						<input  type="text" class="form-control1" placeholder="Choose bet below or type custom # here">
 
 						<div style="margin-top:0" class="row">
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+100</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+1000</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+5000</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+10000</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-2 btn-r-blk">1/2</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-r-blk">2x</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-r-blk">0</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">Last</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">Max</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk2">+100</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk2">+1000</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk2">+5000</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk2">+10000</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-2 btn-r-blk2">1/2</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-r-blk2">2x</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-r-blk2">0</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk2">Last</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk2">Max</button>
 						</div>
 					</div>
 
