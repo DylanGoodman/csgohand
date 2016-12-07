@@ -1458,6 +1458,16 @@ section#tables  p {
     border: none;
     color: #fff;
 }
+.btn-r-blk {
+    background-color: #060101;
+    border: none;
+    color: #fff;
+}
+.btn-r-blk:hover, .btn-r-green:focus {
+    background-color: #226A22;
+    border: none;
+    color: #fff;
+}
 .btn-green {
     background-color: #55AA55;
     color: #080505;
