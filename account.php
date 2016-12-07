@@ -2,6 +2,10 @@
 
 require ('app/init.php');
 
+if (!isset($_SESSION['steamid'])) {
+	header("Location: ../");
+}
+
 ?>
 		<!-- main content start-->
 		<div id="page-wrapper">
@@ -176,7 +180,7 @@ require ('app/init.php');
                <div class="modal-body">
                    <form>
                        <div class="form-group">
-                           <label for="recipient-name" class="control-label">Steam Trade URL:</label>
+                           <label for="recipient-name" class="control-label">Steam Trade URL: <a href="http://steamcommunity.com/profiles/<?php echo $_SESSION['steamid']; ?>/tradeoffers/privacy#trade_offer_access_url">Find it here!</a> </label>
                            <input type="text" class="form-control" id="tradeUrl" placeholder="Paste your full Trade URL here">
                        </div>
                    </form>
