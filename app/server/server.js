@@ -61,7 +61,6 @@ var counterBack = setInterval(function () {
     if (i > -1) {
         var data = {x: x, i: i};
         io.emit('rouletteTimer', data);
-        console.log(x+'%');
         x = x - 2.3;
 
     } else {
