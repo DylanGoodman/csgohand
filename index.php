@@ -9,11 +9,17 @@ require ('app/init.php');
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-12 grid_box1">
 					<div style="padding:0;background-color: #080505;" class="calender widget-shadow">
-						<h2 style="color:#008aff" class="title3 text-center">Welcome to CSGOHand V2.0</h2>
-                        <h4 style="color:#fff;text-align:center;padding:0px 150px 0px 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
-                        in order to provide the greatest CS:GO gambling experience. With a <span style="color:#008aff">never before seen life-like Roulette experience</span>, Live Chat,
-                        <span style="color:#008aff">Leveling 0-30 with rewards</span>, Refferals, and a hell of a lot more on the way!  </h4>
-                        <br>
+						<?php if(!isset($_SESSION['steamid'])){ ?>
+							<h2 style="color:#008aff" class="title3 text-center">Welcome to CSGOHand V2.0</h2>
+						<?php } else { ?>
+							<h2 style="color:#008aff" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
+						<?php } ?>
+						<?php if(!isset($_SESSION['steamid'])){ ?>
+							<h4 style="color:#fff;text-align:center;padding:0px 150px 0px 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
+                        	in order to provide the greatest CS:GO gambling experience. With a <span style="color:#008aff">never before seen life-like Roulette experience</span>, Live Chat,
+							<span style="color:#008aff">Leveling 0-30 with rewards</span>, Refferals, and a hell of a lot more on the way!  </h4>
+							<br />
+						<?php } ?>
 						<div style="margin-top:0;" class="widget_1 row elements">
 							<div class="col-sm-4 widget_1_box">
 								<div style="width:100%;padding:7px;" class="widget_1_box wid-social vimeo">
@@ -24,12 +30,12 @@ require ('app/init.php');
 									<h3 class="number_counter bold count text-light start_timer counted">2,400,000</h3>
 									<h4 class="counttype text-light">Won today</h4>
 								</div>
-								<div style="margin-top:10px;" class="tile-progress bg-success">
-                                    <div class="content">
-										<h4><i class="fa fa-dollar icon-sm"></i> Win Big</h4>
-										<h4 style="padding-top:20px;">Our users are winning huge!</h4>
+								<a href="boxes"><div style="margin-top:10px;" class="tile-progress bg-success">
+									<div class="content">
+										<h4><i class="fa fa-square icon-sm"></i> Boxes</h4>
+										<h4 style="padding-top:20px;">Play our fan favorite Boxes!</h4>
 									</div>
-								</div>
+								</div></a>
 							</div>
 							</div>
 							<div class="col-sm-4 widget_1_box">
@@ -41,12 +47,12 @@ require ('app/init.php');
 									<h3 class="number_counter bold count text-light start_timer counted">6,100+</h3>
 									<h4 class="counttype text-light">Users</h4>
 								</div>
-								<a href="roulette.html"><div style="margin-top:10px;" class="tile-progress bg-success">
-									<div class="content">
-										<h4><i class="fa fa-trophy icon-sm"></i> Roulette</h4>
-										<h4 style="padding-top:20px;">Play our all new Roulette!</h4>
+								<div style="margin-top:10px;" class="tile-progress bg-success">
+                                    <div class="content">
+										<h4><i class="fa fa-university icon-sm"></i> Level Up</h4>
+										<h4 style="padding-top:20px;">Level 0-30 and win prizes!</h4>
 									</div>
-								</div></a>
+								</div>
 							</div>
 							</div>
 							<div class="col-sm-4 widget_1_box">
@@ -58,12 +64,12 @@ require ('app/init.php');
 									<h3 class="number_counter bold count text-light start_timer counted">74,145,000</h3>
 									<h4 class="counttype text-light">Won all time</h4>
 								</div>
-								<div style="margin-top:10px;" class="tile-progress bg-success">
-                                    <div class="content">
-										<h4><i class="fa fa-university icon-sm"></i> Level Up</h4>
-										<h4 style="padding-top:20px;">Level 0-30 and win prizes!</h4>
+								<a href="roulette"><div style="margin-top:10px;" class="tile-progress bg-success">
+									<div class="content">
+										<h4><i class="fa fa-circle icon-sm"></i> Roulette</h4>
+										<h4 style="padding-top:20px;">Play our all new Roulette!</h4>
 									</div>
-								</div>
+								</div></a>
 							</div>
 							</div>
 							<div class="clearfix"> </div>

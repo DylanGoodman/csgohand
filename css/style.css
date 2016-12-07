@@ -761,7 +761,8 @@ ul.dropdown-menu.drp-mnu i.fa {
 ul.dropdown-menu {
     padding: 0;
     min-width: 215px;
-    top:101%;
+    top: 105%;
+    left: 5%;
 
 }
 .dropdown-menu > li > a {
@@ -807,8 +808,8 @@ ul.dropdown-menu {
 .profile_details ul li ul.dropdown-menu.drp-mnu {
     padding: 1em;
     min-width: 190px;
-    top: 122%;
-    left:0%;
+    top: 130%;
+    left: 10%;
 }
 ul.dropdown-menu.drp-mnu li {
     list-style-type: none;
@@ -1437,6 +1438,9 @@ section#tables  p {
 	border: none;
 	outline:none;
 	border-radius: inherit;
+}
+.btn:focus {
+    outline:0 !important;
 }
 .btn-default {
     background-color: #fff;
@@ -2378,9 +2382,14 @@ h4.modal-title {
     background-color: #F1F1F1;
 }
 .btn-primary {
+    color: #008aff;
+    background-color: #fff;
+    border-color: #008aff;
+}
+.btn-primary:hover, btn-primary:focus {
     color: #fff;
     background-color: #008aff;
-    border-color: #2e6da4;
+    border-color: #fff;
 }
 .tdGreen {
     color: #55AA55;
