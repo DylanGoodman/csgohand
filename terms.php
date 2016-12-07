@@ -12,7 +12,7 @@ require ('app/init.php');
                     <br />
                     <h3>Introduction</h3>
                     <p>
-                        <b>These terms and conditions govern your use of our website; by using our website, you acknowledge
+                        These terms of service govern your use of our website; by using our website, you acknowledge
                         and agree with our terms of service in with and without reservation. If any disagreements
                         with our terms of service or parts of the terms, you must discontinue usage,
                         interaction and any association/affiliation with any direct or indirect systems of our website immediately.
@@ -23,10 +23,7 @@ require ('app/init.php');
                         Any other forms may be used throughout the website and the user acknowledges that in case of any
                         confusions conflicting with our terms.
                         <br /><br />
-                        We reserve the rights to change this document without notice. By using this website, you agree that
-                        any limitations set upon our terms and conditions are reasonable, otherwise must leave the site.
-                        <br /><br />
-                        You must be over 18 years old AND not a resident of the United States to play on CSGOHand. By using this
+                        <b>You must be over 18 years old AND not a resident of the United States to play on CSGOHand. By using this
                         website and by agreeing to these terms of service, you warrant and represent that you are 18 years of age
                         or older depending on your location. CSGOHand reserves the right to request documentation and/or identification
                         in order to combat underage use of our website and services. We also reserve the right to freeze all acount
