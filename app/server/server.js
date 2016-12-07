@@ -73,21 +73,21 @@ io.on('connection', function (socket) {
     var userId = socket.handshake.query.userId;
     socket.userId = socket.handshake.query.userId;
 
+    console.log('SteamID Connected:', userId);
+
     var userData = [];
 
     userCount = io.engine.clientsCount;
     console.log('Connected! Count:', userCount);
     io.emit('totalUsers', userCount);
-    db.connect();
-    db.query("SELECT * from users WHERE steamid = ?", [userId])
-        .on('result', function(data){
-            console.log(data);
-            userData.push(data);
-        })
-        .on('end', function(){
-            socket.emit('init', userData);
-        });
-    db.end();
+
+    db.query("SELECT * from users WHERE steamid = ?", [userId], function(error, results){
+        if(error){
+            console.log(error);
+        } else {
+            userData.push(results);
+        }
+    });
 
     var d = new Date();
 
