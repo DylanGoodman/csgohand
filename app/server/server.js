@@ -36,6 +36,16 @@ function count(arr){
     }
     return count;
 }
+
+function strpos (haystack, needle, offset) {
+    var i = (haystack+'').indexOf(needle, (offset || 0));
+    return i === -1 ? false : i;
+}
+
+function startsWith(haystack, needle){
+    return needle === '' || strpos(haystack, needle, -haystack.length) !== false;
+}
+
 var userCount = 43;
 
 var config = {
@@ -76,6 +86,20 @@ io.on('connection', function (socket) {
     for(var i = 0; i < messages.length; i++){
         io.to(socket.id).emit('displayMsg', messages[i]);
     }
+
+
+    socket.on('updateTradeUrl', function(data){
+        var pos = strpos(data, 'token');
+        if(pos === false || data.length > 256 || !startsWith(data, 'https://steamcommunity.com/')){
+            var token = '';
+            socket.emit('tradeUrlError', 'Not a valid Trade Link!');
+        } else  {
+            var token = data.substr(pos, 6);
+            db.connect();
+            db.query("UPDATE users WHERE")
+        }
+    });
+
     socket.on('newMessage', function(data){
         console.log('Got a message!');
         var user = socket.user,

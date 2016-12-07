@@ -26,6 +26,19 @@ server.on('rouletteTimer', function(data){
     $('#timer').css('width', data.x+'%');
 });
 
+$('#tradeSubmit').click(function(){
+    var tradeUrl = $('#tradeUrl').val();
+    if(tradeUrl !== ''){
+        var data = {
+            tradeUrl: tradeUrl,
+            steamId: 
+        }
+        server.emit('updateTradeUrl', data);
+    } else {
+        console.log('Enter Something Fool!');
+    }
+});
+
 $('#chattext').keyup(function(event){
     if(event.keyCode == 13){
         var usrMsg = $(this).val();

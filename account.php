@@ -180,14 +180,14 @@ if (!isset($_SESSION['steamid'])) {
                <div class="modal-body">
                    <form>
                        <div class="form-group">
-                           <label for="recipient-name" class="control-label">Steam Trade URL: <a href="http://steamcommunity.com/profiles/<?php echo $_SESSION['steamid']; ?>/tradeoffers/privacy#trade_offer_access_url">Find it here!</a> </label>
+                           <label for="recipient-name" class="control-label">Steam Trade URL: <a href="http://steamcommunity.com/profiles/<?php echo $_SESSION['steamid']; ?>/tradeoffers/privacy#trade_offer_access_url" target="_blank">Find it here!</a> </label>
                            <input type="text" class="form-control" id="tradeUrl" placeholder="Paste your full Trade URL here">
                        </div>
                    </form>
                </div>
                <div class="modal-footer">
                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                   <button type="button" class="btn btn-primary">Set Trade URL</button>
+                   <button type="button" id="tradeSubmit" class="btn btn-primary">Set Trade URL</button>
                </div>
            </div>
        </div>
