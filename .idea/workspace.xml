@@ -4,7 +4,6 @@
     <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.php" afterPath="$PROJECT_DIR$/account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/server.js" afterPath="$PROJECT_DIR$/app/server/server.js" />
     </list>
     <ignored path="csgohand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,8 +114,8 @@
       <file leaf-file-name="account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="685">
+              <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -517,7 +516,7 @@
       <workItem from="1480901449843" duration="16000" />
       <workItem from="1480902859978" duration="15272000" />
       <workItem from="1480991231437" duration="10718000" />
-      <workItem from="1481086778645" duration="3113000" />
+      <workItem from="1481086778645" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1480902936149</created>
@@ -729,11 +728,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481088665672</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add User Account Func">
+      <created>1481089973045</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1481089973045</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29119000" />
+    <option name="totallyTimeSpent" value="29195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -773,7 +779,8 @@
     <MESSAGE value="Adding Roulette Timer" />
     <MESSAGE value="Timer Done, Looking into SocketNode Errors next." />
     <MESSAGE value="Chat Errors Fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat Errors Fixed." />
+    <MESSAGE value="Add User Account Func" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add User Account Func" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1176,8 +1183,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="685">
+          <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
           <folding />
         </state>
       </provider>

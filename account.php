@@ -192,5 +192,6 @@ if (!isset($_SESSION['steamid'])) {
            </div>
        </div>
    </div>
+<script src="js/core.js"></script>
 </body>
 </html>
