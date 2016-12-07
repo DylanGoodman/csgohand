@@ -41,12 +41,12 @@ require ('app/init.php');
 									<h3 class="number_counter bold count text-light start_timer counted">6,100+</h3>
 									<h4 class="counttype text-light">Users</h4>
 								</div>
-								<a href="roulette"><div style="margin-top:10px;" class="tile-progress bg-success">
-									<div class="content">
-										<h4><i class="fa fa-trophy icon-sm"></i> Roulette</h4>
-										<h4 style="padding-top:20px;">Play our all new Roulette!</h4>
+								<div style="margin-top:10px;" class="tile-progress bg-success">
+                                    <div class="content">
+										<h4><i class="fa fa-university icon-sm"></i> Level Up</h4>
+										<h4 style="padding-top:20px;">Level 0-30 and win prizes!</h4>
 									</div>
-								</div></a>
+								</div>
 							</div>
 							</div>
 							<div class="col-sm-4 widget_1_box">
@@ -58,12 +58,12 @@ require ('app/init.php');
 									<h3 class="number_counter bold count text-light start_timer counted">74,145,000</h3>
 									<h4 class="counttype text-light">Won all time</h4>
 								</div>
-								<div style="margin-top:10px;" class="tile-progress bg-success">
-                                    <div class="content">
-										<h4><i class="fa fa-university icon-sm"></i> Level Up</h4>
-										<h4 style="padding-top:20px;">Level 0-30 and win prizes!</h4>
+								<a href="roulette"><div style="margin-top:10px;" class="tile-progress bg-success">
+									<div class="content">
+										<h4><i class="fa fa-circle icon-sm"></i> Roulette</h4>
+										<h4 style="padding-top:20px;">Play our all new Roulette!</h4>
 									</div>
-								</div>
+								</div></a>
 							</div>
 							</div>
 							<div class="clearfix"> </div>
