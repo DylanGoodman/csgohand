@@ -1468,6 +1468,16 @@ section#tables  p {
     border: none;
     color: #080505;
 }
+.btn-r-blk2 {
+    background-color: #fff;
+    border: none;
+    color: #080505;
+}
+.btn-r-blk2:hover, .btn-r-blk2:focus {
+    background-color: #080505;
+    border: none;
+    color: #fff;
+}
 .btn-r-red {
     background-color: #A43741;
     border: none;
