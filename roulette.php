@@ -104,23 +104,23 @@ require ('app/init.php');
 						<h4 class="title3 text-center">Place Bet</h4>
 
 						<div style="margin-top:0" class="row">
-							<button style="border-radius:0;" type="clear" class="btn col-md-4 btn-default">Black</button>
-							<button style="border-radius:0;color:#55AA55" type="clear" class="btn col-md-4  btn-default">Green</button>
-							<button style="border-radius:0;color:#A43741" type="clear" class="btn col-md-4  btn-default">Red</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-4 btn-r-blk">Black</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-4  btn-r-green">Green</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-4  btn-r-red">Red</button>
 						</div>
 
 						<input  type="text" class="form-control1" placeholder="Choose bet below or type custom # here">
 
 						<div style="margin-top:0" class="row">
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-default">+100</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-default">+1000</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-default">+5000</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-default">+10000</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-2 btn-default">1/2</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-default">2x</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-default">0</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-default">Last</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-default">Max</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+100</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+1000</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+5000</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">+10000</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-2 btn-r-blk">1/2</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-r-blk">2x</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-2  btn-r-blk">0</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">Last</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-3  btn-r-blk">Max</button>
 						</div>
 					</div>
 
