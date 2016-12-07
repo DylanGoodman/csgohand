@@ -8,7 +8,7 @@ require ('app/init.php');
 		<div id="page-wrapper">
 			<div class="main-page row" style="margin:0;">
 				<div class="tos col-md-12 grid_box1">
-                    <div class="col-md-12 profile widget-shadow">
+                    <div style="width:100%;" class="profile widget-shadow">
     					<h4 class="title3">Terms of Service</h4>
                         <br />
                         <div style="padding:20px;">
