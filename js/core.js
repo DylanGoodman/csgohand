@@ -32,12 +32,14 @@ server.on('tradeUrlError', function(data){
 });
 
 server.on('tradeUrlSuccess', function(data){
-    alert(data);
+    $('#tUrl').fadeOut();
+    getTradeUrl();
 });
 
 server.on('showTradeUrl', function(data){
     if(data !== ''){
         $('#tradeUrl').val(data);
+        $('#userTradeUrl').html(data);
     }
 });
 

@@ -108,7 +108,7 @@ io.on('connection', function (socket) {
             if(error){
                 console.log(error);
             } else {
-                console.log(result.tradeUrl);
+                socket.emit('showTradeUrl', result[0].tradeUrl);
             }
         });
     });
