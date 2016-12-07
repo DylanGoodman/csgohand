@@ -1451,12 +1451,12 @@ section#tables  p {
 .btn-r-green {
     background-color: #55AA55;
     border-color: #044E04;
-    color: #044E04;
+    color: #fff;
 }
 .btn-r-green:hover, .btn-r-green:focus {
     background-color: #226A22;
     border-color: #044E04;
-    color: #044E04;
+    color: #fff;
 }
 .btn-green {
     background-color: #55AA55;
