@@ -20,9 +20,9 @@ server.listen(port, function () {
 
 var db = mysql.createConnection({
     host: 'localhost',
-    user: 'csgo_site',
-    password: 'Mmx2*G224+5|R6K.|^+3n79%*_!!65!Q',
-    database: 'csgo'
+    user: 'root',
+    password: 'ZkyO117PpU',
+    database: 'csgohand'
 });
 
 var ERROR_MESSAGE_TIMEOUT = 10;
