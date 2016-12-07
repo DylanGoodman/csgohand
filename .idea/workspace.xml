@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server/server.js" afterPath="$PROJECT_DIR$/app/server/server.js" />
     </list>
     <ignored path="csgohand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="288">
+              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -110,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roulette.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="roulette.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/roulette.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -168,8 +169,8 @@
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/roulette.php" />
         <option value="$PROJECT_DIR$/js/core.js" />
-        <option value="$PROJECT_DIR$/app/server/server.js" />
         <option value="$PROJECT_DIR$/js/roulette.js" />
+        <option value="$PROJECT_DIR$/app/server/server.js" />
       </list>
     </option>
   </component>
@@ -505,7 +506,7 @@
       <workItem from="1480901449843" duration="16000" />
       <workItem from="1480902859978" duration="15272000" />
       <workItem from="1480991231437" duration="10718000" />
-      <workItem from="1481086778645" duration="1429000" />
+      <workItem from="1481086778645" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1480902936149</created>
@@ -696,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481002709095</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Timer Done, Looking into SocketNode Errors next.">
+      <created>1481088274718</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1481088274718</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27435000" />
+    <option name="totallyTimeSpent" value="27784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1105,16 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/roulette.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -1134,6 +1132,16 @@
           <caret line="523" column="60" selection-start-line="523" selection-start-column="60" selection-end-line="523" selection-end-column="60" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
           </folding>
         </state>
       </provider>

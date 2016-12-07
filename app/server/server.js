@@ -18,13 +18,13 @@ server.listen(port, function () {
 });
 
 antiSpam.init({
-    banTime: 30,
-    kickThreshold: 2,
-    kickTimesBeforeBan: 1,
-    banning: true,
-    heartBeatScale: 80,
-    heartBeatCheck: 4,
-    io: io
+    banTime:            30,         // Ban time in minutes
+    kickThreshold:      2,          // User gets kicked after this many spam score
+    kickTimesBeforeBan: 1,          // User gets banned after this many kicks
+    banning:            true,       // Uses temp IP banning after kickTimesBeforeBan
+    heartBeatStale:     40,         // Removes a heartbeat after this many seconds
+    heartBeatCheck:     4,          // Checks a heartbeat per this many seconds
+    io:                 io  // Bind the socket.io variable
 });
 
 var db = mysql.createConnection({
@@ -88,6 +88,7 @@ io.on('connection', function (socket) {
     }
     socket.on('newMessage', function(data){
         console.log('Got a message!');
+        antiSpam.addSpam(socket);
         var user = socket.user,
             dateUnix = +(new Date()),
             endTimeFrame = user.startTimeFrame + config.timeFrame;
