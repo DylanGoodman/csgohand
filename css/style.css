@@ -755,6 +755,9 @@ i.icon_6{
 }
 /*--Progress bars--*/
 /********* profile details **********/
+.panel-title {
+    font-size: 1.1em;
+}
 ul.dropdown-menu.drp-mnu i.fa {
     margin-right: 0.5em;
 }

@@ -192,7 +192,7 @@ require ('app/init.php');
 							<?php if(isset($_SESSION['steamid'])){ ?>
 								<input id="chattext" type="text" placeholder="Say something... don't be shy!" required=""></input>
 							<?php } else {?>
-							<input id="chattext" type="text" disabled placeholder="Login to chat!!" required=""></input>
+							<input id="chattext" type="text" disabled placeholder="Please login to chat!" required=""></input>
 							<?php } ?>
 						</div>
 					</div>
