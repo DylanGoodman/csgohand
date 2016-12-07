@@ -7,7 +7,7 @@ require ('app/init.php');
 		<!-- main content start-->
 		<div id="page-wrapper">
 			<div class="main-page row" style="margin:0;">
-				<div class="col-md-12 grid_box1">
+				<div class="tos col-md-12 grid_box1">
 					<h2>Terms of Service</h2>
                     <br />
                     <h4>Introduction</h4>

@@ -40,6 +40,11 @@ body a:hover{
 .main-content {
     position: relative;
 }
+.tos h4 {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 /*-------HEADER SECTION------*/
 /* ----STICKY HEADER----*/
 .sticky-header{
