@@ -1438,7 +1438,7 @@ section#tables  p {
 	outline:none;
 	border-radius: inherit;
 }
-.btn {
+.btn:focus {
     outline:0 !important;
 }
 .btn-default {
