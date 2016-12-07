@@ -106,7 +106,7 @@ require ('app/init.php');
 						<div style="margin-top:0" class="row">
 							<button style="border-radius:0;" type="clear" class="btn col-md-4 btn-r-blk">Black</button>
 							<button style="border-radius:0;" type="clear" class="btn col-md-4  btn-r-green">Green</button>
-							<button style="border-radius:0;" type="clear" class="btn col-md-4  btn-default">Red</button>
+							<button style="border-radius:0;" type="clear" class="btn col-md-4  btn-r-red">Red</button>
 						</div>
 
 						<input  type="text" class="form-control1" placeholder="Choose bet below or type custom # here">
