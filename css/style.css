@@ -1464,9 +1464,9 @@ section#tables  p {
     color: #fff;
 }
 .btn-r-blk:hover, .btn-r-green:focus {
-    background-color: #100F0F;
+    background-color: #fff;
     border: none;
-    color: #fff;
+    color: #080505;
 }
 .btn-green {
     background-color: #55AA55;
