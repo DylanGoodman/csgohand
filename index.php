@@ -24,12 +24,12 @@ require ('app/init.php');
 									<h3 class="number_counter bold count text-light start_timer counted">2,400,000</h3>
 									<h4 class="counttype text-light">Won today</h4>
 								</div>
-								<div style="margin-top:10px;" class="tile-progress bg-success">
-                                    <div class="content">
-										<h4><i class="fa fa-dollar icon-sm"></i> Win Big</h4>
-										<h4 style="padding-top:20px;">Our users are winning huge!</h4>
+								<a href="boxes"><div style="margin-top:10px;" class="tile-progress bg-success">
+									<div class="content">
+										<h4><i class="fa fa-square icon-sm"></i> Boxes</h4>
+										<h4 style="padding-top:20px;">Play our fan favorite Boxes!</h4>
 									</div>
-								</div>
+								</div></a>
 							</div>
 							</div>
 							<div class="col-sm-4 widget_1_box">
@@ -41,7 +41,7 @@ require ('app/init.php');
 									<h3 class="number_counter bold count text-light start_timer counted">6,100+</h3>
 									<h4 class="counttype text-light">Users</h4>
 								</div>
-								<a href="roulette.html"><div style="margin-top:10px;" class="tile-progress bg-success">
+								<a href="roulette"><div style="margin-top:10px;" class="tile-progress bg-success">
 									<div class="content">
 										<h4><i class="fa fa-trophy icon-sm"></i> Roulette</h4>
 										<h4 style="padding-top:20px;">Play our all new Roulette!</h4>
