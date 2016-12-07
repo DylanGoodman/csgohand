@@ -1439,7 +1439,7 @@ section#tables  p {
 	border-radius: inherit;
 }
 .btn {
-    outline:0;
+    outline:0 !important;
 }
 .btn-default {
     background-color: #fff;
