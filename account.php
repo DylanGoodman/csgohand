@@ -30,7 +30,7 @@ if (!isset($_SESSION['steamid'])) {
         								</div>
         								<div class="profile-right">
         									<h4>Steam Trade URL</h4>
-											<?php if(!$user->hasSetTradeUrl($_SESSION['steamid'])) { ?>
+											<?php if($user->hasSetTradeUrl($_SESSION['steamid'])) { ?>
 											<p><span id="userTradeUrl"><?php echo $userData['tradeUrl']; ?></span></p>
 											<?php } else { ?>
         									<p>Not set... Click here to set it.</p>
