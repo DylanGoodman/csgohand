@@ -24,7 +24,7 @@ class LevelClass extends Database {
             $level = $db->select()->from('levels')->where('levelId', $userLevel['level'])->fetch_first();
             return $level['levelXp'];
         } else {
-            return 400;
+            return '400';
         }
     }
 }
