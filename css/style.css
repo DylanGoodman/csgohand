@@ -1463,7 +1463,7 @@ section#tables  p {
     border: none;
     color: #fff;
 }
-.btn-r-blk:hover, .btn-r-green:focus {
+.btn-r-blk:hover, .btn-r-blk:focus {
     background-color: #fff;
     border: none;
     color: #080505;
@@ -1473,7 +1473,7 @@ section#tables  p {
     border: none;
     color: #fff;
 }
-.btn-r-red:hover, .btn-r-green:focus {
+.btn-r-red:hover, .btn-r-red:focus {
     background-color: #fff;
     border: none;
     color: #A43741;
