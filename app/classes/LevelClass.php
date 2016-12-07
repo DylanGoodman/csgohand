@@ -7,5 +7,13 @@
  */
 
 class LevelClass extends Database {
-    
+    public function getCurrentLevelAndExp($steamId){
+        $db = new Database();
+        $result = $db->select()->from('users')->where(array('steamId' => $steamId))->fetch_first();
+        $return = array(
+            'exp'   => $result['exp'],
+            'level' => $result['level']
+        );
+        return $return;
+    }
 }
