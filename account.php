@@ -17,8 +17,8 @@ if (!isset($_SESSION['steamid'])) {
                     <div class="col-md-4 profile widget-shadow">
 						<h4 class="title3">Account</h4>
 						<div class="profile-top">
-							<img width="92px" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt="">
-							<h4>Haste CSGOHand.com</h4>
+							<img width="92px" src="<?php echo $steamprofile['avatarfull']; ?>" alt="">
+							<h4><?php echo $steamprofile['personaname']; ?></h4>
 						</div>
                         <a href="#" data-toggle="modal" data-target="#tUrl">
     						<div class="profile-text">

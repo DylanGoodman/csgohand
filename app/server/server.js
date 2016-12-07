@@ -94,7 +94,7 @@ io.on('connection', function (socket) {
             var token = '';
             socket.emit('tradeUrlError', 'Not a valid Trade Link!');
         } else  {
-            var token = data.tradeUrl.substr(pos, 6);
+            var token = data.tradeUrl.substr(pos+6);
             db.connect();
             db.query("UPDATE users SET tradeUrl = ?, tradeToken = ? WHERE steamid = ?", [data.tradeUrl, token, data.steamId]);
             db.end();
