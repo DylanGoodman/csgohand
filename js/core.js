@@ -1,8 +1,14 @@
 /**
  * Created by Dylan Goodman on 05-Dec-16.
  */
-var server = io.connect('http://104.236.27.2:3001');
+var server = io.connect('http://104.236.27.2:3001', {query: 'userId='+$('#steamId').val()});
 var steamId = $('#steamId').val();
+var userData;
+
+server.on('init', function(data){
+    userData = data;
+    console.log(data);
+});
 server.on('totalUsers', function(data){
     $('#usersOnline').html(data);
 });
