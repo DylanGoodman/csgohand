@@ -68,6 +68,9 @@ if (!isset($_SESSION['steamid'])) {
                             </div>
                             <p style="text-align:center;margin-top:5px;color:#6F6F6F">(<?php echo $levelData['exp']; ?>/<?php echo $level->getLevelData($_SESSION['steamid']); ?> exp)</p>
                         </div>
+						<div style="background-color: #e4e4e4;padding:5px;" class="profile-btm">
+                            <p style="text-align: center;font-size:.8em">You don't have 'CSGOHand.com' in your Steam Username!</p>
+                        </div>
 					</div>
                     <div class="col-md-4 profile chat-mdl-grid widget-shadow">
                         <h4 class="title3">How to Level</h4>
