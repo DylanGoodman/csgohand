@@ -117,7 +117,7 @@ require ('app/init.php');
                                 attacks or threats in any way or form towards or denaming CSGOHand will get your account terminated/frozen
                                 without notice. Users are only allowed to have one account connected with CSGOHand and may not abuse
                                 our affiliate system in any way or form.
-                                <br />
+                                <br /><br />
                                 Further abuses to our website and/or back-end systems will result in action being taken by CSGOHand against
                                 the abuser by the fullest extend of the laws/local laws.
                             </p>
@@ -133,7 +133,7 @@ require ('app/init.php');
                             <h3>Item Value</h3>
                             <br />
                             <p>
-                                Skins deposited through CSGOHan are currently evaluated by our custom pricing database and
+                                Skins deposited through CSGOHand are currently evaluated by our custom pricing database and
                                 backed up with the Steam Market. Prices are subjected to change/update at any time without warning
                                 or notice. Playing on CSGOHand implies that you fully accept our prices and understand there will
                                 be no refund in case of a price issue. If we feel that an item deposited is too high valued we
