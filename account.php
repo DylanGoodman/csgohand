@@ -68,9 +68,6 @@ if (!isset($_SESSION['steamid'])) {
                             </div>
                             <p style="text-align:center;margin-top:5px;color:#6F6F6F">(<?php echo $levelData['exp']; ?>/<?php echo $level->getLevelData($_SESSION['steamid']); ?> exp)</p>
                         </div>
-                        <div style="background-color: #e4e4e4;padding:5px;" class="profile-btm">
-                            <p style="text-align: center;font-size:.8em">Congrats, you achieved the maxiumum level!</p>
-                        </div>
 					</div>
                     <div class="col-md-4 profile chat-mdl-grid widget-shadow">
                         <h4 class="title3">How to Level</h4>
@@ -88,13 +85,16 @@ if (!isset($_SESSION['steamid'])) {
 						</div>
                         <div class="profile-text">
                             <h5>Deposit over <i class="fa fa-star"></i> 200,000 at once  = 10,000 exp</h5>
-                            <h5>Place 1,000 bets on Roulette  = 5,000 exp</h5>
+							<h5>Deposit over <i class="fa fa-star"></i> 500,000 at once  = 30,000 exp</h5>
+							<h5>Deposit over <i class="fa fa-star"></i> 1,000,000 at once  = 75,000 exp</h5>
+							<h5>Place 500 bets on Roulette  = 1,000 exp</h5>
+							<h5>Place 500 bets on Boxes  = 1,000 exp</h5>
+							<h5>Place 1,000 bets on Roulette  = 5,000 exp</h5>
+							<h5>Place 1,000 bets on Boxes  = 5,000 exp</h5>
                             <h5>Refer 25 people  = 5,000 exp</h5>
-                            <h5>Refer 75 people  = 20,000 exp and <i class="fa fa-star"></i> 5,000</h5>
+                            <h5>Refer 75 people  = 20,000 exp and <i class="fa fa-star"></i> 20,000</h5>
+							<h5>Refer 200 people  = 75,000 exp and <i class="fa fa-star"></i> 50,000</h5>
                         </div>
-                        <div style="background-color: #080505;" class="profile-top">
-							<h4>Did you know? You gain <b>double exp.</b> while you have 'CSGOHand.com' in your Steam username!</h4>
-						</div>
                     </div>
                     <div class="col-md-4 profile widget-shadow">
                         <h4 class="title3">Referrals</h4>
@@ -129,6 +129,9 @@ if (!isset($_SESSION['steamid'])) {
                                     <button style="float:right" type="submit" class="btn btn-primary">Claim</button>
                                 </form>
                         </div>
+						<div style="background-color: #080505;" class="profile-top">
+							<h4>Did you know? You gain <b>double exp.</b> while you have 'CSGOHand.com' in your Steam username!</h4>
+						</div>
                     </div>
 				</div>
 			</div>
