@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="Adding Levels">
+    <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.php" afterPath="$PROJECT_DIR$/account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/classes/LevelClass.php" afterPath="$PROJECT_DIR$/app/classes/LevelClass.php" />
     </list>
     <ignored path="csgohand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/account.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="68" column="166" selection-start-line="68" selection-start-column="166" selection-end-line="68" selection-end-column="166" />
+              <caret line="68" column="170" selection-start-line="68" selection-start-column="170" selection-end-line="68" selection-end-column="170" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -506,14 +505,7 @@
       <workItem from="1480901449843" duration="16000" />
       <workItem from="1480902859978" duration="15272000" />
       <workItem from="1480991231437" duration="10718000" />
-      <workItem from="1481086778645" duration="17607000" />
-    </task>
-    <task id="LOCAL-00005" summary="Setting up node.">
-      <created>1480908900265</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1480908900265</updated>
+      <workItem from="1481086778645" duration="17645000" />
     </task>
     <task id="LOCAL-00006" summary="Setting up node.">
       <created>1480909022622</created>
@@ -851,11 +843,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481107635880</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Adding Levels">
+      <created>1481157388292</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1481157388292</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43613000" />
+    <option name="totallyTimeSpent" value="43651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1324,7 +1323,7 @@
     <entry file="file://$PROJECT_DIR$/account.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="68" column="166" selection-start-line="68" selection-start-column="166" selection-end-line="68" selection-end-column="166" />
+          <caret line="68" column="170" selection-start-line="68" selection-start-column="170" selection-end-line="68" selection-end-column="170" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>

@@ -66,7 +66,7 @@ if (!isset($_SESSION['steamid'])) {
                             <div class="progress progress-striped active">
                                 <div class="bar blue" style="width: <?php echo $level->getPercentageLevel($_SESSION['steamid']); ?>%;"></div>
                             </div>
-                            <p style="text-align:center;margin-top:5px;color:#6F6F6F">(<?php echo $levelData['exp']; ?>/<?php echo $level->getLevelData(); ?> exp)</p>
+                            <p style="text-align:center;margin-top:5px;color:#6F6F6F">(<?php echo $levelData['exp']; ?>/<?php echo $level->getLevelData($_SESSION['steamid']); ?> exp)</p>
                         </div>
                         <div style="background-color: #e4e4e4;padding:5px;" class="profile-btm">
                             <p style="text-align: center;font-size:.8em">Congrats, you achieved the maxiumum level!</p>
