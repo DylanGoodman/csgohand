@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="">
+    <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="Adding Levels">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.php" afterPath="$PROJECT_DIR$/account.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/classes/LevelClass.php" afterPath="$PROJECT_DIR$/app/classes/LevelClass.php" />
     </list>
     <ignored path="csgohand.iws" />
@@ -106,21 +107,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="63" column="96" selection-start-line="63" selection-start-column="96" selection-end-line="63" selection-end-column="96" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="68" column="166" selection-start-line="68" selection-start-column="166" selection-end-line="68" selection-end-column="166" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelClass.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LevelClass.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/classes/LevelClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="744">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
               <folding>
                 <element signature="e#6#96#0#PHP" expanded="true" />
               </folding>
@@ -166,8 +169,8 @@
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/app/init.php" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/account.php" />
         <option value="$PROJECT_DIR$/app/classes/LevelClass.php" />
+        <option value="$PROJECT_DIR$/account.php" />
       </list>
     </option>
   </component>
@@ -503,14 +506,7 @@
       <workItem from="1480901449843" duration="16000" />
       <workItem from="1480902859978" duration="15272000" />
       <workItem from="1480991231437" duration="10718000" />
-      <workItem from="1481086778645" duration="15428000" />
-    </task>
-    <task id="LOCAL-00004" summary="Setting up node.">
-      <created>1480908701961</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1480908701961</updated>
+      <workItem from="1481086778645" duration="17607000" />
     </task>
     <task id="LOCAL-00005" summary="Setting up node.">
       <created>1480908900265</created>
@@ -848,11 +844,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481107540695</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Adding Levels">
+      <created>1481107635880</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1481107635880</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41434000" />
+    <option name="totallyTimeSpent" value="43613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1300,14 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="63" column="96" selection-start-line="63" selection-start-column="96" selection-end-line="63" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1318,10 +1313,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/classes/LevelClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="744">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding>
             <element signature="e#6#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="68" column="166" selection-start-line="68" selection-start-column="166" selection-end-line="68" selection-end-column="166" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

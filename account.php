@@ -64,7 +64,7 @@ if (!isset($_SESSION['steamid'])) {
                                 <i class="fa fa-university"></i> <?php echo $levelData['level']; ?>
                             </div>
                             <div class="progress progress-striped active">
-                                <div class="bar blue" style="width: 100%;"></div>
+                                <div class="bar blue" style="width: <?php echo $level->getPercentageLevel($_SESSION['steamid']); ?>%;"></div>
                             </div>
                             <p style="text-align:center;margin-top:5px;color:#6F6F6F">(<?php echo $levelData['exp']; ?>/<?php echo $level->getLevelData(); ?> exp)</p>
                         </div>
