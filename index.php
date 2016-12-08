@@ -10,14 +10,14 @@ require ('app/init.php');
 				<div class="col-md-12 grid_box1">
 					<div style="padding:0;background-color: #080505;" class="calender widget-shadow">
 						<?php if(!isset($_SESSION['steamid'])){ ?>
-							<h2 style="color:#008aff" class="title3 text-center">Welcome to CSGOHand V2.0</h2>
+							<h2 style="color:#0072C9" class="title3 text-center">Welcome to CSGOHand V2.0</h2>
 						<?php } else { ?>
-							<h2 style="color:#008aff" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
+							<h2 style="color:#0072C9" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
 						<?php } ?>
 						<?php if(!isset($_SESSION['steamid'])){ ?>
 							<h4 style="color:#fff;text-align:center;padding:0px 150px 0px 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
-                        	in order to provide the greatest CS:GO gambling experience. With a <span style="color:#008aff">never before seen life-like Roulette experience</span>, Live Chat,
-							<span style="color:#008aff">Leveling 0-30 with rewards</span>, Refferals, and a hell of a lot more on the way!  </h4>
+                        	in order to provide the greatest CS:GO gambling experience. With a <span style="color:#0072C9">never before seen life-like Roulette experience</span>, Live Chat,
+							<span style="color:#0072C9">Leveling 0-30 with rewards</span>, Refferals, and a hell of a lot more on the way!  </h4>
 							<br />
 						<?php } ?>
 						<div style="margin-top:0;" class="widget_1 row elements">
