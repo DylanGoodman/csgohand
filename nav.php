@@ -118,6 +118,7 @@
             </ul>
         </div>
         <div class="header-right bounceInRight animated">
+            <?php if(isset($_SESSION['steamid'])){ ?>
             <div class="profile_details_left"><!--notifications of menu start -->
                 <ul class="nofitications-dropdown">
                     <li class="dropdown head-dpdn">
@@ -147,6 +148,7 @@
                 </ul>
                 <div class="clearfix"> </div>
             </div>
+            <?php } ?>
             <!--notification menu end -->
             <div class="profile_details">
                 <ul>
