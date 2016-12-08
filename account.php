@@ -133,7 +133,7 @@ if (!isset($_SESSION['steamid'])) {
                             <p style="text-align: center;font-size:.8em">You don't have 'CSGOHand.com' in your Steam Username!</p>
                         </div>
 						<div style="background-color: #080505;" class="profile-top">
-							<h4>You gain <b>double exp.</b> while you have 'CSGOHand.com' in your Steam username!</h4>
+							<h4>You gain <b>double exp.</b> while you have 'CSGOHand.com' in your Steam Username!</h4>
 						</div>
                     </div>
 				</div>
