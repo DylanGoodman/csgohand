@@ -86,7 +86,7 @@
     <div class="sticky-header header-section ">
         <div class="header-left">
             <!--toggle button start-->
-            <button id="showLeftPush"><img width="48px" class="images/csgoalliance.png" /></button>
+            <button id="showLeftPush"><img height="48px;" width="48px" class="images/csgoalliance.png" /></button>
             <!--toggle button end-->
             <!--logo -->
             <div class="logo">
