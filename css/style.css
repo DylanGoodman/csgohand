@@ -861,6 +861,14 @@ ul.dropdown-menu.drp-mnu li {
 	text-decoration:underline;
 }
 
+.social-icon {
+    color: #02101E;
+}
+
+.social-info {
+    color: #02101E;
+}
+
 .sideNavBottom {
     font-size: .8em;
     bottom:0;
@@ -2760,7 +2768,7 @@ i.fa.fa-facebook.profile-icon {
 	color:#C9AC50;
 }
 .widget_1_box .bg-success {
-    background-color: #FFF;
+    background-color: #02101E;
 }
 .widget_1_box  .bg-danger {
     background-color: rgba(233, 78, 2, 0.88);
