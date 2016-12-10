@@ -91,7 +91,7 @@
             <!--logo -->
             <div class="logo">
                 <a class="hvr-shrink" href="/">
-                    <h1>CSGOHand</h1>
+                    <h1>CSGOAlliance</h1>
                     <span>#1 SKIN PLATFORM</span>
                 </a>
             </div>
