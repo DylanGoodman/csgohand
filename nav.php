@@ -99,13 +99,6 @@
             <ul class="nofitications-dropdown bounceInDown animated">
                 <li class="dropdown head-dpdn">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-users"></i> <b><span id="usersOnline"></span> Online</b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="notification_header">
-                                <h3>Most Online: 17355</h3>
-                            </div>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </div>
