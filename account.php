@@ -129,10 +129,10 @@ if (!isset($_SESSION['steamid'])) {
                                     <button style="float:right" type="submit" class="btn btn-primary">Claim</button>
                                 </form>
                         </div>
-						<div style="background-color: #e4e4e4;padding:5px;" class="profile-btm">
-                            <p style="text-align: center;font-size:.8em">You don't have 'CSGOHand.com' in your Steam Username!</p>
+						<div style="background-color:#bcbcbc;padding:5px;" class="profile-btm">
+                            <p style="color:#011930;text-align: center;font-size:.8em">You don't have 'CSGOHand.com' in your Steam Username!</p>
                         </div>
-						<div style="background-color: #080505;" class="profile-top">
+						<div class="profile-top">
 							<h4>You gain <b>double exp.</b> while you have 'CSGOHand.com' in your Steam Username!</h4>
 						</div>
                     </div>
