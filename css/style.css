@@ -2457,7 +2457,7 @@ h2.title3 {
     text-align: center;
 }
 .profile-level {
-    color: #FFF;
+    color: #C9AC50;
     font-weight: bold;
     font-size: 2em;
     text-align: center;
@@ -2506,7 +2506,6 @@ i.fa.fa-facebook.profile-icon {
     overflow: hidden;
 }
 .profile-btm ul {
-    background-color: #e4e4e4;
 }
 .profile-btm ul li {
     display: inline-block;
@@ -2515,23 +2514,23 @@ i.fa.fa-facebook.profile-icon {
     padding: 1.35em 0;
 }
 .profile-btm ul li:nth-child(2) {
-    border-left: 1px solid #CACACA;
-    border-right: 1px solid #CACACA;
+    border-left: 1px solid #C9AC50;
+    border-right: 1px solid #C9AC50;
 }
 .profile-btm ul li h3 {
     font-size: 1.6em;
-    color: #FFF;
+    color: #C9AC50;
     font-weight: 900;
     margin-bottom: 10px;
 }
 .profile-btm ul li h4 {
     font-size: 1em;
-    color: #FFF;
+    color: #C9AC50;
     font-weight: 900;
 }
 .profile-btm ul li h5 {
     font-size: 0.8em;
-    color: #6F6F6F;
+    color: #bcbcbc;
     margin-top: 0.3em;
 }
 /*--//profile--*/
