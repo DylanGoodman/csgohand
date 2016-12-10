@@ -781,6 +781,11 @@ ul.dropdown-menu {
 .dropdown-menu > li > a {
     padding: 3px 15px;
 	font-size: 1em;
+    color: #011930 !important;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:active {
+    color: #02101E !important;
 }
 .profile_details {
     float: right;
@@ -3451,13 +3456,6 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 }
 ul.dropdown-menu.drp-mnu li {
     padding: 6px 0;
-}
-.dropdown-menu > li > a {
-    color: #011930 !important;
-}
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:active {
-    color: #02101E !important;
 }
 .profile_details li a i.fa.lnr {
     top: 14%;
