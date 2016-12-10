@@ -87,7 +87,7 @@ button#showLeftPush {
 	border: none;
     background-color: transparent;
 	outline:none;
-    z-index: 9000;
+    z-index: 1232325;
 }
 button#showLeftPush:hover {
     color: #fff;
@@ -103,6 +103,7 @@ button#showLeftPush:hover {
     z-index: 1232323;
     background-image: url(../images/elegant-grid.png);
     background-color:#011930;
+    border-right: 1px solid #C9AC50;
 	padding: 2em 0;
 }
 .cbp-spmenu-left {
@@ -232,7 +233,7 @@ ul.dropdown-menu{
     background: transparent;
     text-align: center;
     float: left;
-    z-index: 9000;
+    z-index: 1232325;
 }
 .logo a{
     padding: 0.9em 3.3em .7em;
