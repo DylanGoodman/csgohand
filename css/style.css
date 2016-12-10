@@ -91,7 +91,7 @@ button#showLeftPush {
     z-index: 1232325;
 }
 button#showLeftPush:hover {
-    color: #fff;
+    color: #C9AC50;
 }
 /*--push-menu-css--*/
 .cbp-spmenu {
@@ -153,7 +153,7 @@ button#showLeftPush:hover {
 	 margin-bottom: 1em;
 }
 .sidebar ul li a {
-    color: #fff;
+    color: #C9AC50;
     font-size: 1em;
 }
 .sidebar ul li a#coming {
@@ -183,7 +183,7 @@ i.nav_icon {
 }
 span.nav-badge {
     font-size: 12px;
-    color: #FFFFFF;
+    color: #C9AC50C9AC50;
     background: rgba(255, 255, 255, 0.32);
     width: 25px;
     height: 25px;
@@ -263,7 +263,7 @@ ul.dropdown-menu{
 }
 .sb-search-input {
     outline: none;
-    background: #fff;
+    background: #C9AC50;
     width: 100%;
     margin: 0;
     z-index: 10;
@@ -416,7 +416,7 @@ ul.dropdown-menu li {
     margin-left: 0;
     width: 100%;
     padding: 0;
-	background: #fff;
+	background: #C9AC50;
 }
 .user-panel-top ul{
 	padding-left:0;
@@ -429,7 +429,7 @@ ul.dropdown-menu li {
 .user-panel-top li span.digit{
     font-size:11px;
     font-weight:bold;
-	color:#FFF;
+	color:#C9AC50;
 	background:#e64c65;
 	line-height:20px;
 	width:20px;
@@ -483,7 +483,7 @@ i.fa.fa-tasks{
 }
 .user-panel-top li a i span{
 	font-size:15px;
-	color:#FFF;
+	color:#C9AC50;
 }
 .user-panel-top li a.user{
 	background:#667686;
@@ -569,7 +569,7 @@ i.fa.fa-tasks{
 .header-right span.badge {
     font-size: 11px;
     font-weight: bold;
-    color: #FFF;
+    color: #C9AC50;
     background: #8BC34A;
     line-height: 15px;
     width: 20px;
@@ -621,7 +621,7 @@ i.icon_4{
   height: 45px;
   background: #F44336;
   float: left;
-  color: #fff;
+  color: #C9AC50;
   text-align: center;
   font-size: 1.5em;
   line-height: 44px;
@@ -839,7 +839,7 @@ ul.dropdown-menu.drp-mnu li {
 }
 /*---footer---*/
 .footer {
-    background: #fff;
+    background: #C9AC50;
     padding: .8em;
     width: 100%;
     text-align:center;
@@ -940,24 +940,24 @@ ul.dropdown-menu.drp-mnu li {
     z-index: 1252323;
 }
 .stats-left h6 {
-    color: #fff;
+    color: #C9AC50;
     font-size: .7em;
 }
 .stats-left h4 {
     font-size: 1.5em;
-    color: #fff;
+    color: #C9AC50;
     margin-top: 10px;
 }
 .stats-right label {
     font-size: 2em;
-    color: #fff;
+    color: #C9AC50;
 }
 /*--charts--*/
 .charts,.row {
     margin: 2em 0 0;
 }
 .charts-grids {
-    background-color: #fff;
+    background-color: #C9AC50;
     padding:1em;
 }
 .charts-grids canvas#bar {
@@ -974,7 +974,7 @@ h4.title {
 }
 /*--//charts--*/
 .widget-shadow {
-    background-color: #fff;
+    background-color: #C9AC50;
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-webkit-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-moz-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
@@ -982,7 +982,7 @@ h4.title {
 /*--statistics--*/
 .stats-info.widget {
     padding: 1em;
-    background-color: #fff;
+    background-color: #C9AC50;
 }
 .stats-info ul li {
     margin-bottom: 1em;
@@ -1059,7 +1059,7 @@ h4.title {
 }
 .facebook {
   background-color:#3b5998 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .icon-xlg {
     font-size: 30px;
@@ -1073,49 +1073,49 @@ h4.title {
 .wid-social .social-info h4 {
     margin: 0;
     font-size: 0.8em;
-    color: #fff;
+    color: #C9AC50;
     letter-spacing: 1px;
 }
 .twitter {
   background-color:#55acee !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .google-plus {
   background-color: #dc4e41 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .dribbble {
   background-color:#ea4c89 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .xing {
   background-color: #cfdc00 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .vimeo {
   background-color: #C9AC50 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .gold2 {
   background-color: #0072C9 !important;
-  color: #FFF !important;
+  color: #C9AC50 !important;
 }
 .yahoo {
   background-color: #410093 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .flickr {
   background-color: #a4c639 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .rss {
   background-color: #f26522 !important;
-  color: #ffffff !important;
+  color: #C9AC50C9AC50 !important;
 }
 .wid-social.youtube {
     width: 100%;
 	background-color: #cd201f !important;
-	color: #ffffff !important;
+	color: #C9AC50C9AC50 !important;
 }
 .wid-social.youtube .icon-xlg {
     font-size: 38px;
@@ -1154,7 +1154,7 @@ h3.title1 {
     margin-bottom: 0.8em;
 }
 .bs-example5{
-   background:#fff;
+   background:#C9AC50;
    padding:2em;
 }
 .media-heading {
@@ -1202,7 +1202,7 @@ code {
 }
 .media_1-left {
     padding: 0;
-    background-color: #fff;
+    background-color: #C9AC50;
     width: 49%;
 }
 .media_1-right {
@@ -1230,7 +1230,7 @@ code {
 }
 .panel_2{
 	padding:2em 2em 0;
-	background:#fff;
+	background:#C9AC50;
 }
 .panel_2 p{
 	color:#555;
@@ -1246,7 +1246,7 @@ h3.hdg {
     font-size: 2em;
 }
 .show-grid [class^=col-] {
-    background: #fff;
+    background: #C9AC50;
   text-align: center;
   margin-bottom: 10px;
   line-height: 2em;
@@ -1283,7 +1283,7 @@ h3.hdg {
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
   z-index: 0;
-    color: #fff;
+    color: #C9AC50;
     cursor: default;
     background-color: #0072C9;
     border:none;
@@ -1442,7 +1442,7 @@ section#tables  p {
 }
 .forms button.btn.btn-default {
     background-color: rgba(97, 100, 193, 0.85);
-    color: #fff;
+    color: #C9AC50;
     padding: .5em 1.5em;
 	border: none;
 	outline:none;
@@ -1452,52 +1452,52 @@ section#tables  p {
     outline:0 !important;
 }
 .btn-default {
-    background-color: #fff;
+    background-color: #C9AC50;
     border-color: #C9AC50;
     color: #C9AC50;
 }
 .btn-default:hover, .btn-default:focus {
     background-color: #C9AC50;
-    border-color: #fff;
-    color: #fff;
+    border-color: #C9AC50;
+    color: #C9AC50;
 }
 .btn-r-green {
     background-color: #55AA55;
     border: none;
-    color: #fff;
+    color: #C9AC50;
 }
 .btn-r-green:hover, .btn-r-green:focus {
-    background-color: #fff;
+    background-color: #C9AC50;
     border: none;
     color: #55AA55;
 }
 .btn-r-blk {
     background-color: #C9AC50;
     border: none;
-    color: #fff;
+    color: #C9AC50;
 }
 .btn-r-blk:hover, .btn-r-blk:focus {
-    background-color: #fff;
+    background-color: #C9AC50;
     border: none;
     color: #C9AC50;
 }
 .btn-r-blk2 {
-    background-color: #fff;
+    background-color: #C9AC50;
     border: none;
     color: #C9AC50;
 }
 .btn-r-blk2:hover, .btn-r-blk2:focus {
     background-color: #C9AC50;
     border: none;
-    color: #fff;
+    color: #C9AC50;
 }
 .btn-r-red {
     background-color: #A43741;
     border: none;
-    color: #fff;
+    color: #C9AC50;
 }
 .btn-r-red:hover, .btn-r-red:focus {
-    background-color: #fff;
+    background-color: #C9AC50;
     border: none;
     color: #A43741;
 }
@@ -1514,12 +1514,12 @@ section#tables  p {
 	color:#C9AC50;
 }
 .btn-black:hover {
-	color:#fff;
+	color:#C9AC50;
 	background:#000;
 }
 .btn-black {
     background-color: #C9AC50;
-    color: #fff;
+    color: #C9AC50;
     padding: .5em 1.5em;
 	border: none;
 	outline:none;
@@ -1552,7 +1552,7 @@ section#tables  p {
   border: none;
   padding: 5px 8px;
   color: #C9AC50;
-  background: #fff;
+  background: #C9AC50;
   box-shadow: none !important;
   width: 100%;
   font-size: 1em;
@@ -1591,7 +1591,7 @@ textarea:focus, input:focus{
 	margin:0 0 1em 0;
 }
 .btn-warning {
-  color: #fff;
+  color: #C9AC50;
   background-color:rgb(6, 217, 149);
   border-color:rgb(6, 217, 149);
   padding:8.5px 12px;
@@ -1614,7 +1614,7 @@ textarea:focus, input:focus{
   height:200px;
 }
 .bs-example4 {
-  background: #fff;
+  background: #C9AC50;
   padding: 2em;
 }
 button.note-color-btn {
@@ -1624,7 +1624,7 @@ button.note-color-btn {
 }
 
 .show-grid [class^=col-] {
-  background: #fff;
+  background: #C9AC50;
   text-align: center;
   margin-bottom: 10px;
   line-height: 2em;
@@ -1679,7 +1679,7 @@ button.note-color-btn {
 }
 .validation-grids .btn-primary{
     background: #6164C1 !important;
-    color: #FFF;
+    color: #C9AC50;
     border: none;
     font-size: 0.9em;
     font-weight: 400;
@@ -1765,14 +1765,14 @@ button.note-color-btn {
     color: #A8A8A8;
     outline: none;
     border: 1px solid #D3D3D3;
-    background: #FFFFFF;
+    background: #C9AC50C9AC50;
     margin: 0em 0em 1.5em 0em;
 }
 .login-page input.user {
-    background: url(../images/user.png)no-repeat 8px 10px #fff;
+    background: url(../images/user.png)no-repeat 8px 10px #C9AC50;
 }
 .login-page input.lock {
-    background: url(../images/lock.png)no-repeat 8px 10px #fff;
+    background: url(../images/lock.png)no-repeat 8px 10px #C9AC50;
 }
 .login-page label.checkbox {
     margin: 0 0 0 1.3em;
@@ -1811,7 +1811,7 @@ button.note-color-btn {
     border: none;
     outline: none;
     cursor: pointer;
-    color: #fff;
+    color: #C9AC50;
     background: #6164C1;
     width: 100%;
     padding: .5em 1em;
@@ -1834,7 +1834,7 @@ button.note-color-btn {
     -o-transition: all 0.5s ease-out;
 }
 .social-btn i {
-    color: #fff;
+    color: #C9AC50;
     padding: .8em 1.3em;
     font-size: 0.9em;
 	vertical-align: middle;
@@ -1942,13 +1942,13 @@ p.creating {
     padding-left: 8px;
 }
 .sub-login-right p a:hover{
-	color:#fff;
+	color:#C9AC50;
 }
 .sub_home  input[type="submit"] {
     border: none;
     outline: none;
     cursor: pointer;
-    color: #fff;
+    color: #C9AC50;
     background: #6164C1;
     width: 23%;
     padding: .5em 1em;
@@ -1975,7 +1975,7 @@ p.creating {
     box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-webkit-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	-moz-box-shadow: 0 -1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
-    background-color: #fff;
+    background-color: #C9AC50;
 }
 .chrt-page-grids.chrt-right {
     margin-left: 2%;
@@ -2023,7 +2023,7 @@ h4.modal-title {
 .modal-grids button.btn.btn-primary {
     background-color: #e94e02;
     font-size: 1em;
-    color: #fff;
+    color: #C9AC50;
 	border-color: #e94e02;
 	outline:none;
 	border-radius: 3px;
@@ -2179,7 +2179,7 @@ h4.modal-title {
     left: 0;
     width: 1.1rem;
     height: 1.1rem;
-    background: #fff;
+    background: #C9AC50;
     cursor: pointer;
 }
 .inbox-page .checkbox:checked:before {
@@ -2269,7 +2269,7 @@ h4.modal-title {
     padding: 3px 10px;
     font-size: .7em;
     border-radius: 4px;
-    color: #fff;
+    color: #C9AC50;
 }
 .chat-left {
     position: relative;
@@ -2287,7 +2287,7 @@ h4.modal-title {
     width: 12px;
     height: 12px;
     padding: 0;
-    border: 2px solid #fff!important;
+    border: 2px solid #C9AC50!important;
     border-radius: 20px;
     background-color: red;
 }
@@ -2352,7 +2352,7 @@ h4.modal-title {
     font-size: 0.9em;
     background-color: #6164C1;
     border: 1px solid #29526D;
-    color: #fff;
+    color: #C9AC50;
     padding: 0.4em 1em;
     margin-top: 1em;
 }
@@ -2374,7 +2374,7 @@ h4.modal-title {
 }
 .profile-top h4 {
     font-size: 1.1em;
-    color: #fff;
+    color: #C9AC50;
     margin: .5em 0;
 }
 .profile-text h5 {
@@ -2392,13 +2392,13 @@ h4.modal-title {
 }
 .btn-primary {
     color: #0072C9;
-    background-color: #fff;
+    background-color: #C9AC50;
     border-color: #0072C9;
 }
 .btn-primary:hover, btn-primary:focus {
-    color: #fff;
+    color: #C9AC50;
     background-color: #0072C9;
-    border-color: #fff;
+    border-color: #C9AC50;
 }
 .tdGreen {
     color: #55AA55;
@@ -2412,12 +2412,12 @@ h4.modal-title {
 h4.title3 {
     padding: 1em;
     background-color: #C9AC50;
-    color: #fff;
+    color: #C9AC50;
 }
 h2.title3 {
     padding: 1em;
     background-color: #C9AC50;
-    color: #fff;
+    color: #C9AC50;
 }
 .profile .title3 {
     text-align: center;
@@ -2519,7 +2519,7 @@ i.fa.fa-facebook.profile-icon {
 }
 .scrollbar {
     height: 462px;
-    background: #fff;
+    background: #C9AC50;
     overflow-y: scroll;
     padding:2em 1em 0;
 }
@@ -2644,12 +2644,12 @@ i.fa.fa-facebook.profile-icon {
 .header-top h2 {
     float: left;
     margin: .1em 0 0 .5em;
-    color: #FFFFFF;
+    color: #C9AC50C9AC50;
     font-size: 1.3em;
 }
 .header-top ul {
     float: right;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #C9AC50C9AC50;
     border-radius: 5px;
 }
 .header-top li{
@@ -2657,12 +2657,12 @@ i.fa.fa-facebook.profile-icon {
 	float: left;
 }
 .header-top li p{
-	color:#fff;
+	color:#C9AC50;
 	font-size: 1em;
 	padding: 4px 6px;
 }
 .header-top li p.cen {
-    background: #FFFFFF;
+    background: #C9AC50C9AC50;
     color: #6164C1;
     border-radius: 0 3px 3px 0;
 }
@@ -2717,7 +2717,7 @@ i.fa.fa-facebook.profile-icon {
 }
 .weather-grids.weather-right h3 {
     font-size: 1.2em;
-    color: #fff;
+    color: #C9AC50;
     text-align: left;
 }
 .circle-charts {
@@ -2766,7 +2766,7 @@ i.fa.fa-facebook.profile-icon {
     background-color: rgba(233, 78, 2, 0.88);
 }
 .tile-progress h4 {
-    color: #fff;
+    color: #C9AC50;
     font-size: 1.2em;
 }
 .tile-progress span {
