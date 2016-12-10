@@ -3254,7 +3254,6 @@ li.dropdown.head-dpdn a.dropdown-toggle {
     min-width: 163px;
 }
 button#showLeftPush {
-    width: 65px;
 }
 .cbp-spmenu-vertical {
     padding: 1.5em 0;
@@ -3874,7 +3873,6 @@ h3.title1 {
 	font-size: .5em;
 }
 button#showLeftPush {
-    width: 51px;
 }
 i.fa.fa-bars {
     font-size: 0.8em;
