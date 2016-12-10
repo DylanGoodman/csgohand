@@ -2449,7 +2449,8 @@ h4.modal-title {
     background-color: #C9AC50;
     border: none;
 }
-.btn-primary:hover, btn-primary:focus {
+.btn-primary:hover, .btn-primary:focus {
+    color: #02101E;
     background-color: #bcbcbc;
 }
 .tdGreen {
