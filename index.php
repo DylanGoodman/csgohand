@@ -27,7 +27,7 @@ require ('app/init.php');
 									<i class="fa fa-star text-light icon-xlg "></i>
 								</div>
 								<div class="social-info">
-									<h3 class="number_counter bold count text-light start_timer counted">2,400,000</h3>
+									<h3 style="color:#02101E" class="number_counter bold count text-light start_timer counted">2,400,000</h3>
 									<h4 class="counttype text-light">Won today</h4>
 								</div>
 								<a href="boxes"><div style="margin-top:10px;" class="tile-progress bg-success">
@@ -44,7 +44,7 @@ require ('app/init.php');
 									<i class="fa fa-user text-light icon-xlg "></i>
 								</div>
 								<div class="social-info">
-									<h3 class="number_counter bold count text-light start_timer counted">6,100+</h3>
+									<h3 style="color:#02101E" class="number_counter bold count text-light start_timer counted">6,100+</h3>
 									<h4 class="counttype text-light">Users</h4>
 								</div>
 								<div style="margin-top:10px;" class="tile-progress bg-success">
@@ -61,7 +61,7 @@ require ('app/init.php');
 									<i class="fa fa-star text-light icon-xlg "></i>
 								</div>
 								<div class="social-info">
-									<h3 class="number_counter bold count text-light start_timer counted">74,145,000</h3>
+									<h3 style="color:#02101E" class="number_counter bold count text-light start_timer counted">74,145,000</h3>
 									<h4 class="counttype text-light">Won all time</h4>
 								</div>
 								<a href="roulette"><div style="margin-top:10px;" class="tile-progress bg-success">
