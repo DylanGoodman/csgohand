@@ -8,7 +8,7 @@ html, body{
   	font-family: 'Play', sans-serif;
     font-size: 100%;
   	overflow-x: hidden;
-	background: #EDEDED;
+	background: #02101E;
 }
 a {
 	color:#C9AC50;
@@ -51,7 +51,7 @@ body a:hover{
 }
 .header-section {
     background-image: url(../images/elegant-grid.png);
-    background-color:#02101E;
+    background-color:#011930;
     color: #C9AC50;
     border-bottom: 1px solid #C9AC50;
     box-shadow: 0 4px 1px 1px #C9AC50;
@@ -102,7 +102,7 @@ button#showLeftPush:hover {
     top: 76px;
     z-index: 1232323;
     background-image: url(../images/elegant-grid.png);
-    background-color:#02101E;
+    background-color:#011930;
 	padding: 2em 0;
 }
 .cbp-spmenu-left {
