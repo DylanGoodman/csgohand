@@ -19,7 +19,7 @@ require ('app/init.php');
 						<b>Leveling 0-30 with rewards</b>, Refferals, and a hell of a lot more on the way!  </h4>
 						<br />
 					<?php } ?>
-					<div class="calender widget-shadow">
+					<div style="pading:0;" class="calender widget-shadow">
 						<div style="margin-top:0;" class="widget_1 row elements">
 							<div class="col-sm-4 widget_1_box">
 								<div style="width:100%;padding:7px;" class="widget_1_box wid-social vimeo">
