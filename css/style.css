@@ -153,11 +153,11 @@ button#showLeftPush:hover {
 	 margin-bottom: 1em;
 }
 .sidebar ul li a {
-    color: #C9AC50;
+    color: #bcbcbc;
     font-size: 1em;
 }
 .sidebar ul li a#coming {
-    color: #7A7676;
+    color: #bcbcbc;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -448,7 +448,7 @@ ul.dropdown-menu li {
 	margin-left:0;
 }
 .sidebar .nav-second-level li a.active ,.sidebar ul li a.active{
-    color: #FFF;
+    color: #C9AC50;
 }
 li.active a i, .act a i {
     color: #FFF;
