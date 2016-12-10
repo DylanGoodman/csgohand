@@ -9,9 +9,9 @@ require ('app/init.php');
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-12 grid_box1">
 					<?php if(!isset($_SESSION['steamid'])){ ?>
-						<h2 style="color:#02101E;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome to CSGOHand V2.0</h2>
+						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome to CSGOHand V2.0</h2>
 					<?php } else { ?>
-						<h2 style="color:#02101E;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
+						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
 					<?php } ?>
 					<div class="calender widget-shadow">
 						<?php if(!isset($_SESSION['steamid'])){ ?>
