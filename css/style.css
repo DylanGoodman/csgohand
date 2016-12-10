@@ -3452,13 +3452,13 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 ul.dropdown-menu.drp-mnu li {
     padding: 6px 0;
 }
-.profile_details .dropdown-menu > li > a {
+.dropdown-menu > li > a {
     padding: 0;
     font-size: 0.9em;
     color: #011930;
 }
-.profile_details .dropdown-menu > li > a:hover,
-.profile_details .dropdown-menu > li > a:active {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:active {
     color: #02101E;
 }
 .profile_details li a i.fa.lnr {
