@@ -52,6 +52,7 @@ body a:hover{
 .header-section {
     background-image: url(../images/elegant-grid.png);
     background-color:#011930;
+    z-index: 1232325;
     color: #C9AC50;
     border-bottom: 1px solid #C9AC50;
     box-shadow: 0 4px 1px 1px #C9AC50;
