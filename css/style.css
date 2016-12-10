@@ -2398,7 +2398,6 @@ h4.modal-title {
 	width: 32%;
 }
 .profile-top {
-    background-color: #FFF;
     text-align: center;
 	padding: 1.5em;
 }
@@ -2414,6 +2413,7 @@ h4.modal-title {
 .profile-text h5 {
     font-size: .8em;
     margin-top: 4.5px;
+    color: #bcbcbc;
 }
 .profile-top h5 {
     color: rgba(255, 255, 255, 0.69);
