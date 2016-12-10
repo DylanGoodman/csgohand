@@ -75,8 +75,12 @@ body a:hover{
 }
 /* ----menu-icon----*/
 button#showLeftPush {
-    font-size: 1.5em;
-    width: 80px;
+    width: 48px;
+    height: 66px;
+    margin-left: 35px;
+    background-image: url("../images/csgoalliance.png");
+    background-size: auto;
+    margin-top: 4px;
     padding: 0.87em 0;
     text-align: center;
     cursor: pointer;
@@ -85,9 +89,9 @@ button#showLeftPush {
     -moz-transition: all 0.2s ease-out 0s;
     -webkit-transition: all 0.2s ease-out 0s;
     transition: all 0.2s ease-out 0s;
-	border: none;
+    border: none;
     background-color: transparent;
-	outline:none;
+    outline: none;
     z-index: 1232325;
 }
 button#showLeftPush:hover {
@@ -237,7 +241,7 @@ ul.dropdown-menu{
     z-index: 1232325;
 }
 .logo a{
-    padding: 0.9em 3.3em .7em;
+    padding: 0.9em 1.8em .7em;
 	display: block;
 	text-decoration: none;
 }
