@@ -850,7 +850,7 @@ ul.dropdown-menu.drp-mnu li {
 	-o-box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.21);
 }
 .footer  p {
-	color: #7A7676;
+	color: #bcbcbc;
     font-size: 1em;
 	line-height: 1.6em;
 }
@@ -871,7 +871,7 @@ ul.dropdown-menu.drp-mnu li {
 }
 
 .sideNavBottom p a {
-    color:#7A7676;
+    color:#bcbcbc;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -883,7 +883,7 @@ ul.dropdown-menu.drp-mnu li {
 }
 
 .sideNavBottom p a:hover {
-    color: #7D620D;
+    color: #C9AC50;
 }
 /*---//footer---*/
 /*---main-content-start---*/
