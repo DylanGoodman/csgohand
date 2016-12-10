@@ -2573,7 +2573,7 @@ color:#C9AC50;
 
 .modal-content {
     position: relative;
-	background-image: url("../img/elegant-grid.png");
+	background-image: url("../images/elegant-grid.png");
     background-color: #011930;
     border: 1px solid #C9AC50;
     border-radius: 6px;
@@ -2593,7 +2593,7 @@ color:#C9AC50;
 }
 
 .form-group label {
-    color:#C9AC50; 
+    color:#C9AC50;
 }
 
 /*--chat--*/
