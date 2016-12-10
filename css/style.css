@@ -833,9 +833,12 @@ ul.dropdown-menu.drp-mnu li {
 .user-name span {
     font-size: .75em;
     font-style: italic;
-    color: #424f63;
+    color: #bcbcbc;
     font-weight: normal;
     margin-top: .3em;
+}
+.dropdown a {
+    color: #bcbcbc;
 }
 /*---footer---*/
 .footer {
