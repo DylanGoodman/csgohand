@@ -50,6 +50,7 @@ body a:hover{
     z-index: 100;
 }
 .header-section {
+    background-image: url(../img/elegant-grid.png);
     background:#011930;
     color: #C9AC50;
     border-bottom: 1px solid #C9AC50;
@@ -100,6 +101,7 @@ button#showLeftPush:hover {
     height: 100%;
     top: 76px;
     z-index: 1232323;
+    background-image: url(../img/elegant-grid.png);
     background-color:#02101E;
 	padding: 2em 0;
 }
