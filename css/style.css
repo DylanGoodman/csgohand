@@ -11,7 +11,7 @@ html, body{
 	background: #EDEDED;
 }
 a {
-	color:#080505;
+	color:#C9AC50;
 }
 a:hover {
 	color:#0072C9;
@@ -240,13 +240,13 @@ ul.dropdown-menu{
 	text-decoration: none;
 }
 .logo a h1 {
-    color: #080505;
+    color: #C9AC50;
     font-size: 1.5em;
     line-height: 1.2em;
     font-weight: 700;
 }
 .logo a span {
-    color: #080505;
+    color: #C9AC50;
     font-size: .7em;
     text-align: center;
     letter-spacing: 1px;
@@ -402,7 +402,6 @@ a:focus {
 li.dropdown.head-dpdn {
     display: inline-block;
     padding: 1.7em 0;
-    border-left: 1px solid #C9AC50;
 	float: left;
 }
 li.dropdown.head-dpdn:nth-child(3) {
@@ -686,7 +685,7 @@ i.icon_6{
 	background:#5cb85c;
 }
 .progress-striped .black{
-	background:#080505;
+	background:#C9AC50;
 }
 .progress-striped .light-blue{
 	background:#29526D;
@@ -924,12 +923,12 @@ ul.dropdown-menu.drp-mnu li {
     text-align: center;
 }
 .modal-item .stats-left h6 {
-    color: #080505;
+    color: #C9AC50;
     font-size: .7em;
 }
 .modal-item .stats-left h4 {
     font-size: 2em;
-    color: #080505;
+    color: #C9AC50;
     margin-top: 10px;
 }
 .modal {
@@ -967,7 +966,7 @@ ul.dropdown-menu.drp-mnu li {
 }
 h4.title {
     font-size: 1.1em;
-    color: #080505;
+    color: #C9AC50;
     margin: 0.5em 0 1em;
     text-transform: uppercase;
 }
@@ -1092,7 +1091,7 @@ h4.title {
   color: #ffffff !important;
 }
 .vimeo {
-  background-color: #080505 !important;
+  background-color: #C9AC50 !important;
   color: #ffffff !important;
 }
 .gold2 {
@@ -1157,7 +1156,7 @@ h3.title1 {
    padding:2em;
 }
 .media-heading {
-  color: #080505;
+  color: #C9AC50;
 }
 .sidebard-panel .feed-element, .media-body, .sidebard-panel p {
   font-size:0.85em;
@@ -1197,7 +1196,7 @@ h3.title1 {
 code {
   background:rgb(246, 255, 252);
   padding: 2px 2px;
-  color: #080505;
+  color: #C9AC50;
 }
 .media_1-left {
     padding: 0;
@@ -1237,7 +1236,7 @@ code {
 	margin-bottom:1em;
 }
 td.head {
-  color: #080505 !important;
+  color: #C9AC50 !important;
   font-size: 1.2em !important;
 }
 /*--Typography--*/
@@ -1255,7 +1254,7 @@ h3.hdg {
   background: #F1F1F1;
 }
 .xs h3, h3.m_1{
-	color:#080505;
+	color:#C9AC50;
 	font-size:1.7em;
 	font-weight:300;
 	margin-bottom: 1em;
@@ -1452,11 +1451,11 @@ section#tables  p {
 }
 .btn-default {
     background-color: #fff;
-    border-color: #080505;
-    color: #080505;
+    border-color: #C9AC50;
+    color: #C9AC50;
 }
 .btn-default:hover, .btn-default:focus {
-    background-color: #080505;
+    background-color: #C9AC50;
     border-color: #fff;
     color: #fff;
 }
@@ -1471,22 +1470,22 @@ section#tables  p {
     color: #55AA55;
 }
 .btn-r-blk {
-    background-color: #080505;
+    background-color: #C9AC50;
     border: none;
     color: #fff;
 }
 .btn-r-blk:hover, .btn-r-blk:focus {
     background-color: #fff;
     border: none;
-    color: #080505;
+    color: #C9AC50;
 }
 .btn-r-blk2 {
     background-color: #fff;
     border: none;
-    color: #080505;
+    color: #C9AC50;
 }
 .btn-r-blk2:hover, .btn-r-blk2:focus {
-    background-color: #080505;
+    background-color: #C9AC50;
     border: none;
     color: #fff;
 }
@@ -1502,7 +1501,7 @@ section#tables  p {
 }
 .btn-green {
     background-color: #55AA55;
-    color: #080505;
+    color: #C9AC50;
     padding: .5em 1.5em;
 	border: none;
 	outline:none;
@@ -1510,14 +1509,14 @@ section#tables  p {
 }
 .btn-green:hover {
     background-color: #0F640F;
-	color:#080505;
+	color:#C9AC50;
 }
 .btn-black:hover {
 	color:#fff;
 	background:#000;
 }
 .btn-black {
-    background-color: #080505;
+    background-color: #C9AC50;
     color: #fff;
     padding: .5em 1.5em;
 	border: none;
@@ -1526,7 +1525,7 @@ section#tables  p {
 }
 .btn-danger {
     background-color: #A43741;
-    color: #080505;
+    color: #C9AC50;
     padding: .5em 1.5em;
 	border: none;
 	outline:none;
@@ -1534,7 +1533,7 @@ section#tables  p {
 }
 .btn-danger:hover {
 	background-color: #7B151F;
-	color: #080505;
+	color: #C9AC50;
 }
 .inline-form.widget-shadow {
     margin-top: 2em;
@@ -1550,7 +1549,7 @@ section#tables  p {
 .form-control1, .form-control_2.input-sm{
   border: none;
   padding: 5px 8px;
-  color: #080505;
+  color: #C9AC50;
   background: #fff;
   box-shadow: none !important;
   width: 100%;
@@ -1563,22 +1562,22 @@ section#tables  p {
   resize: none;
 }
 .form-control1[placeholder], [placeholder], *[placeholder] {
-    color: #080505 !important;
+    color: #C9AC50 !important;
 }
 ::-webkit-input-placeholder {
-    color: #080505 !important;
+    color: #C9AC50 !important;
 }
 
 ::-moz-placeholder {
-    color: #080505 !important;
+    color: #C9AC50 !important;
 }
 
 ::-ms-placeholder {
-    color: #080505 !important;
+    color: #C9AC50 !important;
 }
 
 ::placeholder {
-    color: #080505 !important;
+    color: #C9AC50 !important;
 }
 textarea:focus, input:focus{
     outline: none;
@@ -1633,7 +1632,7 @@ button.note-color-btn {
   background: #F1F1F1;
 }
 .xs h3, .widget_head{
-	color:#080505;
+	color:#C9AC50;
 	font-size:1.7em;
 	font-weight:300;
 	margin-bottom: 1em;
@@ -2126,7 +2125,7 @@ h4.modal-title {
 }
 .inbox-page p {
     font-size: 1em;
-    color: #080505;
+    color: #C9AC50;
     line-height: 2em;
 }
 .inbox-page h6 {
@@ -2248,7 +2247,7 @@ h4.modal-title {
 .compose-left ul li.head {
     padding: 0.5em 1.5em;
     border-bottom: 1px solid #DCDCDC;
-    color: #080505;
+    color: #C9AC50;
     font-size: 1.2em;
     background-color: #F5F5F5;
 }
@@ -2298,7 +2297,7 @@ h4.modal-title {
 }
 .chat-right p {
     font-size: 1em;
-    color: #080505;
+    color: #C9AC50;
 	line-height: 1.2em;
 }
 .chat-right h6 {
@@ -2410,12 +2409,12 @@ h4.modal-title {
 }
 h4.title3 {
     padding: 1em;
-    background-color: #080505;
+    background-color: #C9AC50;
     color: #fff;
 }
 h2.title3 {
     padding: 1em;
-    background-color: #080505;
+    background-color: #C9AC50;
     color: #fff;
 }
 .profile .title3 {
@@ -2698,7 +2697,7 @@ i.fa.fa-facebook.profile-icon {
     margin-bottom: 1em;
 }
 .header-head h6 {
-    color: #080505;
+    color: #C9AC50;
     font-size: 1.5em;
     font-weight: bold;
     margin: 0.5em 0;
@@ -2752,11 +2751,11 @@ i.fa.fa-facebook.profile-icon {
 }
 .widget_1_box .bg-green {
     background-color: #55AA55;
-	color:#080505;
+	color:#C9AC50;
 }
 .widget_1_box .bg-red {
     background-color: #A43741;
-	color:#080505;
+	color:#C9AC50;
 }
 .widget_1_box .bg-success {
     background-color: #0072C9;
