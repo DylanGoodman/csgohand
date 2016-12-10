@@ -664,7 +664,8 @@ i.icon_6{
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #F1F1F1;
+    background-image: url(../images/elegant-grid.png);
+    background-color: #011930;
 }
 .task-info .percentage{
 	float:right;
