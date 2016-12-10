@@ -819,7 +819,6 @@ ul.dropdown-menu {
     font-size: 1.6em;
 }
 .profile_details ul li ul.dropdown-menu.drp-mnu {
-    padding: 1em;
     min-width: 190px;
     top: 130%;
     left: 10%;
@@ -3456,6 +3455,11 @@ ul.dropdown-menu.drp-mnu li {
 .profile_details .dropdown-menu > li > a {
     padding: 0;
     font-size: 0.9em;
+    color: #011930;
+}
+.profile_details .dropdown-menu > li > a:hover,
+.profile_details .dropdown-menu > li > a:active {
+    color: #02101E;
 }
 .profile_details li a i.fa.lnr {
     top: 14%;
