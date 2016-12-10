@@ -1599,7 +1599,7 @@ section#tables  p {
 /* --  general forms  -- */
 .form-control:focus {
   border-color: #C9AC50;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  box-shadow: 0 1px 1px rgba(201, 172, 80, 0.075) inset, 0 0 8px rgba(201, 172, 80, 0.6);
   outline: 0 none;
 }
 .form-control1, .form-control_2.input-sm{
