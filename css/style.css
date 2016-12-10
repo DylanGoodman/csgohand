@@ -1600,7 +1600,7 @@ section#tables  p {
 .form-control1, .form-control_2.input-sm{
   border: none;
   padding: 5px 8px;
-  color: #C9AC50;
+  color: #02101E;
   background: #C9AC50;
   box-shadow: none !important;
   width: 100%;
@@ -1613,22 +1613,22 @@ section#tables  p {
   resize: none;
 }
 .form-control1[placeholder], [placeholder], *[placeholder] {
-    color: #C9AC50 !important;
+    color: #02101E !important;
 }
 ::-webkit-input-placeholder {
-    color: #C9AC50 !important;
+    color: #02101E !important;
 }
 
 ::-moz-placeholder {
-    color: #C9AC50 !important;
+    color: #02101E !important;
 }
 
 ::-ms-placeholder {
-    color: #C9AC50 !important;
+    color: #02101E !important;
 }
 
 ::placeholder {
-    color: #C9AC50 !important;
+    color: #02101E !important;
 }
 textarea:focus, input:focus{
     outline: none;
