@@ -14,7 +14,7 @@ require ('app/init.php');
 						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
 					<?php } ?>
 					<?php if(!isset($_SESSION['steamid'])){ ?>
-						<h4 style="color:#fff;text-align:center;padding:0px 150px 0px 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
+						<h4 style="color:#bcbcbc;text-align:center;padding:0px 150px 1em 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
 						in order to provide the greatest CS:GO gambling experience. With a <b>never before seen life-like Roulette experience</b>, Live Chat,
 						<b>Leveling 0-30 with rewards</b>, Refferals, and a hell of a lot more on the way!  </h4>
 						<br />
