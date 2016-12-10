@@ -190,12 +190,10 @@ if (!isset($_SESSION['steamid'])) {
                    <h4 class="modal-title" id="exampleModalLabel">Set your Steam Trade URL</h4>
                </div>
                <div class="modal-body">
-                   <form>
                        <div class="form-group">
                            <label for="recipient-name" class="control-label">Steam Trade URL: <a href="http://steamcommunity.com/profiles/<?php echo $_SESSION['steamid']; ?>/tradeoffers/privacy#trade_offer_access_url" target="_blank">Find it here!</a> </label>
                            <input type="text" class="form-control" id="tradeUrl" placeholder="Paste your full Trade URL here">
                        </div>
-                   </form>
                </div>
                <div class="modal-footer">
                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
