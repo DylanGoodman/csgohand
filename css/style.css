@@ -503,13 +503,11 @@ i.fa.fa-tasks{
 }
 /***** Messages *************/
 .notification_header{
-	background-color:#FAFAFA;
 	padding: 10px 15px;
 	border-bottom:1px solid rgba(0, 0, 0, 0.05);
-	margin-bottom: 8px;
 }
 .notification_header h3{
-	color:#6A6A6A;
+	color:#011930;
 	font-size:12px;
 	font-weight:600;
 	margin:0;
@@ -521,14 +519,14 @@ i.fa.fa-tasks{
 	margin-top: 5px;
 }
 .notification_bottom a {
-    color: #6F6F6F;
+    color: #011930;
 	 font-size: 1em;
 }
 .notification_bottom a:hover {
     color:#6164C1;
 }
 .notification_bottom h3 a{
-	color: #717171;
+	color: #011930;
 	font-size:12px;
 	border-radius:0;
 	border:none;
@@ -783,8 +781,8 @@ ul.dropdown-menu {
 	font-size: 1em;
     color: #011930 !important;
 }
-.dropdown-menu li a:hover,
-.dropdown-menu li a:active {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:active {
     color: #02101E !important;
 }
 .profile_details {
