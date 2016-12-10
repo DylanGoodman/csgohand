@@ -2553,6 +2553,45 @@ i.fa.fa-facebook.profile-icon {
     margin-top: 0.3em;
 }
 /*--//profile--*/
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #C9AC50;
+    min-height: 16.428571429px;
+}
+
+.modal-header span {
+color:#C9AC50;
+}
+
+.modal-footer {
+    margin-top: 15px;
+    padding: 19px 20px 20px;
+    text-align: right;
+    border-top: 1px solid #C9AC50;
+}
+
+.modal-content {
+    position: relative;
+	background-image: url(../img/elegant-grid.png);
+    background-color: #011930;
+    border: 1px solid #C9AC50;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: none;
+}
+
+.modal-content thead {
+	color:#C9AC50;
+	font-size:16px;
+}
+
+.modal-content h4 {
+	color:#C9AC50;
+}
+
 /*--chat--*/
 
 .chat-mdl-grid {
