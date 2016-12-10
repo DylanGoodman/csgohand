@@ -22,28 +22,28 @@ require ('app/init.php');
                             <tbody>
                                 <tr class="tdGreen">
                                     <th scope="row"><i class="fa fa-trophy"></i> 1</th>
-                                    <th scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</th>
+                                    <td scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</td>
                                     <td><i class="fa fa-university"></i> 30</td>
                                     <td><i class="fa fa-star"></i> 456,034,835</td>
                                     <td><i class="fa fa-star"></i> 21,244,193</td>
                                 </tr>
                                 <tr>
                                     <th scope="row"><i class="fa fa-trophy"></i> 2</th>
-                                    <th scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</th>
+									<td scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</td>
                                     <td><i class="fa fa-university"></i> 11</td>
                                     <td><i class="fa fa-star"></i> 56,034,835</td>
                                     <td><i class="fa fa-star"></i> 2,244,193</td>
                                 </tr>
                                 <tr>
                                     <th scope="row"><i class="fa fa-trophy"></i> 3</th>
-                                    <th scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</th>
+									<td scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</td>
                                     <td><i class="fa fa-university"></i> 16</td>
                                     <td><i class="fa fa-star"></i> 56,034,835</td>
                                     <td><i class="fa fa-star"></i> 2,244,193</td>
                                 </tr>
                                 <tr>
                                     <th scope="row"><i class="fa fa-trophy"></i> 4</th>
-                                    <th scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</th>
+									<td scope="row"><img style="width:18px;margin-top:-3px;" src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/05/05aea756a7c81e54735993c220a86e73732390f1_full.jpg" alt=""> Haste CSGOHand.com</td>
                                     <td><i class="fa fa-university"></i> 22</td>
                                     <td><i class="fa fa-star"></i> 56,034,835</td>
                                     <td><i class="fa fa-star"></i> 2,244,193</td>
