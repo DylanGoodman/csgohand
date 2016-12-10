@@ -2485,7 +2485,7 @@ h2.title3 {
 .profile-row .profile-icon {
     font-size: 1.4em;
 	margin-top: 0.6em;
-	color: #6F6F6F;
+	color: #bcbcbc;
 }
 i.fa.fa-mobile.profile-icon {
     font-size: 2em;
@@ -2496,12 +2496,12 @@ i.fa.fa-facebook.profile-icon {
 }
 .profile-right h4 {
     font-size: 1em;
-    color: #504E4E;
+    color: #C9AC50;
     font-weight: 500;
 }
 .profile-right p {
     font-size: .9em;
-    color: #999;
+    color: #bcbcbc;
     margin-top: .4em;
     overflow: hidden;
 }
