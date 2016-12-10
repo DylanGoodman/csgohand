@@ -2445,14 +2445,12 @@ h4.modal-title {
     background-color: #F1F1F1;
 }
 .btn-primary {
-    color: #FFF;
+    color: #02101E;
     background-color: #C9AC50;
-    border-color: #FFF;
+    border: none;
 }
 .btn-primary:hover, btn-primary:focus {
-    color: #C9AC50;
-    background-color: #FFF;
-    border-color: #C9AC50;
+    background-color: #bcbcbc;
 }
 .tdGreen {
     color: #55AA55;
