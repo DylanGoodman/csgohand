@@ -50,7 +50,10 @@ body a:hover{
     z-index: 100;
 }
 .header-section {
-    background:#FFF;
+    background:#011930;
+    color: #C9AC50;
+    border-bottom: 1px solid #C9AC50;
+    box-shadow: 0 4px 1px 1px #C9AC50;
     box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.21);
     -webkit-box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.21);
     -moz-box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.21);
@@ -97,7 +100,7 @@ button#showLeftPush:hover {
     height: 100%;
     top: 76px;
     z-index: 1232323;
-    background-color:#080505;
+    background-color:#02101E;
 	padding: 2em 0;
 }
 .cbp-spmenu-left {
