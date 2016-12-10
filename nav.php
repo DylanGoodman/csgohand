@@ -105,14 +105,6 @@
                                 <h3>Most Online: 17355</h3>
                             </div>
                         </li>
-                        <li><a href="#">
-                                <div class="notification_desc">
-                                    <p><i class="fa fa-star"></i> Online Staff</p>
-                                    <p><span>Haste CSGOHand.com</span></p>
-                                    <p><span>Argyl CSGOHand.com</span></p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </a></li>
                     </ul>
                 </li>
             </ul>
