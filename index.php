@@ -9,7 +9,7 @@ require ('app/init.php');
 			<div class="main-page row" style="margin:0;">
 				<div class="col-md-12 grid_box1">
 					<?php if(!isset($_SESSION['steamid'])){ ?>
-						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome to CSGO<img href="../images/csgoalliance.png" width="64px;" />Alliance</h2>
+						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome to CSGO<img href="../images/csgoalliance.png" width="64px" height="74px" />Alliance</h2>
 					<?php } else { ?>
 						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
 					<?php } ?>
