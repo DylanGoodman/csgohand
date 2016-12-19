@@ -2866,6 +2866,10 @@ color:#C9AC50;
     color: #02101E;
     font-size: 1.2em;
 }
+.tile-progress .vimeo h4 {
+    color: #bcbcbc !important;
+    font-size: 1.2em;
+}
 .tile-progress span {
     color: rgba(255, 255, 255, 0.67);
     font-size: 1em;
