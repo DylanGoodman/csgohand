@@ -1513,42 +1513,44 @@ section#tables  p {
 .btn-r-green {
     background-color: #55AA55;
     border: none;
-    color: #C9AC50;
+    color: #02101E;
 }
 .btn-r-green:hover, .btn-r-green:focus {
-    background-color: #C9AC50;
+    background-color: #55AA55;
     border: none;
-    color: #55AA55;
+    color: #02101E;
 }
 .btn-r-blk {
-    background-color: #C9AC50;
+    background-color: #02101E;
     border: none;
-    color: #C9AC50;
+    color: #bcbcbc;
 }
 .btn-r-blk:hover, .btn-r-blk:focus {
-    background-color: #C9AC50;
+    background-color: #02101E;
     border: none;
     color: #C9AC50;
 }
 .btn-r-blk2 {
     background-color: #011930;
+    background-image: url(../images/elegant-grid.png);
     border: none;
     color: #C9AC50;
 }
 .btn-r-blk2:hover, .btn-r-blk2:focus {
     background-color: #011930;
+    background-image: url(../images/elegant-grid.png);
     border: none;
     color: #C9AC50;
 }
 .btn-r-red {
     background-color: #A43741;
     border: none;
-    color: #C9AC50;
+    color: #02101E;
 }
 .btn-r-red:hover, .btn-r-red:focus {
-    background-color: #C9AC50;
+    background-color: #A43741;
     border: none;
-    color: #A43741;
+    color: #02101E;
 }
 .btn-green {
     background-color: #55AA55;
