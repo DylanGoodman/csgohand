@@ -2863,11 +2863,7 @@ color:#C9AC50;
     background-color: rgba(233, 78, 2, 0.88);
 }
 .tile-progress h4 {
-    color: #02101E;
-    font-size: 1.2em;
-}
-.tile-progress .vimeo h4 {
-    color: #bcbcbc !important;
+    color: #bcbcbc;
     font-size: 1.2em;
 }
 .tile-progress span {
