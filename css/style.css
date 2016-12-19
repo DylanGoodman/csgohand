@@ -1127,8 +1127,7 @@ h4.title {
   color: #C9AC50C9AC50 !important;
 }
 .vimeo {
-  background-color: #C9AC50 !important;
-  color: #C9AC50C9AC50 !important;
+  background-color: #02101E !important;
 }
 .gold2 {
   background-color: #FFF !important;
@@ -1518,7 +1517,7 @@ section#tables  p {
 .btn-r-green:hover, .btn-r-green:focus {
     background-color: #55AA55;
     border: none;
-    color: #02101E;
+    color: #C9AC50;
 }
 .btn-r-blk {
     background-color: #02101E;
@@ -1550,7 +1549,7 @@ section#tables  p {
 .btn-r-red:hover, .btn-r-red:focus {
     background-color: #A43741;
     border: none;
-    color: #02101E;
+    color: #C9AC50;
 }
 .btn-green {
     background-color: #55AA55;
