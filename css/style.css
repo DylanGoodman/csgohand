@@ -2616,7 +2616,6 @@ color:#C9AC50;
 }
 .scrollbar {
     height: 462px;
-    background: #C9AC50;
     overflow-y: scroll;
     padding:2em 1em 0;
 }
@@ -2643,7 +2642,6 @@ color:#C9AC50;
 }
 .activity-row p {
     font-size: 0.755em;
-    color: #555;
 
 }
 .activity-row span {
