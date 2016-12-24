@@ -49,7 +49,7 @@
                         <a href="/"><i class="fa fa-home nav_icon"></i>Hub</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-gamepad nav_icon"></i>Games Brett NERD <span class="nav-badge-btm pull-right">NEW</span><span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-gamepad nav_icon"></i>Games<span class="nav-badge-btm pull-right">NEW</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li>
                                 <a href="roulette"><i class="fa fa-circle"></i>Roulette</a>

@@ -47,6 +47,21 @@ function getTradeUrl(){
     server.emit('getTradeUrl');
 }
 
+$('#tradeUrl').keyup(function(event){
+    if(event.keyCode == 13) {
+        var tradeUrl = $('#tradeUrl').val();
+        if (tradeUrl !== '') {
+            var data = {
+                tradeUrl: tradeUrl,
+                steamId: steamId
+            }
+            server.emit('updateTradeUrl', data);
+        } else {
+            console.log('Enter Something Fool!');
+        }
+    }
+});
+
 $('#tradeSubmit').click(function(){
     var tradeUrl = $('#tradeUrl').val();
     if(tradeUrl !== ''){
