@@ -148,7 +148,7 @@
                                     <span class="prfil-img"><img class="img-circle" style="width:48px" src="<?php echo $steamprofile['avatarfull']; ?>" alt=""> </span>
                                     <div class="user-name">
                                         <p><?php echo $steamprofile['personaname']; ?></p>
-                                        <span><i class="fa fa-university"></i> Level 30</span>
+                                        <span><i class="fa fa-university"></i> Level <?php echo $userData['level']; ?></span>
                                     </div>
                                     <i class="fa fa-angle-down lnr"></i>
                                     <i class="fa fa-angle-up lnr"></i>
