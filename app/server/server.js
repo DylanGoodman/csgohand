@@ -8,6 +8,12 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
 var port = process.env.PORT || 3001;
+var SteamCommunity = require('steamcommunity');
+var SteamTotp = require('steam-totp');
+var SteamID = require('steamid');
+var TradeOfferManager = require('steam-tradeoffer-manager');
+var fs = require('fs');
+
 
 app.get('/', function (req, res) {
     res.send('Application is live');
@@ -16,6 +22,31 @@ app.get('/', function (req, res) {
 server.listen(port, function () {
     console.log('Server listening at port %d', port);
 });
+
+var sharedIden = {
+    bot1: 'aLyLE90KdNcKKFAxYSK\/Fcqzj3A='
+};
+
+var secretIden = {
+    bot1: 'uvo3zC6I9b7TAV0M72h+BOByPVk='
+};
+
+var steam = {
+    bot1: new SteamCommunity()
+};
+
+var manager = {
+    bot1: new TradeOfferManager({
+        'domain': 'csgohand.com',
+        'language': 'en',
+        'cancelTime': 120000,
+        'pollInterval': 5000
+    })
+};
+
+if(fs.existsSync('polldata.json')) {
+    manager.pollData = JSON.parse(fs.readFileSync('polldata.json'));
+}
 
 
 var db = mysql.createPool({
@@ -68,6 +99,33 @@ var counterBack = setInterval(function () {
     }
 
 }, 1000);
+
+
+//////STEAMBOT STUFF
+
+steam.bot1.login({
+    'accountName'       : 'marktillimkillem',
+    'password'          : ')jMCdmBGvb=[%wF{$Rr9by_L-w2dMLn6',
+    'twoFactorCode'     : SteamTotp.getAuthCode(secretIden.bot1)
+}, function(err, sessionID, cookies, steamguard){
+    if(err){
+        console.log('Steam Bot 1 login fail: ' + err.message);
+        process.exit(1);
+    }
+    console.log('Bot 1 Logged in!');
+
+    manager.bot1.setCookies(cookies, function(err){
+        if(err){
+            console.log('Bot1 API Error: '+ err);
+            process.exit(1);
+            return;
+        }
+        console.log('Bot4 has api key: '+ manager.bot1.apiKey);
+    });
+    steam.bot1.startConfirmationChecker(10000, sharedIden.bot1);
+});
+
+
 
 io.on('connection', function (socket) {
     var userId = socket.handshake.query.userId;
