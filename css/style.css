@@ -1323,6 +1323,12 @@ h3.hdg {
     border:none;
 }
 
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    color: #02101E;
+    background-color: #C9AC50;
+    border-color: #ddd;
+}
+
 .badge-primary {
   background-color: #03a9f4;
 }
