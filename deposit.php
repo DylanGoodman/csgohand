@@ -294,7 +294,7 @@ require ('app/init.php');
            <div class="modal-content">
                <div class="modal-header">
                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                   <h4 class="modal-title" id="exampleModalLabel">Purchase Item</h4>
+                   <h4 class="modal-title" id="exampleModalLabel">Deposit Item</h4>
                </div>
                <div class="modal-body">
 				   <div class="modal-item">
@@ -310,8 +310,7 @@ require ('app/init.php');
                </div>
                <div class="modal-footer">
                    <button type="button" class="btn btn-primary pull-left" data-dismiss="modal">Cancel</button>
-				   <button type="button" class="btn btn-primary">Inspect Item</button>
-                   <button type="button" class="btn btn-primary">Purchase for <i class="fa fa-star"></i> 328990</button>
+                   <button type="button" class="btn btn-primary">Deposit for <i class="fa fa-star"></i> 328990</button>
                </div>
            </div>
        </div>
