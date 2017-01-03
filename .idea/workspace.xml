@@ -48,8 +48,8 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -413,14 +413,7 @@
       <workItem from="1482595113506" duration="3188000" />
       <workItem from="1482961179581" duration="329000" />
       <workItem from="1483138662807" duration="1180000" />
-      <workItem from="1483392132037" duration="5224000" />
-    </task>
-    <task id="LOCAL-00023" summary="Adding Roulette Timer">
-      <created>1480998004276</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1480998004276</updated>
+      <workItem from="1483392132037" duration="5267000" />
     </task>
     <task id="LOCAL-00024" summary="Adding Roulette Timer">
       <created>1480998224690</created>
@@ -758,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483407119785</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Setting Up Prices">
+      <created>1483407229790</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1483407229790</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60131000" />
+    <option name="totallyTimeSpent" value="60174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -816,7 +816,7 @@
     <MESSAGE value="Account Updates." />
     <MESSAGE value="Setting Up Steam Bot" />
     <MESSAGE value="Setting Up Prices" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting Up Prices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1245,8 +1245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
