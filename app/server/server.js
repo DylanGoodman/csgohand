@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
 server.listen(port, function () {
     console.log('Server listening at port %d', port);
 });
-login();
+
 var sharedIden = {
     bot1: 'aLyLE90KdNcKKFAxYSK\/Fcqzj3A='
 };
@@ -48,6 +48,8 @@ if(fs.existsSync('polldata.json')) {
     manager.pollData = JSON.parse(fs.readFileSync('polldata.json'));
 }
 
+///Bot Login
+login();
 
 var db = mysql.createPool({
     connectionLimit: 10,
