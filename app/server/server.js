@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
 server.listen(port, function () {
     console.log('Server listening at port %d', port);
 });
-
+login();
 var sharedIden = {
     bot1: 'aLyLE90KdNcKKFAxYSK\/Fcqzj3A='
 };
@@ -102,29 +102,29 @@ var counterBack = setInterval(function () {
 
 
 //////STEAMBOT STUFF
-
-steam.bot1.login({
-    'accountName'       : 'marktillimkillem',
-    'password'          : ')jMCdmBGvb=[%wF{$Rr9by_L-w2dMLn6',
-    'twoFactorCode'     : SteamTotp.getAuthCode(secretIden.bot1)
-}, function(err, sessionID, cookies, steamguard){
-    if(err){
-        console.log('Steam Bot 1 login fail: ' + err.message);
-        process.exit(1);
-    }
-    console.log('Bot 1 Logged in!');
-
-    manager.bot1.setCookies(cookies, function(err){
-        if(err){
-            console.log('Bot1 API Error: '+ err);
+function login() {
+    steam.bot1.login({
+        'accountName': 'marktillimkillem',
+        'password': ')jMCdmBGvb=[%wF{$Rr9by_L-w2dMLn6',
+        'twoFactorCode': SteamTotp.getAuthCode(secretIden.bot1)
+    }, function (err, sessionID, cookies, steamguard) {
+        if (err) {
+            console.log('Steam Bot 1 login fail: ' + err.message);
             process.exit(1);
-            return;
         }
-        console.log('Bot4 has api key: '+ manager.bot1.apiKey);
-    });
-    steam.bot1.startConfirmationChecker(10000, sharedIden.bot1);
-});
+        console.log('Bot 1 Logged in!');
 
+        manager.bot1.setCookies(cookies, function (err) {
+            if (err) {
+                console.log('Bot1 API Error: ' + err);
+                process.exit(1);
+                return;
+            }
+            console.log('Bot4 has api key: ' + manager.bot1.apiKey);
+        });
+        steam.bot1.startConfirmationChecker(10000, sharedIden.bot1);
+    });
+}
 
 
 io.on('connection', function (socket) {
