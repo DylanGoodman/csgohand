@@ -14,5 +14,6 @@ $json = file_get_contents($url);
 $data = json_decode($json);
 $data = get_object_vars($data->response);
 $keys = array_keys($data);
-echo '<pre>';
-print_r($keys);
+foreach($keys as $item){
+    echo $item;
+}
