@@ -12,6 +12,6 @@ $url = 'https://api.opskins.com/IPricing/GetAllLowestListPrices/v1?appid=730';
 $json = file_get_contents($url);
 
 $data = json_decode($json);
-
+$data = get_object_vars($data->response);
 echo '<pre>';
-print_r($data->response);
+print_r($data);
