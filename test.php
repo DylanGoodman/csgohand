@@ -15,5 +15,6 @@ $data = json_decode($json);
 $data = get_object_vars($data->response);
 $keys = array_keys($data);
 foreach($keys as $item){
-    echo $item;
+    $db = new Database();
+    $db->insert('prices', array('name' => $item));
 }
