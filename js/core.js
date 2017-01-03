@@ -54,7 +54,7 @@ $('#tradeUrl').keyup(function(event){
             var data = {
                 tradeUrl: tradeUrl,
                 steamId: steamId
-            }
+            };
             server.emit('updateTradeUrl', data);
         } else {
             console.log('Enter Something Fool!');
