@@ -48,8 +48,8 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="342">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -413,21 +413,7 @@
       <workItem from="1482595113506" duration="3188000" />
       <workItem from="1482961179581" duration="329000" />
       <workItem from="1483138662807" duration="1180000" />
-      <workItem from="1483392132037" duration="4609000" />
-    </task>
-    <task id="LOCAL-00018" summary="Chat half done. Roulette wheel needs to be fixed.">
-      <created>1480920256457</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1480920256457</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Fixed Wheel">
-      <created>1480993415250</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1480993415250</updated>
+      <workItem from="1483392132037" duration="4989000" />
     </task>
     <task id="LOCAL-00020" summary="Adding Roulette Timer">
       <created>1480995349384</created>
@@ -758,11 +744,25 @@
       <option name="project" value="LOCAL" />
       <updated>1483406320060</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Setting Up Prices">
+      <created>1483406606788</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1483406606788</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Setting Up Prices">
+      <created>1483406883409</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1483406883409</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59516000" />
+    <option name="totallyTimeSpent" value="59896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1245,8 +1245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="342">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
