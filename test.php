@@ -14,10 +14,6 @@ $json = file_get_contents($url);
 $data = json_decode($json);
 
 
-foreach ($data->response as $item){
-    print_r($item);
-    $name = array_keys($item);
-    $price = $item['price'];
-    echo $name[0] . ' : '. $price;
-    echo '<br>';
+foreach ($data as $item){
+    print_r(array_keys($item));
 }
