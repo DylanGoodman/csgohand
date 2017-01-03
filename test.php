@@ -7,12 +7,11 @@
  */
 require ('app/appInit.php');
 
-/*$db = new Database();
-$value = 136120;
-$increase = 1.13;
-for ($i = 0; $i < 30; $i++){
-    $value = $value * $increase;
-    $value = ceil($value / 10) * 10;
-    echo $value . '<br>';
-    $db->insert('levels', array('levelXp' => $value));
-}*/
+$url = 'https://api.opskins.com/IPricing/GetAllLowestListPrices/v1?appid=730';
+
+$json = file_get_contents($url);
+
+$data = json_decode($json);
+
+echo '<pre>';
+print_r($data);

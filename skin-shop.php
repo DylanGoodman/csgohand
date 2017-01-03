@@ -36,6 +36,7 @@ require ('app/init.php');
 
 					<div class="calender text-center widget-shadow scrollbar scrollbar1" tabindex="5000" style="overflow: hidden; outline: none;height:475px;margin-top:20px;padding:25px;padding-left:50px;">
 						<p style="font-size:.8em" class="text-muted text-center">Click item to purchase</p>
+						
 						<div class="row-one">
 							<a href="#" data-toggle="modal" data-target="#itemModal">
 								<div class="hvr-shrink col-md-4 widget shop-item">

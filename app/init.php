@@ -13,9 +13,11 @@ require($init.'/app/classes/DatabaseClass.php');
 require($init.'/app/classes/UserClass.php');
 require($init.'/app/classes/SiteClass.php');
 require($init.'/app/classes/LevelClass.php');
+require($init.'/app/classes/ItemsClass.php');
 //require($init.'/app/classes/TradeClass.php');
 //require($init.'/app/classes/ManagerClass.php');
 
+$items = new ItemsClass();
 $site = new SiteClass();
 $user = new UserClass();
 $level = new LevelClass();
