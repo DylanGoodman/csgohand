@@ -14,4 +14,4 @@ $json = file_get_contents($url);
 $data = json_decode($json);
 
 echo '<pre>';
-print_r($data);
+print_r($data->response);
