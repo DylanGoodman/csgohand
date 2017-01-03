@@ -1317,21 +1317,21 @@ h3.hdg {
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
   z-index: 0;
-    color: #02101E;
     cursor: default;
-    background-color: #fff;
+    color: #C9AC50;
+    background-color: #02101E;
     border-color: #02101E;
 }
 
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    color: #02101E;
-    background-color: #fff;
+    color: #C9AC50;
+    background-color: #02101E;
     border-color: #02101E;
 }
 
 .pagination > li > a {
-    color: #C9AC50;
-    background-color: #02101E;
+    color: #02101E;
+    background-color: #C9AC50;
     border-color: #02101E;
 }
 
