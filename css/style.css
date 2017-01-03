@@ -286,9 +286,9 @@ ul.dropdown-menu{
     margin: 0;
     z-index: 10;
     font-size: 0.9em;
-    color: #FFF;
+    color: #FFF !important;
     padding: 0.5em 1em;
-	border: 2px solid rgba(0, 139, 255, 0.2);
+	border: 2px solid #C9AC50;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
 	font-family: 'Play', sans-serif;
 }
@@ -1317,9 +1317,9 @@ h3.hdg {
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
   z-index: 0;
-    color: #C9AC50;
+    color: #02101E;
     cursor: default;
-    background-color: #FFF;
+    background-color: #C9AC50;
     border:none;
 }
 
