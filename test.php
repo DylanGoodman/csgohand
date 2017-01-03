@@ -15,9 +15,9 @@ $data = json_decode($json);
 $data = get_object_vars($data->response);
 
 foreach ($data as $item){
+    $item = get_object_vars($item);
     $name = array_keys($item);
-    print_r($name);
-    $price = $item->price;
+    $price = $item['price'];
     echo $name[0] . ' : '. $price;
     echo '<br>';
 }
