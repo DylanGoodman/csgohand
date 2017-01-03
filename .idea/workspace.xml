@@ -48,8 +48,8 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="378">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -413,14 +413,7 @@
       <workItem from="1482595113506" duration="3188000" />
       <workItem from="1482961179581" duration="329000" />
       <workItem from="1483138662807" duration="1180000" />
-      <workItem from="1483392132037" duration="5021000" />
-    </task>
-    <task id="LOCAL-00021" summary="Adding Roulette Timer">
-      <created>1480995571316</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1480995571316</updated>
+      <workItem from="1483392132037" duration="5121000" />
     </task>
     <task id="LOCAL-00022" summary="Adding Roulette Timer">
       <created>1480997904184</created>
@@ -758,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483406987611</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Setting Up Prices">
+      <created>1483407018979</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1483407018980</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59928000" />
+    <option name="totallyTimeSpent" value="60028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1245,8 +1245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="378">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
       </provider>
