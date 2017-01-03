@@ -17,5 +17,5 @@ $data = get_object_vars($data->response);
 foreach ($data as $item){
     $name = array_keys($item);
     $price = $item->price;
-    echo $name . ' : '. $price;
+    echo $name[0] . ' : '. $price;
 }
