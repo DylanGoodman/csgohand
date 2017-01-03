@@ -17,4 +17,5 @@ $keys = array_keys($data);
 foreach($keys as $item){
     $db = new Database();
     $db->insert('prices', array('name' => $item));
+    echo $item.'<br>';
 }
