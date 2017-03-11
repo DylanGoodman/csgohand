@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine On
+
+# To externally redirect /dir/file.php to /dir/file
+RewriteCond %{THE_REQUEST} \s/+(?:index)?(.*?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# To internally forward /dir/file to /dir/file.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
+RewriteRule ^(.+?)/?$ /$1.php [L]
+
+php_value session.gc_maxlifetime 604800
