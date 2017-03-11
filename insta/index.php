@@ -183,13 +183,6 @@ if(isset($_SESSION['username'])) {
                     </div>
 
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="input-group">
-                        <input type="checkbox" name="checkbox" id="checkbox" value="1" class="icheck-blue" checked="checked"/> Check me out
-                      </div>
-                    </div>
-                  </div>
 
                   <input type="button" onclick="registerUser()" class="btn btn-lg btn-success" value="Register your account"/>
 
