@@ -103,6 +103,12 @@ if(!isset($_SESSION['username'])){
                     <span class="menu-text">Order</span>
                 </a>
             </li>
+            <li class="lightblue">
+                <a href="/">
+                    <span class="menu-icon"><i class="fa fa-dollar"></i></span>
+                    <span class="menu-text">Add Funds</span>
+                </a>
+            </li>
             <li class="orange">
                 <a href="">
                     <span class="menu-icon"><i class="fa fa-info"></i></span>
