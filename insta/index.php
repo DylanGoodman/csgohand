@@ -77,10 +77,9 @@ if(isset($_SESSION['username'])) {
                     <br>
                     <i class="fa fa-facebook fa-fw"></i> Facebook
                     <br>
-                    <i class="fa fa-plus fa-fw"></i> & much more!
+                    <i class="fa fa-plus fa-fw"></i> much more!
                   </div>
-                  <br />
-                  <div class="col-md-12 text-center">
+                  <div style="margin-top:15px;" class="col-md-12 text-center">
                     <button type="button" id="registerForm" class="btn btn-success">Join Now</button><button type="button" id="loginForm" class="btn btn-warning">Login</button>
                   </div>
                 </div>
