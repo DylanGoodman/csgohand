@@ -50,17 +50,29 @@ if(isset($_SESSION['username'])) {
               <div class="inner">
                 <div id="main">
                 <div class="login-title text-center">
-                  <h2>Welcome to Social Rocket Club</h2>
+                  <h2>Welcome to the Social Rocket Club</h2>
                   <h5>The best prices to skyrocket your Social Media following!</h5>
                 </div>
                 <div class="row">
-                  <div class="col-md-6 text-center">
+                  <div class="col-md-12 text-center">
                     <i class="fa fa-5x fa-rocket"></i>
                   </div>
-                  <div class="col-md-6 text-center">
+                  <div class="col-md-12 text-center">
                     <i class="fa fa-check-circle fa-fw"></i> #1 Trusted Worldwide
                     <br>
-                    <i class="fa fa-star fa-fw"></i> Premium Products
+                    <i class="fa fa-twitter fa-fw"></i> Twitter
+                    <br>
+                    <i class="fa fa-instagram fa-fw"></i> Instagram
+                    <br>
+                    <i class="fa fa-youtube fa-fw"></i> YouTube
+                    <br>
+                    <i class="fa fa-facebook fa-fw"></i> Facebook
+                    <br>
+                    <i class="fa fa-youtube fa-fw"></i> YouTube
+                    <br>
+                    <i class="fa fa-soundcloud fa-fw"></i> SoundCloud
+                    <br>
+                    <i class="fa fa-thumbs-up fa-fw"></i> Likes & Favorites
                     <br>
                     <i class="fa fa-dollar fa-fw"></i> Unbeatable Pricing
                     <br>
