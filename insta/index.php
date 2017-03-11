@@ -102,7 +102,7 @@ if(isset($_SESSION['username'])) {
 
                   <input type="button" onclick="loginUser()" class="btn btn-lg btn-success" value="Login to your account" />
 
-                  <p class="footer">We respect your privacy.<br/>We hate spam as much as you do.<br/><a href="#" onclick="showRegister()">Register?</a> </p>
+                  <p class="footer"><a href="#" onclick="showRegister()">Register</a> </p>
                 </div>
                 <div id="loadingGif">
                   <div class="login-title text-center">
@@ -193,7 +193,7 @@ if(isset($_SESSION['username'])) {
 
                   <input type="button" onclick="registerUser()" class="btn btn-lg btn-success" value="Register your account"/>
 
-                  <p class="footer">We respect your privacy. We hate spam as much as you do.<br/>Have an account? <a href="#" onclick="showLogin()">Login!</a> </p>
+                  <p class="footer"><br/>Have an account? <a href="#" onclick="showLogin()">Login</a> </p>
                 </div>
 
               </div>
