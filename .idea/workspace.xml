@@ -17,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="E:\WebDev\csgohand" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/insta/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -446,14 +446,7 @@
       <workItem from="1485565853429" duration="4470000" />
       <workItem from="1488784995509" duration="626000" />
       <workItem from="1488785713083" duration="11010000" />
-      <workItem from="1489186887522" duration="2634000" />
-    </task>
-    <task id="LOCAL-00034" summary="Add User Account Func">
-      <created>1481091719889</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1481091719889</updated>
+      <workItem from="1489186887522" duration="2724000" />
     </task>
     <task id="LOCAL-00035" summary="Add User Account Func">
       <created>1481091835431</created>
@@ -791,11 +784,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489214226697</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Insta Shizz&#10;">
+      <created>1489215261765</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1489215261765</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81588000" />
+    <option name="totallyTimeSpent" value="81678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1271,7 +1271,7 @@
     <entry file="file://$PROJECT_DIR$/insta/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>

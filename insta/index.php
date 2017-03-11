@@ -1,5 +1,6 @@
 <?php
-//require 'app/init.php';
+$init = $_SERVER['DOCUMENT_ROOT'];
+require $init.'app/init.php';
 if(isset($_SESSION['username'])) {
   header('Location: /home');
   exit();
