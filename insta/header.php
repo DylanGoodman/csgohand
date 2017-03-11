@@ -16,7 +16,7 @@ if(!isset($_SESSION['username'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>InstaGains - #1 Social Panel</title>
+    <title>Social Rocket Club - Your #1 Choice For Social Media Gains</title>
 
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
@@ -70,7 +70,7 @@ if(!isset($_SESSION['username'])){
         <!-- Logo Start -->
         <a href="/">
             <div class="logo-container" id="step1">
-                <h1>InstaGains</h1>
+                <h1>Social Rocket Club</h1>
                 <h4>member panel</h4>
             </div>
         </a>

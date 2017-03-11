@@ -167,7 +167,7 @@ header .header-bar {
 /***** Logo Container *****/
 .logo-container {
   max-height: 55px;
-  padding-left: 30px;
+  text-align: center;
   line-height: 65px;
   background-color: #ffffff;
   border-bottom: 1px solid #D5DDDF;
