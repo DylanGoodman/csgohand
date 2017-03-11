@@ -1,1158 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="Setting Up Prices&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/blurred-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/coming-soon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/login-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/new-york.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/profile-130x130.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/profile-140x140.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/profile-60x60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/profile-75x75.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/profile-background-blurred.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/register-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/rome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/whos-online-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/whos-online-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/whos-online-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/whos-online-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/images/whos-online-05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/purchase-bar/comment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/purchase-bar/free-support.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/purchase-bar/purchase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/purchase-bar/support-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/user/Koala.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/user/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/user/colosseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/user/koala-140x140.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/weather/blue_clouds.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/Sorting icons.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/back_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/back_enabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/back_enabled_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/forward_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/forward_enabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/forward_enabled_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/sort_asc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/images/sort_desc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/fonts/fuelux-preloader.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/fonts/fuelux-preloader.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/fonts/fuelux-preloader.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/img/form-hdpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/img/form.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/flat@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/media/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon-small.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon-small.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon-small.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/img/wline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/weather-icons/font/weathericons-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/weather-icons/font/weathericons-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/weather-icons/font/weathericons-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/comment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/images/image_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_009_magic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_042_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_079_podium.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_082_roundabout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_155_show_thumbnails.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_163_iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_214_resize_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/img/glyphicons/glyphicons_266_book_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/follow-tf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/images/arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/images/coming-soon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/images/pricing-table/dark-arrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/images/pricing-table/light-arrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/images/search-focus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/images/wizard-form-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/purchase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/rate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/screenshots.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/simplicity-logo-docs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/support-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/support.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/blurred-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/coming-soon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/login-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/new-york.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/profile-130x130.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/profile-140x140.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/profile-60x60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/profile-75x75.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/profile-background-blurred.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/register-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/rome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/whos-online-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/whos-online-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/whos-online-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/whos-online-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/images/whos-online-05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/purchase-bar/comment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/purchase-bar/free-support.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/purchase-bar/purchase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/purchase-bar/support-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/user/Koala.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/user/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/user/colosseum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/user/koala-140x140.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/weather/blue_clouds.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/Sorting icons.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/back_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/back_enabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/back_enabled_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/forward_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/forward_enabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/forward_enabled_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/sort_asc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/images/sort_desc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/fonts/fuelux-preloader.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/fonts/fuelux-preloader.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/fonts/fuelux-preloader.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/img/form-hdpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/img/form.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/flat@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/media/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon-small.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon-small.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon-small.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/img/wline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/weather-icons/font/weathericons-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/weather-icons/font/weathericons-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/weather-icons/font/weathericons-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/Elegant_Background-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/avatars/Hola-Setup.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/avatars/default.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/coming-soon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/login-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/pie.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/pricing-table/dark-arrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/pricing-table/light-arrow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/search-focus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/images/wizard-form-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.idea/dictionaries/Dylan_Goodman.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.idea/instapanel.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/all-pages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/animated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/calendar-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/charts/dashboard-morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/charts/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/coming-soon-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/google-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/icheck/icheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/introjs/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/introjs/intro.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/introjs/introjs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/mail-compose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/mail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/page-index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/page-progress-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/page-settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/page-tables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/page-tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/page-tocify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/purchase-bar/purchase-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/tasks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/vector-maps/vector-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/_demo/wizards/wizards.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/animated.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap-wizards/jquery.bootstrap.wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap-wizards/jquery.bootstrap.wizard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap-wizards/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap-wizards/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/bootstrap/js/respond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/chart-js/chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/charts/chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/charts/table-to-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/countdown/countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/jquery.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/DataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/api/api.internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/api/api.methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/api/api.static.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.constructor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.draw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.length.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.processing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.scrolling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.sizing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/core/core.support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/ext/ext.classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/ext/ext.paging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/ext/ext.sorting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/ext/ext.types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/model/model.column.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/model/model.defaults.columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/model/model.defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/model/model.ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/model/model.row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/model/model.search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/datatables/src/model/model.settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/effects/menu-effects.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/flotcharts-common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.colorhelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.colorhelpers.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.canvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.categories.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.categories.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.crosshair.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.crosshair.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.errorbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.errorbars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.fillbetween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.fillbetween.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.image.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.navigate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.navigate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.pie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.resize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.selection.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.stack.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.symbol.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.threshold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.threshold.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/flotcharts/jquery.flot.time.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/combobox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/datagrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/fonts/fuelux-preloader.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/intelligent-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/checkbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/combobox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/datagrid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/datepicker.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/fuelux-responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/fuelux.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/intelligent-dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/pillbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/preloader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/radio.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/scheduler.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/search.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/select.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/spinner.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/tree.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/less/wizard.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/almond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/phantom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-phantom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/vendor/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/js/tests/vendor/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/hero-unit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/layouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/responsive-1200px-min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/responsive-767px-max.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/responsive-768px-979px.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/responsive-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/sprites.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/css-tests.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/css-tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/forms-responsive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/navbar-fixed-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/navbar-static-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tests/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/less/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/qunit/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/qunit/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/lib/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/pillbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/scheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/spinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fuelux/wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fullcalendar/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fullcalendar/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/fullcalendar/gcal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/flat/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/icheck/icheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-countto/jquery.count-to.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/jquery-ui-1.10.3.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/jquery-ui-1.10.3.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery-ui/ui-lightness/jquery-ui-1.10.3.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery/ajquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jvectormap/jquery-jvectormap-1.2.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jvectormap/jquery-jvectormap-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jvectormap/maps/vectormap-at.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jvectormap/maps/vectormap-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jvectormap/maps/vectormap-eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jvectormap/maps/vectormap-ger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/jvectormap/maps/vectormap-world.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/knob/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/morrischarts/grunt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/morrischarts/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/morrischarts/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/morrischarts/raphael.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/nicescroll/jquery.nicescroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/pizza-charts/javascripts/pizza.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/pizza-charts/javascripts/vendor/custom.modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/pizza-charts/javascripts/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/pizza-charts/javascripts/vendor/snap.svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/pizza-charts/stylesheets/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/pizza-charts/stylesheets/pizza.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/sidebar/min-height.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/jquery.tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/langs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/code/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/example/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/hr/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/image/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/importcss/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/layer/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/link/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/lists/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/media/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/paste/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/preview/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/print/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/save/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/table/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/template/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/lightgray/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon-small.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/fonts/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/skin.ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/skin.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/skins/simplictiy/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/themes/modern/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tinymce/tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/tocify/tocify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/weather-icons/font/weathericons-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/weather-icons/weather-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/assets/weather-icons/weather-icons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/blank.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/calendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/coming-soon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/css/purchase-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/css/style.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/css/styles-less.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/css/documenter_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/bootstrap-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/google-code-prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/google-code-prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/jquery.easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/jquery.scrollTo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/assets/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/documentation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/form-wizards.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/general-forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/general.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/google-maps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/icons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/collapsed-main-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/header-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/header-collapsed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/header-fixed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/layouts/narrowed-top-bar/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/layouts/narrowed-top-bar/top-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/login/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/login/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/login/main-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/login/top-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/main-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/register/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/register/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/includes/top-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/index-boxed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/index-collapsed-sidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/index-fixed-header-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/index-fixed-sidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/index-horizontal-menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/invoice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/js/dashboard/google-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/js/google-maps/google-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/mail-compose.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/mail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/modals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/pricing-tables.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/progress-bars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/projects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/settings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/smart-forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/support.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/tables.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/tasks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/ticket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/tocify.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/tooltips-and-popovers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/vector-maps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/Template/weather.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/all-pages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/animated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/calendar-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/charts/dashboard-morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/charts/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/coming-soon-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/google-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/icheck/icheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/introjs/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/introjs/intro.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/introjs/introjs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/mail-compose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/mail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/page-index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/page-progress-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/page-settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/page-tables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/page-tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/page-tocify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/purchase-bar/purchase-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/tasks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/vector-maps/vector-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/_demo/wizards/wizards.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/account-settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/app/action/loginUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/app/action/registerUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/app/action/updateAccount.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/app/class/DatabaseClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/app/class/UserClass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/app/init.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap-wizards/jquery.bootstrap.wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap-wizards/jquery.bootstrap.wizard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap-wizards/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap-wizards/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/bootstrap/js/respond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/chart-js/chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/charts/chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/charts/table-to-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/countdown/countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/jquery.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/DataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/api/api.internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/api/api.methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/api/api.static.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.constructor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.draw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.length.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.processing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.scrolling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.sizing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/core/core.support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/ext/ext.classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/ext/ext.paging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/ext/ext.sorting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/ext/ext.types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/model/model.column.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/model/model.defaults.columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/model/model.defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/model/model.ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/model/model.row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/model/model.search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/datatables/src/model/model.settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/effects/menu-effects.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/flotcharts-common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.colorhelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.colorhelpers.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.canvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.categories.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.categories.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.crosshair.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.crosshair.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.errorbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.errorbars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.fillbetween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.fillbetween.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.image.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.navigate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.navigate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.pie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.resize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.selection.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.stack.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.symbol.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.threshold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.threshold.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/flotcharts/jquery.flot.time.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/combobox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/datagrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/fonts/fuelux-preloader.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/intelligent-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/checkbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/combobox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/datagrid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/datepicker.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/fuelux-responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/fuelux.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/intelligent-dropdown.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/pillbox.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/preloader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/radio.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/scheduler.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/search.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/select.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/spinner.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/tree.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/less/wizard.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/almond.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/phantom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-phantom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/unit/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/vendor/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/js/tests/vendor/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/accordion.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/hero-unit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/labels-badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/layouts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/responsive-1200px-min.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/responsive-767px-max.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/responsive-768px-979px.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/responsive-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/sprites.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/css-tests.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/css-tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/forms-responsive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/navbar-fixed-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/navbar-static-top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tests/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/less/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/qunit/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/qunit/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/lib/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/pillbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/scheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/spinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fuelux/wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fullcalendar/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fullcalendar/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/fullcalendar/gcal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/_all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/aero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/pink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/flat/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/icheck/icheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-countto/jquery.count-to.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/jquery-ui-1.10.3.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/jquery-ui-1.10.3.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery-ui/ui-lightness/jquery-ui-1.10.3.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery/ajquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jvectormap/jquery-jvectormap-1.2.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jvectormap/jquery-jvectormap-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jvectormap/maps/vectormap-at.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jvectormap/maps/vectormap-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jvectormap/maps/vectormap-eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jvectormap/maps/vectormap-ger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/jvectormap/maps/vectormap-world.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/knob/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/morrischarts/grunt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/morrischarts/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/morrischarts/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/morrischarts/raphael.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/nicescroll/jquery.nicescroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/pizza-charts/javascripts/pizza.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/pizza-charts/javascripts/vendor/custom.modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/pizza-charts/javascripts/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/pizza-charts/javascripts/vendor/snap.svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/pizza-charts/stylesheets/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/pizza-charts/stylesheets/pizza.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/sidebar/min-height.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/jquery.tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/langs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/code/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/example/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/hr/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/image/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/importcss/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/layer/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/link/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/lists/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/media/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/paste/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/preview/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/print/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/save/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/table/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/template/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/lightgray/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon-small.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/fonts/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/skin.ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/skin.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/skins/simplictiy/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/themes/modern/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tinymce/tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/tocify/tocify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/weather-icons/font/weathericons-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/weather-icons/weather-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/assets/weather-icons/weather-icons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/css/purchase-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/css/style.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/css/styles-less.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/collapsed-main-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/header-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/header-collapsed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/header-fixed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/layouts/narrowed-top-bar/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/layouts/narrowed-top-bar/top-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/login/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/login/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/login/main-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/login/top-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/main-menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/register/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/register/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/includes/top-bar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/js/dashboard/google-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/js/google-maps/google-maps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/js/order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insta/test.php" />
+    <list default="true" id="9926821d-e54d-4370-923c-7080a798e0ef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insta/index.php" afterPath="$PROJECT_DIR$/insta/index.php" />
     </list>
     <ignored path="csgohand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1174,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="core.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="688">
@@ -1183,6 +34,16 @@
                 <element signature="e#0#49#0" expanded="false" />
                 <marker date="1489009727372" expanded="true" signature="427:437" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/insta/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1311,6 +172,7 @@
         <option value="$PROJECT_DIR$/phpinfo.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/js/core.js" />
+        <option value="$PROJECT_DIR$/insta/index.php" />
       </list>
     </option>
   </component>
@@ -1385,6 +247,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSGOHand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csgohand" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insta" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1570,14 +446,7 @@
       <workItem from="1485565853429" duration="4470000" />
       <workItem from="1488784995509" duration="626000" />
       <workItem from="1488785713083" duration="11010000" />
-      <workItem from="1489186887522" duration="1299000" />
-    </task>
-    <task id="LOCAL-00033" summary="Add User Account Func">
-      <created>1481091421316</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1481091421316</updated>
+      <workItem from="1489186887522" duration="2634000" />
     </task>
     <task id="LOCAL-00034" summary="Add User Account Func">
       <created>1481091719889</created>
@@ -1915,18 +784,25 @@
       <option name="project" value="LOCAL" />
       <updated>1485230203010</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Insta Shizz&#10;">
+      <created>1489214226696</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1489214226697</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80253000" />
+    <option name="totallyTimeSpent" value="81588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28446388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17110874" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17110874" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1974,28 +850,14 @@
     <MESSAGE value="Setting Up Steam Bot" />
     <MESSAGE value="Setting Up Prices" />
     <MESSAGE value="Setting Up Prices&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting Up Prices&#10;" />
+    <MESSAGE value="Insta Shizz&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insta Shizz&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/classes/ChatClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/classes/config/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -2387,6 +1249,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
@@ -2395,6 +1265,14 @@
             <element signature="e#0#49#0" expanded="false" />
             <marker date="1489009727372" expanded="true" signature="427:437" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insta/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

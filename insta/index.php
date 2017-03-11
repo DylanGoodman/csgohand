@@ -1,5 +1,5 @@
 <?php
-require 'app/init.php';
+//require 'app/init.php';
 if(isset($_SESSION['username'])) {
   header('Location: /home');
   exit();
