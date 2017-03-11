@@ -71,20 +71,18 @@ if(!isset($_SESSION['username'])){
         <a href="/">
             <div class="logo-container" id="step1">
                 <h1>Social Rocket Club</h1>
-                <h4>member panel</h4>
             </div>
         </a>
         <!-- Logo End -->
 
         <!-- Sidebar User Profile Start -->
         <div class="sidebar-profile">
-            <div class="user-avatar">
-                <img src="images/avatars/default.jpg" alt="<?php echo $_SESSION['username']; ?>" />
-            </div>
             <div class="user-info">
                 <div class="row">
-                    <input type="hidden" id="token" value="<?php echo $_SESSION['token']; ?>">
-                    <a href="account-settings"><?php echo $_SESSION['username']; ?></a>
+                    <h3>
+                        <input type="hidden" id="token" value="<?php echo $_SESSION['token']; ?>">
+                        <a href="account-settings"><?php echo $_SESSION['username']; ?></a>
+                    </h3>
                 </div>
                 <div class="row">
                     <a href="add-funds">Balance: $<?php echo $userData['balance']; ?></a>
@@ -102,20 +100,12 @@ if(!isset($_SESSION['username'])){
             <li class="lightblue">
                 <a href="/">
                     <span class="menu-icon"><i class="fa fa-home"></i></span>
-                    <span class="menu-text">Dashboard</span>
-                    <span class="notification">4</span>
-                </a>
-            </li>
-            <li class="parent purple">
-                <a href="">
-                    <span class="menu-icon"><i class="fa fa-plus"></i></span>
                     <span class="menu-text">Order</span>
-                    <span class="notification">new</span>
                 </a>
             </li>
             <li class="orange">
                 <a href="">
-                    <span class="menu-icon"><i class="fa fa-bookmark"></i></span>
+                    <span class="menu-icon"><i class="fa fa-info"></i></span>
                     <span class="menu-text">Order Status</span>
                     <span class="notification lightgreen">62</span>
                 </a>
