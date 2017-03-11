@@ -60,7 +60,7 @@ if(isset($_SESSION['username'])) {
                   <div class="col-md-6 text-center">
                     <i class="fa fa-check-circle fa-fw"></i> #1 Trusted Worldwide
                     <br>
-                    <i class="fa fa-line-chart fa-fw"></i> Followers & Subscribers
+                    <i class="fa fa-users fa-fw"></i> Followers & Subscribers
                     <br>
                     <i class="fa fa-thumbs-up fa-fw"></i> Likes, Favorites, & Views
                     <br>
@@ -76,8 +76,6 @@ if(isset($_SESSION['username'])) {
                     <i class="fa fa-youtube fa-fw"></i> YouTube
                     <br>
                     <i class="fa fa-facebook fa-fw"></i> Facebook
-                    <br>
-                    <i class="fa fa-youtube fa-fw"></i> YouTube
                     <br>
                     <i class="fa fa-plus fa-fw"></i> & much more!
                   </div>
