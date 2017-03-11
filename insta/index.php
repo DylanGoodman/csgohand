@@ -60,9 +60,9 @@ if(isset($_SESSION['username'])) {
                   <div class="col-md-6 text-center">
                     <i class="fa fa-check-circle fa-fw"></i> #1 Trusted Worldwide
                     <br>
-                    <i class="fa fa-thumbs-up fa-fw"></i> Followers & Subscribers
+                    <i class="fa fa-line-chart fa-fw"></i> Followers & Subscribers
                     <br>
-                    <i class="fa fa-thumbs-up fa-fw"></i> Likes & Favorites
+                    <i class="fa fa-thumbs-up fa-fw"></i> Likes, Favorites, & Views
                     <br>
                     <i class="fa fa-dollar fa-fw"></i> Unbeatable Pricing
                     <br>
@@ -81,6 +81,7 @@ if(isset($_SESSION['username'])) {
                     <br>
                     <i class="fa fa-plus fa-fw"></i> & much more!
                   </div>
+                  <br />
                   <div class="col-md-12 text-center">
                     <button type="button" id="registerForm" class="btn btn-success">Join Now</button><button type="button" id="loginForm" class="btn btn-warning">Login</button>
                   </div>
