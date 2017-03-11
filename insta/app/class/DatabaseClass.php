@@ -73,7 +73,7 @@ class Database
     {
         $host = "localhost";
         $username = "root";
-        $password = "";
+        $password = "ZkyO117PpU";
         $db = "instapanel";
         // Get the default port number if not given.
         if ($port == null)
