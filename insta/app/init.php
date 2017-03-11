@@ -9,8 +9,8 @@
 ob_start();
 session_start();
 $init = $_SERVER['DOCUMENT_ROOT'];
-require($init.'/app/class/DatabaseClass.php');
-require($init.'/app/class/UserClass.php');
+require($init.'/insta/app/class/DatabaseClass.php');
+require($init.'/insta/app/class/UserClass.php');
 
 if(!isset($_SESSION['token'])) {
     $_SESSION['token'] = sha1(microtime());
