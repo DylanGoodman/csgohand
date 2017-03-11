@@ -12,7 +12,7 @@ if(isset($_SESSION['username'])) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Simplicity V2</title>
+  <title>Social Rocket Club - Your #1 Choice For Social Media Gains</title>
 
   <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
@@ -49,21 +49,21 @@ if(isset($_SESSION['username'])) {
               <div class="inner">
                 <div id="main">
                 <div class="login-title text-center">
-                  <h3>Welcome to InstaGains!</h3>
-                  <h5>Your top tier Social Media Gurus!</h5>
+                  <h2>Welcome to Social Rocket Club</h2>
+                  <h5>The best prices to skyrocket your Social Media following!</h5>
                 </div>
                 <div class="row">
                   <div class="col-md-3">
-                    <i class="fa fa-5x fa-instagram"></i>
+                    <i class="fa fa-5x fa-rocket"></i>
                   </div>
                   <div class="col-md-9">
-                    <i class="fa fa-check-circle fa-fw"></i> Want the best service!
+                    <i class="fa fa-check-circle fa-fw"></i> #1 Trusted Worldwide
                     <br>
-                    <i class="fa fa-rocket fa-fw"></i> Blazing fast service!
+                    <i class="fa fa-line-chart fa-fw"></i> Premium Likes, Followers, Subscribers
                     <br>
-                    <i class="fa fa-dollar fa-fw"></i> Best Pricing!
+                    <i class="fa fa-dollar fa-fw"></i> Unbeatable Pricing
                     <br>
-                    <i class="fa fa-forward fa-fw"></i> 100% Guaranteed!
+                    <i class="fa fa-forward fa-fw"></i> 100% Guaranteed
                   </div>
                   <div class="col-md-12 text-center">
                     <button type="button" id="registerForm" class="btn btn-success">Join Us</button><button type="button" id="loginForm" class="btn btn-warning">Login</button>
@@ -130,7 +130,7 @@ if(isset($_SESSION['username'])) {
 
                   <div class="row">
                     <div class="alert alert-danger text-center" id="registerError">
-                      
+
                     </div>
                     <div class="col-md-12">
                       <!-- Username Input -->
@@ -210,7 +210,7 @@ if(isset($_SESSION['username'])) {
 
     //$(".inner", ".boxed").fadeIn(500);
   });
-  
+
 </script>
 </body>
 </html>
