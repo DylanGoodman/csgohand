@@ -4048,11 +4048,11 @@ table tbody tr.error {
 }
 /***** Login Page *****/
 body.login-page {
-  background: url('../images/Elegant_Background-4.jpg') top left no-repeat transparent;
+  background: url('../images/rocket.jpg') top left no-repeat transparent;
   background-size: cover;
 }
 body.login-page .login-page-container {
-  width: 320px;
+  width: 620px;
   position: relative;
   margin: 0 auto;
 }

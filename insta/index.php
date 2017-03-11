@@ -54,10 +54,10 @@ if(isset($_SESSION['username'])) {
                   <h5>The best prices to skyrocket your Social Media following!</h5>
                 </div>
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-6 text-center">
                     <i class="fa fa-5x fa-rocket"></i>
                   </div>
-                  <div class="col-md-9">
+                  <div class="col-md-6 text-center">
                     <i class="fa fa-check-circle fa-fw"></i> #1 Trusted Worldwide
                     <br>
                     <i class="fa fa-line-chart fa-fw"></i> Premium Likes, Followers, Subscribers
@@ -67,7 +67,7 @@ if(isset($_SESSION['username'])) {
                     <i class="fa fa-forward fa-fw"></i> 100% Guaranteed
                   </div>
                   <div class="col-md-12 text-center">
-                    <button type="button" id="registerForm" class="btn btn-success">Join Us</button><button type="button" id="loginForm" class="btn btn-warning">Login</button>
+                    <button type="button" id="registerForm" class="btn btn-success">Join Now</button><button type="button" id="loginForm" class="btn btn-warning">Login</button>
                   </div>
                 </div>
                 </div>
