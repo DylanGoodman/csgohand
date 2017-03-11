@@ -585,7 +585,6 @@ body.collapsed-sidebar .menu li.active a span {
 }
 .sidebar-profile .user-info a {
   color: #7b8b9d;
-  font-size: 13px;
 }
 .sidebar-profile .user-info a:after {
   content: '\f078';

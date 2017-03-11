@@ -135,23 +135,10 @@ if(!isset($_SESSION['username'])){
                 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                     <ul class="right-icons" id="step3">
                         <li>
-                            <a href="#" class="user"><i class="fa fa-user"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="account-settings"><i class="fa fa-cogs"></i>Settings</a></li>
-                                <li><a href="logout"><i class="fa fa-sign-out"></i>Sign Out</a></li>
-                            </ul>
-                        </li>
-                        <li>
                             <a href="#" class="email">
-                                <i class="fa fa-envelope-o"></i>
+                                <i class="fa fa-support"></i>
                                 <div class="notify">13</div>
                             </a>
-                            <ul class="dropdown">
-                                <li><a href="#"><i class="fa fa-envelope-o"></i>Inbox</a></li>
-                                <li><a href="#"><i class="fa fa-reply-all"></i>Send</a></li>
-                                <li><a href="#"><i class="fa fa-folder"></i>Draft</a></li>
-                                <li><a href="#"><i class="fa fa-pencil-square-o"></i>Compose</a></li>
-                            </ul>
                         </li>
                         <li>
                             <a href="#" class="info">
@@ -186,7 +173,7 @@ if(!isset($_SESSION['username'])){
                             <a href="#" class="settings"><i class="fa fa-cog"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="lock"><i class="fa fa-lock"></i></a>
+                            <a href="#" class="lock"><i class="fa fa-times-circle"></i></a>
                         </li>
                     </ul>
                 </div>
