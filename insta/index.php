@@ -60,7 +60,7 @@ if(isset($_SESSION['username'])) {
                   <div class="col-md-6 text-center">
                     <i class="fa fa-check-circle fa-fw"></i> #1 Trusted Worldwide
                     <br>
-                    <i class="fa fa-line-chart fa-fw"></i> Premium Likes, Followers, Subscribers
+                    <i class="fa fa-star fa-fw"></i> Premium Products
                     <br>
                     <i class="fa fa-dollar fa-fw"></i> Unbeatable Pricing
                     <br>
