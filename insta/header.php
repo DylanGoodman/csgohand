@@ -42,7 +42,7 @@ if(!isset($_SESSION['username'])){
     <link rel='stylesheet' type='text/css' href='_demo/introjs/introjs.min.css' />
 
     <!-- Theme Styles -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="_demo/demo.css">
