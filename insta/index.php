@@ -1,5 +1,5 @@
 <?php
-error_reporting(1);
+error_reporting(E_ALL);
 $init = $_SERVER['DOCUMENT_ROOT'];
 require 'app/init.php';
 if(isset($_SESSION['username'])) {
