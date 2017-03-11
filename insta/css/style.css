@@ -586,12 +586,6 @@ body.collapsed-sidebar .menu li.active a span {
 .sidebar-profile .user-info a {
   color: #7b8b9d;
 }
-.sidebar-profile .user-info a:after {
-  content: '\f078';
-  font-family: 'FontAwesome';
-  color: #7b8b9d;
-  padding-left: 10px;
-}
 /***** Sidebar Main Menu *****/
 .sidebar .menu {
   border-top: 1px solid #404c60;
