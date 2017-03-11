@@ -186,7 +186,7 @@ if(isset($_SESSION['username'])) {
 
                   <input type="button" onclick="registerUser()" class="btn btn-lg btn-success" value="Register your account"/>
 
-                  <p class="footer"><br/>Have an account? <a href="#" onclick="showLogin()">Login</a> </p>
+                  <p class="footer">Have an account? <a href="#" onclick="showLogin()">Login</a> </p>
                 </div>
 
               </div>
