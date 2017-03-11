@@ -1,4 +1,5 @@
 <?php
+error_reporting(1);
 $init = $_SERVER['DOCUMENT_ROOT'];
 include($init.'/insta/app/init.php');
 if(isset($_SESSION['username'])) {
