@@ -1,7 +1,7 @@
 <?php
 error_reporting(1);
 $init = $_SERVER['DOCUMENT_ROOT'];
-include($init.'/insta/app/init.php');
+require 'app/init.php';
 if(isset($_SESSION['username'])) {
   header('Location: /home');
   exit();
