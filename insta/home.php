@@ -79,28 +79,16 @@ require 'header.php';
                   </thead>
                   <tbody>
                   <tr>
-                    <td>Twitter Followers</td>
+                    <td>Twitter Followers - 10k/day</td>
                     <td><i class="fa fa-dollar"></i> 2.00</td>
                     <td>100</td>
-                    <td>1,000,000</td>
+                    <td>300,000</td>
                   </tr>
                   <tr>
-                    <td>2</td>
-                    <td>Jenny</td>
-                    <td>Doe</td>
-                    <td>jenny83</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Markus</td>
-                    <td>Jacob</td>
-                    <td>jacob2</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>Zoltan</td>
-                    <td>Zelo</td>
-                    <td>zelo</td>
+                    <td>Twitter Followers - 15k/day</td>
+                    <td><i class="fa fa-dollar"></i> 2.20</td>
+                    <td>100</td>
+                    <td>500,000</td>
                   </tr>
                   </tbody>
                 </table>
