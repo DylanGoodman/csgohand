@@ -25,7 +25,7 @@ require 'header.php';
         <div class="boxed social-stats">
             <div class="title-bar">
                 <i class="fa fa-shopping-cart"></i>
-                Order Here!
+                Place your order
             </div>
             <div class="inner">
                 <form class="basic-form">
@@ -41,18 +41,18 @@ require 'header.php';
                             </select>
                         </div>
                         <div class="col-md-6">
+                            <label for="amount">Amount:</label>
+                            <input type="number" id="amount">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
                             <label for="service">Select Service:</label>
                             <select id="service">
 
                             </select>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="amount">Amount:</label>
-                            <input type="number" id="amount">
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label for="orderUrl">URL:</label>
                             <input type="text" id="orderUrl">
                             <span class="description">Make sure your profile is set to public!</span>
@@ -77,7 +77,7 @@ require 'header.php';
                 <table class="support">
                     <tbody>
                     <tr class="checked">
-                        
+
                         <td><span class="tag urgent">Urgent</span></td>
                         <td class="hidden-xs">My site is not working well</td>
                         <td>Feb 12</td>
