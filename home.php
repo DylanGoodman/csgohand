@@ -89,7 +89,7 @@ require 'header.php';
                   <tr>
                     <td>Twitter Followers - 15k/day</td>
                     <td><i class="fa fa-dollar"></i> 2.40</td>
-                    <td>0-2 Hours</td>
+                    <td>0-2 Hour(s)</td>
                     <td>100</td>
                     <td>500,000</td>
                   </tr>
