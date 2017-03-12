@@ -74,19 +74,22 @@ require 'header.php';
                   <thead>
                   <th>Service Name</th>
                   <th>Price Per 1000</th>
-                  <th>Minimum Order</th>
-                  <th>Maximum Order</th>
+                  <th>Start Time</th>
+                  <th>Min. Order</th>
+                  <th>Max. Order</th>
                   </thead>
                   <tbody>
                   <tr>
                     <td>Twitter Followers - 10k/day</td>
                     <td><i class="fa fa-dollar"></i> 2.00</td>
+                    <td>Instant</td>
                     <td>100</td>
                     <td>300,000</td>
                   </tr>
                   <tr>
                     <td>Twitter Followers - 15k/day</td>
-                    <td><i class="fa fa-dollar"></i> 2.20</td>
+                    <td><i class="fa fa-dollar"></i> 2.40</td>
+                    <td>0-2 Hours</td>
                     <td>100</td>
                     <td>500,000</td>
                   </tr>
