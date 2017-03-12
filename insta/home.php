@@ -58,11 +58,7 @@ require 'header.php';
                             <span class="description">Make sure your profile is set to public!</span>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <button type="button" class="btn btn-success" id="orderSubmit">Order Now!</button>
-                        </div>
-                    </div>
+                    <button type="button" class="btn btn-success" id="orderSubmit">Order Now!</button>
                 </form>
             </div>
         </div>
