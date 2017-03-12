@@ -67,32 +67,42 @@ require 'header.php';
         <div class="boxed projects mail-container">
             <div class="title-bar">
                 <i class="fa fa-book"></i>
-                Latest News
+                Service Prices
             </div>
             <div class="inner">
-                <table class="support">
-                    <tbody>
-                    <tr class="checked">
-
-                        <td><span class="tag urgent">Urgent</span></td>
-                        <td class="hidden-xs">My site is not working well</td>
-                        <td>Feb 12</td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="ticket.html">#LTK-84937/3</a></td>
-                        <td><span class="tag urgent">Urgent</span></td>
-                        <td class="hidden-xs">Please tell me how can I make this work</td>
-                        <td>Feb 12</td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="ticket.html">#LTK-84947/1</a></td>
-                        <td><span class="tag normal">Normal</span></td>
-                        <td class="hidden-xs">Password changed and I don't know it</td>
-                        <td>Feb 12</td>
-                    </tr>
-                    </tbody>
+                <table id="datatables-table" class="datatables">
+                  <thead>
+                  <th class="id">#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td class="id">1</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>doe10</td>
+                  </tr>
+                  <tr>
+                    <td class="id">2</td>
+                    <td>Jenny</td>
+                    <td>Doe</td>
+                    <td>jenny83</td>
+                  </tr>
+                  <tr>
+                    <td class="id">1</td>
+                    <td>Markus</td>
+                    <td>Jacob</td>
+                    <td>jacob2</td>
+                  </tr>
+                  <tr>
+                    <td class="id">2</td>
+                    <td>Zoltan</td>
+                    <td>Zelo</td>
+                    <td>zelo</td>
+                  </tr>
+                  </tbody>
                 </table>
             </div>
         </div>
