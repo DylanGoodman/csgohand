@@ -72,17 +72,17 @@ require 'header.php';
             <div class="inner">
                 <table id="datatables-table" class="datatables">
                   <thead>
-                  <th class="id">#</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Username</th>
+                  <th class="id">Service Name</th>
+                  <th>Price Per 1000</th>
+                  <th>Minimum Order</th>
+                  <th>Maximum Order</th>
                   </thead>
                   <tbody>
                   <tr>
-                    <td class="id">1</td>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>doe10</td>
+                    <td class="id">Twitter Followers</td>
+                    <td><i class="fa fa-dollar"></i> 2.00</td>
+                    <td>100</td>
+                    <td>1,000,000</td>
                   </tr>
                   <tr>
                     <td class="id">2</td>
