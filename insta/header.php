@@ -100,7 +100,7 @@ if(!isset($_SESSION['username'])){
             <li class="lightblue">
                 <a href="/">
                     <span class="menu-icon"><i class="fa fa-home"></i></span>
-                    <span class="menu-text">Order</span>
+                    <span class="menu-text">Dashboard</span>
                 </a>
             </li>
             <li class="lightblue">
@@ -114,6 +114,12 @@ if(!isset($_SESSION['username'])){
                     <span class="menu-icon"><i class="fa fa-info"></i></span>
                     <span class="menu-text">Order Status</span>
                     <span class="notification lightgreen">62</span>
+                </a>
+            </li>
+            <li class="lightred">
+                <a href="">
+                    <span class="menu-icon"><i class="fa fa-sticky-note"></i></span>
+                    <span class="menu-text">Terms</span>
                 </a>
             </li>
             <li class="lightred">

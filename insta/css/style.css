@@ -953,6 +953,9 @@ body.collapsed-sidebar .menu li.active a span {
   overflow: hidden;
   border-bottom: 1px solid #eff2f7;
 }
+.boxed .title-bar i {
+    margin-right: 8px;
+}
 .boxed .title-bar.white {
   background-color: #ffffff;
 }
