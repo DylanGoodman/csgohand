@@ -60,7 +60,7 @@ function loginUser(){
                         $('#loginSuccess').fadeIn();
                     });
                     setTimeout(function(){
-                        window.location = '/insta/home';
+                        window.location = '/home';
                     }, 3500);
                 } else {
                     $('#loginError').html('<strong>'+data.error+'</strong>').show();
@@ -95,7 +95,7 @@ function registerUser(){
                         $('#registerSuccess').fadeIn();
                     });
                     setTimeout(function(){
-                        window.location = '/insta/home';
+                        window.location = '/home';
                     }, 3500);
                 } else {
                     $('#registerError').html('<strong>'+data.error+'</strong>').show();

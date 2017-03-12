@@ -7,7 +7,7 @@
  */
 require 'app/init.php';
 if(!isset($_SESSION['username'])){
-    header('Location: /insta');
+    header('Location: /');
 }
 ?>
 <!doctype html>
