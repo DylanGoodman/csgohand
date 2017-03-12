@@ -1,32 +1,65 @@
 <?php
-// Variable Declaration
-$to = $_GET['to'];
-$msg = $_GET['msg'];
-$msgsToSend = $_GET['timesToSend'];
-$count = 0;
-$messagesSent = 0;
-// Check if recipient is a valid email address
-if(!filter_var($to, FILTER_VALIDATE_EMAIL)) {
-    die("To is not a valid email address");
+class Api
+{
+ public $api_url = 'http://instantpanel.net/api.php'; // API URL
+
+ public $api_key = '2525590080909372688'; // Your API key
+
+ public function order($link, $type, $quantity) { // Add order
+  return json_decode($this->connect(array(
+      'key' => $this->api_key,
+      'action' => 'order',
+      'profile' => $link,
+      'service' => $type,
+      'amount' => $quantity
+  )));
+ }
+
+ public function status($order_id) { // Get status, start count
+  return json_decode($this->connect(array(
+      'key' => $this->api_key,
+      'action' => 'status',
+      'id' => $order_id
+  )));
+ }
+
+
+ private function connect($post) {
+  $_post = Array();
+  if (is_array($post)) {
+   foreach ($post as $name => $value) {
+    $_post[] = $name.'='.urlencode($value);
+   }
+  }
+  $ch = curl_init($this->api_url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_HEADER, 0);
+  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+  if (is_array($post)) {
+   curl_setopt($ch, CURLOPT_POSTFIELDS, join('&', $_post));
+  }
+  curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)');
+  $result = curl_exec($ch);
+  if (curl_errno($ch) != 0 && empty($result)) {
+   $result = false;
+  }
+  curl_close($ch);
+  return $result;
+ }
 }
-// Send messages while the amount of messages aren't equal to the counter
-echo "<pre>";
-while ($msgsToSend != $count) {
-    $random1 = md5(microtime());
-    $random2 = md5(microtime());
-    $from = $random1."@".$random2.".com";
-    $headers = 'From: ' . $from . "\r\n" . 'Reply-To: ' . $from . "\r\n" . 'X-Mailer: PHP/' . phpversion();
-    // Check if there are any missing variables
-    if (!isset($to) or !isset($msg) or !isset($from) or !isset($msgsToSend)) {
-        die("error. missing arguments");
-    }
-    if(@mail($to, "", $msg, $headers)) {
-        $messagesSent++;
-        echo "Message $messagesSent -> '$msg' sent to $to as $from<br>";
-    } else {
-        die("mail sent failure");
-    }
-    $count++;
-}
-echo "</pre>";
+
+
+
+// Examples
+
+$api = new Api();
+
+$order = $api->order('http://facebook.com/', '1', '100'); // $link, $type - service type, $quantity: return order id or Error
+
+$status = $api->status(9881); //  returns Order status and Start count
+
+print_r($order);
+echo $status;
+
 ?>

@@ -1,127 +1,217 @@
 <?php
-
-require ('app/init.php');
-
+error_reporting(E_ALL);
+$init = $_SERVER['DOCUMENT_ROOT'];
+require $init.'/insta/app/init.php';
+if(isset($_SESSION['username'])) {
+  header('Location: /insta/home');
+  exit();
+}
 ?>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- main content start-->
-		<div id="page-wrapper">
-			<div class="main-page row" style="margin:0;">
-				<div class="col-md-12 grid_box1">
-					<?php if(!isset($_SESSION['steamid'])){ ?>
-						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome to CSGOAlliance</h2>
-					<?php } else { ?>
-						<h2 style="color:#C9AC50;margin-right: 15px;background-color:transparent" class="title3 text-center">Welcome back, <?php echo $steamprofile['personaname']; ?>.</h2>
-					<?php } ?>
-					<?php if(!isset($_SESSION['steamid'])){ ?>
-						<h4 style="color:#bcbcbc;text-align:center;padding:0px 150px 1em 150px">The #1 Skin Platform is back and better than ever. We redesigned our website from the ground up
-						in order to provide the greatest CS:GO gambling experience. With a <b>never before seen life-like Roulette experience</b>, Live Chat,
-						<b>Leveling 0-30 with rewards</b>, Refferals, and a hell of a lot more on the way!  </h4>
-						<br />
-					<?php } ?>
-					<div style="padding:0;" class="calender widget-shadow">
-						<div style="margin-top:0;" class="widget_1 row elements">
-							<div class="col-sm-4 widget_1_box">
-								<div style="width:100%;padding:7px;" class="widget_1_box wid-social vimeo">
-								<div class="social-icon">
-									<i class="fa fa-star text-light icon-xlg "></i>
-								</div>
-								<div class="social-info">
-									<h3 style="color:#02101E" class="number_counter bold count text-light start_timer counted">2,400,000</h3>
-									<h4 class="counttype text-light">Won today</h4>
-								</div>
-								<a href="boxes"><div style="margin-top:10px;" class="tile-progress bg-success">
-									<div class="content">
-										<h4><i class="fa fa-square icon-sm"></i> Boxes</h4>
-										<h4 style="padding-top:20px;">Play our fan favorite Boxes!</h4>
-									</div>
-								</div></a>
-							</div>
-							</div>
-							<div class="col-sm-4 widget_1_box">
-								<div style="width:100%;padding:7px;" class="col-sm-4 widget_1_box wid-social vimeo">
-								<div class="social-icon">
-									<i class="fa fa-user text-light icon-xlg "></i>
-								</div>
-								<div class="social-info">
-									<h3 style="color:#02101E" class="number_counter bold count text-light start_timer counted">6,100+</h3>
-									<h4 class="counttype text-light">Users</h4>
-								</div>
-								<div style="margin-top:10px;" class="tile-progress bg-success">
-                                    <div class="content">
-										<h4><i class="fa fa-university icon-sm"></i> Level Up</h4>
-										<h4 style="padding-top:20px;">Level 0-30 and win prizes!</h4>
-									</div>
-								</div>
-							</div>
-							</div>
-							<div class="col-sm-4 widget_1_box">
-								<div style="width:100%;padding:7px;" class="col-sm-4 widget_1_box wid-social vimeo">
-								<div class="social-icon">
-									<i class="fa fa-star text-light icon-xlg "></i>
-								</div>
-								<div class="social-info">
-									<h3 style="color:#02101E" class="number_counter bold count text-light start_timer counted">74,145,000</h3>
-									<h4 class="counttype text-light">Won all time</h4>
-								</div>
-								<a href="roulette"><div style="margin-top:10px;" class="tile-progress bg-success">
-									<div class="content">
-										<h4><i class="fa fa-circle icon-sm"></i> Roulette</h4>
-										<h4 style="padding-top:20px;">Play our all new Roulette!</h4>
-									</div>
-								</div></a>
-							</div>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
+  <title>Social Rocket Club - Your #1 Choice For Social Media Gains</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,700italic,900,100' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
 
 
-				</div>
-			</div>
-		</div>
-		<!--footer-->
-		<div class="footer" id="footer">
-		   <p>&copy; 2016 CSGOHand - Version 2.00.13.45</p>
-		</div>
-        <!--//footer-->
-	</div>
-	<!-- Classie -->
-		<script src="js/classie.js"></script>
-		<script>
-			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-				showLeftPush = document.getElementById( 'showLeftPush' ),
-				body = document.body,
-                footer = document.getElementById( 'footer' );
+</head>
 
-			showLeftPush.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( body, 'cbp-spmenu-push-toright' );
-                classie.toggle( footer, 'cbp-spmenu-push-toright' );
-				classie.toggle( menuLeft, 'cbp-spmenu-open' );
-				disableOther( 'showLeftPush' );
-			};
+<body class="login-page">
+<div class="se-pre-con"></div>
+<input type="hidden" id="token" value="<?php echo $_SESSION['token']; ?>">
+<section class="content login-page">
+
+  <div class="content-liquid">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="login-page-container">
+
+          <div class="boxed animated flipInY">
+              <div class="inner">
+                <div id="main">
+                <div class="login-title text-center">
+                  <h2>Welcome to Social Rocket Club</h2>
+                  <h5>The best prices to skyrocket your Social Media following!</h5>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <i class="fa fa-5x fa-rocket"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <i class="fa fa-check-circle fa-fw"></i> #1 Trusted Worldwide
+                    <br>
+                    <i class="fa fa-line-chart fa-fw"></i> Premium Likes, Followers, Subscribers
+                    <br>
+                    <i class="fa fa-dollar fa-fw"></i> Unbeatable Pricing
+                    <br>
+                    <i class="fa fa-forward fa-fw"></i> 100% Guaranteed
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="button" id="registerForm" class="btn btn-success">Join Us</button><button type="button" id="loginForm" class="btn btn-warning">Login</button>
+                  </div>
+                </div>
+                </div>
+                <div id="login">
+                  <div class="login-title text-center">
+                    <h4>Login to your account</h4>
+                    <h5>We're happy to see you return</h5>
+                  </div>
+                  <div class="alert alert-danger text-center" id="loginError"></div>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" class="form-control" placeholder="Username" id="username"/>
+                  </div>
+
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="password" class="form-control" placeholder="Password" id="password"/>
+                  </div>
+
+                  <input type="button" onclick="loginUser()" class="btn btn-lg btn-success" value="Login to your account" />
+
+                  <p class="footer">We respect your privacy.<br/>We hate spam as much as you do.<br/><a href="#" onclick="showRegister()">Register?</a> </p>
+                </div>
+                <div id="loadingGif">
+                  <div class="login-title text-center">
+                    <h3>Please Wait...</h3>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 text-center">
+                      <img src="images/pie.gif">
+                    </div>
+                  </div>
+                </div>
+                <div id="loginSuccess">
+                  <div class="login-title text-center">
+                    <h3>Welcome back <span id="old-user"></span>!</h3>
+                    <h5>You are being logged in! Please wait..</h5>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 text-center">
+                      <i class="fa fa-5x fa-check" style="color: #1dbb62"></i>
+                    </div>
+                  </div>
+                </div>
+                <div id="registerSuccess">
+                  <div class="login-title text-center">
+                    <h3>Welcome <span id="new-user"></span>!</h3>
+                    <h5>You are being logged in! Please wait..</h5>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 text-center">
+                      <i class="fa fa-5x fa-check" style="color: #1dbb62"></i>
+                    </div>
+                  </div>
+                </div>
+                <div id="register">
+                  <div class="login-title text-center">
+                    <h4>Create new account</h4>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="alert alert-danger text-center" id="registerError">
+
+                    </div>
+                    <div class="col-md-12">
+                      <!-- Username Input -->
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input type="text" class="form-control" placeholder="Username" id="username_reg"/>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <!-- E-mail Input -->
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                        <input type="text" class="form-control" placeholder="E-Mail" id="email_reg"/>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+
+                    <div class="col-md-12">
+                      <!-- Password Input -->
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" class="form-control" placeholder="Password" id="password_reg"/>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <!-- Password Input -->
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" class="form-control" placeholder="Password Repeat" id="passwordr_reg"/>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="input-group">
+                        <input type="checkbox" name="checkbox" id="checkbox" value="1" class="icheck-blue" checked="checked"/> Check me out
+                      </div>
+                    </div>
+                  </div>
+
+                  <input type="button" onclick="registerUser()" class="btn btn-lg btn-success" value="Register your account"/>
+
+                  <p class="footer">We respect your privacy. We hate spam as much as you do.<br/>Have an account? <a href="#" onclick="showLogin()">Login!</a> </p>
+                </div>
+
+              </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- Javascript -->
+<script src="assets/jquery/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/flippy/jquery.flippy.min.js"></script>
+<script src="js/core.js"></script>
 
 
-			function disableOther( button ) {
-				if( button !== 'showLeftPush' ) {
-					classie.toggle( showLeftPush, 'disabled' );
-				}
-			}
+<script type="text/javascript">
+  jQuery(document).ready(function($){
 
-			$(document).ready(function() {
-				$("html").niceScroll({background:"#F1F1F1"});
-			});
+    var min_height = jQuery(window).height();
+    jQuery('div.login-page-container').css('min-height', min_height);
+    jQuery('div.login-page-container').css('line-height', min_height + 'px');
 
-		</script>
+    //$(".inner", ".boxed").fadeIn(500);
+  });
 
-
-	<!--scrolling js-->
-	<script src="js/jquery.nicescroll.js"></script>
-	<script src="js/scripts.js"></script>
-	<!--//scrolling js-->
-	<!-- Bootstrap Core JavaScript -->
-   <script src="js/bootstrap.js"> </script>
-    <script src="js/core.js"></script>
+</script>
 </body>
 </html>
