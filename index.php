@@ -2,7 +2,7 @@
 $init = $_SERVER['DOCUMENT_ROOT'];
 require $init.'/app/init.php';
 if(isset($_SESSION['username'])) {
-  header('Location: /home');
+  header('Location: /insta/home');
   exit();
 }
 ?>
@@ -46,8 +46,8 @@ if(isset($_SESSION['username'])) {
         <div class="login-page-container">
 
           <div class="boxed animated flipInY">
-              <div class="inner">
-                <div id="main">
+            <div class="inner">
+              <div id="main">
                 <div class="login-title text-center">
                   <h2>Welcome to Social Rocket Club</h2>
                   <h5>The best prices to skyrocket your Social Media following!</h5>
@@ -69,120 +69,120 @@ if(isset($_SESSION['username'])) {
                     <button type="button" id="registerForm" class="btn btn-success">Join Us</button><button type="button" id="loginForm" class="btn btn-warning">Login</button>
                   </div>
                 </div>
-                </div>
-                <div id="login">
-                  <div class="login-title text-center">
-                    <h4>Login to your account</h4>
-                    <h5>We're happy to see you return</h5>
-                  </div>
-                  <div class="alert alert-danger text-center" id="loginError"></div>
-                  <div class="input-group">
-                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input type="text" class="form-control" placeholder="Username" id="username"/>
-                  </div>
-
-                  <div class="input-group">
-                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                    <input type="password" class="form-control" placeholder="Password" id="password"/>
-                  </div>
-
-                  <input type="button" onclick="loginUser()" class="btn btn-lg btn-success" value="Login to your account" />
-
-                  <p class="footer">We respect your privacy.<br/>We hate spam as much as you do.<br/><a href="#" onclick="showRegister()">Register?</a> </p>
-                </div>
-                <div id="loadingGif">
-                  <div class="login-title text-center">
-                    <h3>Please Wait...</h3>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-12 text-center">
-                      <img src="images/pie.gif">
-                    </div>
-                  </div>
-                </div>
-                <div id="loginSuccess">
-                  <div class="login-title text-center">
-                    <h3>Welcome back <span id="old-user"></span>!</h3>
-                    <h5>You are being logged in! Please wait..</h5>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-12 text-center">
-                      <i class="fa fa-5x fa-check" style="color: #1dbb62"></i>
-                    </div>
-                  </div>
-                </div>
-                <div id="registerSuccess">
-                  <div class="login-title text-center">
-                    <h3>Welcome <span id="new-user"></span>!</h3>
-                    <h5>You are being logged in! Please wait..</h5>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-12 text-center">
-                      <i class="fa fa-5x fa-check" style="color: #1dbb62"></i>
-                    </div>
-                  </div>
-                </div>
-                <div id="register">
-                  <div class="login-title text-center">
-                    <h4>Create new account</h4>
-
-                  </div>
-
-                  <div class="row">
-                    <div class="alert alert-danger text-center" id="registerError">
-
-                    </div>
-                    <div class="col-md-12">
-                      <!-- Username Input -->
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                        <input type="text" class="form-control" placeholder="Username" id="username_reg"/>
-                      </div>
-                    </div>
-
-                    <div class="col-md-12">
-                      <!-- E-mail Input -->
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                        <input type="text" class="form-control" placeholder="E-Mail" id="email_reg"/>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div class="row">
-
-                    <div class="col-md-12">
-                      <!-- Password Input -->
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                        <input type="password" class="form-control" placeholder="Password" id="password_reg"/>
-                      </div>
-                    </div>
-
-                    <div class="col-md-12">
-                      <!-- Password Input -->
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                        <input type="password" class="form-control" placeholder="Password Repeat" id="passwordr_reg"/>
-                      </div>
-                    </div>
-
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="input-group">
-                        <input type="checkbox" name="checkbox" id="checkbox" value="1" class="icheck-blue" checked="checked"/> Check me out
-                      </div>
-                    </div>
-                  </div>
-
-                  <input type="button" onclick="registerUser()" class="btn btn-lg btn-success" value="Register your account"/>
-
-                  <p class="footer">We respect your privacy. We hate spam as much as you do.<br/>Have an account? <a href="#" onclick="showLogin()">Login!</a> </p>
-                </div>
-
               </div>
+              <div id="login">
+                <div class="login-title text-center">
+                  <h4>Login to your account</h4>
+                  <h5>We're happy to see you return</h5>
+                </div>
+                <div class="alert alert-danger text-center" id="loginError"></div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input type="text" class="form-control" placeholder="Username" id="username"/>
+                </div>
+
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                  <input type="password" class="form-control" placeholder="Password" id="password"/>
+                </div>
+
+                <input type="button" onclick="loginUser()" class="btn btn-lg btn-success" value="Login to your account" />
+
+                <p class="footer">We respect your privacy.<br/>We hate spam as much as you do.<br/><a href="#" onclick="showRegister()">Register?</a> </p>
+              </div>
+              <div id="loadingGif">
+                <div class="login-title text-center">
+                  <h3>Please Wait...</h3>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <img src="images/pie.gif">
+                  </div>
+                </div>
+              </div>
+              <div id="loginSuccess">
+                <div class="login-title text-center">
+                  <h3>Welcome back <span id="old-user"></span>!</h3>
+                  <h5>You are being logged in! Please wait..</h5>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <i class="fa fa-5x fa-check" style="color: #1dbb62"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="registerSuccess">
+                <div class="login-title text-center">
+                  <h3>Welcome <span id="new-user"></span>!</h3>
+                  <h5>You are being logged in! Please wait..</h5>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <i class="fa fa-5x fa-check" style="color: #1dbb62"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="register">
+                <div class="login-title text-center">
+                  <h4>Create new account</h4>
+
+                </div>
+
+                <div class="row">
+                  <div class="alert alert-danger text-center" id="registerError">
+
+                  </div>
+                  <div class="col-md-12">
+                    <!-- Username Input -->
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                      <input type="text" class="form-control" placeholder="Username" id="username_reg"/>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <!-- E-mail Input -->
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                      <input type="text" class="form-control" placeholder="E-Mail" id="email_reg"/>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-12">
+                    <!-- Password Input -->
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                      <input type="password" class="form-control" placeholder="Password" id="password_reg"/>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <!-- Password Input -->
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                      <input type="password" class="form-control" placeholder="Password Repeat" id="passwordr_reg"/>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="input-group">
+                      <input type="checkbox" name="checkbox" id="checkbox" value="1" class="icheck-blue" checked="checked"/> Check me out
+                    </div>
+                  </div>
+                </div>
+
+                <input type="button" onclick="registerUser()" class="btn btn-lg btn-success" value="Register your account"/>
+
+                <p class="footer">We respect your privacy. We hate spam as much as you do.<br/>Have an account? <a href="#" onclick="showLogin()">Login!</a> </p>
+              </div>
+
+            </div>
           </div>
 
         </div>
@@ -203,14 +203,11 @@ if(isset($_SESSION['username'])) {
 
 <script type="text/javascript">
   jQuery(document).ready(function($){
-
     var min_height = jQuery(window).height();
     jQuery('div.login-page-container').css('min-height', min_height);
     jQuery('div.login-page-container').css('line-height', min_height + 'px');
-
     //$(".inner", ".boxed").fadeIn(500);
   });
-
 </script>
 </body>
 </html>
