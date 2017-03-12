@@ -80,7 +80,7 @@ if(!isset($_SESSION['username'])){
             <div class="user-info">
                 <div class="row">
                     <h3>
-                        <i class="fa fa-rocket"></i>
+                        <i class="fa fa-rocket fa-3x"></i>
                     </h3>
                     <h3>
                         <input type="hidden" id="token" value="<?php echo $_SESSION['token']; ?>">
