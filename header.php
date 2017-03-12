@@ -16,7 +16,7 @@ if(!isset($_SESSION['username'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>InstaGains - #1 Social Panel</title>
+    <title>Social Rocket Club - Your #1 Choice For Social Media Gains</title>
 
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
@@ -42,7 +42,7 @@ if(!isset($_SESSION['username'])){
     <link rel='stylesheet' type='text/css' href='_demo/introjs/introjs.min.css' />
 
     <!-- Theme Styles -->
-    <link rel="stylesheet" type="text/css" href="css/styles-less.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="_demo/demo.css">
@@ -70,21 +70,19 @@ if(!isset($_SESSION['username'])){
         <!-- Logo Start -->
         <a href="/">
             <div class="logo-container" id="step1">
-                <h1>InstaGains</h1>
-                <h4>member panel</h4>
+                <h1>Social Rocket Club</h1>
             </div>
         </a>
         <!-- Logo End -->
 
         <!-- Sidebar User Profile Start -->
         <div class="sidebar-profile">
-            <div class="user-avatar">
-                <img src="images/avatars/default.jpg" alt="<?php echo $_SESSION['username']; ?>" />
-            </div>
             <div class="user-info">
                 <div class="row">
-                    <input type="hidden" id="token" value="<?php echo $_SESSION['token']; ?>">
-                    <a href="account-settings"><?php echo $_SESSION['username']; ?></a>
+                    <h3>
+                        <input type="hidden" id="token" value="<?php echo $_SESSION['token']; ?>">
+                        <a href="account-settings"><?php echo $_SESSION['username']; ?></a>
+                    </h3>
                 </div>
                 <div class="row">
                     <a href="add-funds">Balance: $<?php echo $userData['balance']; ?></a>
@@ -103,21 +101,25 @@ if(!isset($_SESSION['username'])){
                 <a href="/">
                     <span class="menu-icon"><i class="fa fa-home"></i></span>
                     <span class="menu-text">Dashboard</span>
-                    <span class="notification">4</span>
                 </a>
             </li>
-            <li class="parent purple">
-                <a href="">
-                    <span class="menu-icon"><i class="fa fa-plus"></i></span>
-                    <span class="menu-text">Order</span>
-                    <span class="notification">new</span>
+            <li class="lightblue">
+                <a href="/">
+                    <span class="menu-icon"><i class="fa fa-dollar"></i></span>
+                    <span class="menu-text">Add Funds</span>
                 </a>
             </li>
             <li class="orange">
                 <a href="">
-                    <span class="menu-icon"><i class="fa fa-bookmark"></i></span>
+                    <span class="menu-icon"><i class="fa fa-info"></i></span>
                     <span class="menu-text">Order Status</span>
                     <span class="notification lightgreen">62</span>
+                </a>
+            </li>
+            <li class="lightred">
+                <a href="">
+                    <span class="menu-icon"><i class="fa fa-sticky-note"></i></span>
+                    <span class="menu-text">Terms</span>
                 </a>
             </li>
             <li class="lightred">
@@ -145,23 +147,10 @@ if(!isset($_SESSION['username'])){
                 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                     <ul class="right-icons" id="step3">
                         <li>
-                            <a href="#" class="user"><i class="fa fa-user"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="account-settings"><i class="fa fa-cogs"></i>Settings</a></li>
-                                <li><a href="logout"><i class="fa fa-sign-out"></i>Sign Out</a></li>
-                            </ul>
-                        </li>
-                        <li>
                             <a href="#" class="email">
-                                <i class="fa fa-envelope-o"></i>
+                                <i class="fa fa-support"></i>
                                 <div class="notify">13</div>
                             </a>
-                            <ul class="dropdown">
-                                <li><a href="#"><i class="fa fa-envelope-o"></i>Inbox</a></li>
-                                <li><a href="#"><i class="fa fa-reply-all"></i>Send</a></li>
-                                <li><a href="#"><i class="fa fa-folder"></i>Draft</a></li>
-                                <li><a href="#"><i class="fa fa-pencil-square-o"></i>Compose</a></li>
-                            </ul>
                         </li>
                         <li>
                             <a href="#" class="info">
@@ -196,7 +185,7 @@ if(!isset($_SESSION['username'])){
                             <a href="#" class="settings"><i class="fa fa-cog"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="lock"><i class="fa fa-lock"></i></a>
+                            <a href="#" class="lock"><i class="fa fa-times-circle"></i></a>
                         </li>
                     </ul>
                 </div>
