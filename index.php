@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 $init = $_SERVER['DOCUMENT_ROOT'];
 require $init.'/app/init.php';
 if(isset($_SESSION['username'])) {
-  header('Location: /insta/home');
+  header('Location: /home');
   exit();
 }
 ?>
